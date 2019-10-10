@@ -199,43 +199,43 @@
     <Compile Include="Assets\Anima2D\Scripts\Editor\WeightEditor.cs" />
     <Compile Include="Assets\Anima2D\Scripts\Editor\WindowEditorTool.cs" />
     <Reference Include="UnityEditor.TestRunner">
-      <HintPath>C:/Repositories/test/Red-Stick-Redemption/RedStick Redemption/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+      <HintPath>C:/Repositories/ProjetStickMan/RedStick Redemption/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TestRunner">
-      <HintPath>C:/Repositories/test/Red-Stick-Redemption/RedStick Redemption/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+      <HintPath>C:/Repositories/ProjetStickMan/RedStick Redemption/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>C:/Repositories/test/Red-Stick-Redemption/RedStick Redemption/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>C:/Repositories/ProjetStickMan/RedStick Redemption/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>C:/Repositories/test/Red-Stick-Redemption/RedStick Redemption/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>C:/Repositories/ProjetStickMan/RedStick Redemption/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Repositories/test/Red-Stick-Redemption/RedStick Redemption/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Repositories/ProjetStickMan/RedStick Redemption/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Repositories/test/Red-Stick-Redemption/RedStick Redemption/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>C:/Repositories/ProjetStickMan/RedStick Redemption/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>C:/Repositories/test/Red-Stick-Redemption/RedStick Redemption/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>C:/Repositories/ProjetStickMan/RedStick Redemption/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Repositories/test/Red-Stick-Redemption/RedStick Redemption/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Repositories/ProjetStickMan/RedStick Redemption/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>C:/Repositories/test/Red-Stick-Redemption/RedStick Redemption/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>C:/Repositories/ProjetStickMan/RedStick Redemption/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
-      <HintPath>C:/Repositories/test/Red-Stick-Redemption/RedStick Redemption/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+      <HintPath>C:/Repositories/ProjetStickMan/RedStick Redemption/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
-      <HintPath>C:/Repositories/test/Red-Stick-Redemption/RedStick Redemption/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+      <HintPath>C:/Repositories/ProjetStickMan/RedStick Redemption/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Repositories/test/Red-Stick-Redemption/RedStick Redemption/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Repositories/ProjetStickMan/RedStick Redemption/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>C:/Repositories/test/Red-Stick-Redemption/RedStick Redemption/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>C:/Repositories/ProjetStickMan/RedStick Redemption/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -426,8 +426,23 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/16.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
+    <Reference Include="GitHub.Api.45">
+      <HintPath>C:/Repositories/ProjetStickMan/RedStick Redemption/Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll</HintPath>
+    </Reference>
+    <Reference Include="GitHub.Logging">
+      <HintPath>C:/Repositories/ProjetStickMan/RedStick Redemption/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="GitHub.Unity.45">
+      <HintPath>C:/Repositories/ProjetStickMan/RedStick Redemption/Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll</HintPath>
+    </Reference>
+    <Reference Include="GitHub.UnityShim">
+      <HintPath>C:/Repositories/ProjetStickMan/RedStick Redemption/Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll</HintPath>
+    </Reference>
+    <Reference Include="sfw.net">
+      <HintPath>C:/Repositories/ProjetStickMan/RedStick Redemption/Assets/Plugins/GitHub/Editor/sfw.net.dll</HintPath>
+    </Reference>
     <Reference Include="nunit.framework">
-      <HintPath>C:/Repositories/test/Red-Stick-Redemption/RedStick Redemption/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
+      <HintPath>C:/Repositories/ProjetStickMan/RedStick Redemption/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.5f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -788,6 +803,10 @@
     <ProjectReference Include="Assembly-CSharp.csproj">
       <Project>{97A5075F-79AF-EF33-D8B1-2BD7A05DE59A}</Project>
       <Name>Assembly-CSharp</Name>
+    </ProjectReference>
+    <ProjectReference Include="Assembly-CSharp-Editor-firstpass.csproj">
+      <Project>{73E5E1A2-6528-1329-1842-17C4FD9E8F00}</Project>
+      <Name>Assembly-CSharp-Editor-firstpass</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
