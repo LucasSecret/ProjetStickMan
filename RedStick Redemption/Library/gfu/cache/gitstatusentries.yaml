@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2019-10-24T11:01:14.153+02:00
+  lastUpdatedAtString: 2019-10-24T11:07:07.981+02:00
   initializedAtString: 2019-10-24T10:18:02.094+02:00
   entries:
   - path: .gitignore
@@ -3109,6 +3109,18 @@ MonoBehaviour:
   - path: Assets\Animation\AnimationIK\Crouch.anim.meta
     fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Animation\AnimationIK\Crouch.anim.meta
     projectPath: Assets\Animation\AnimationIK\Crouch.anim.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Animation\AnimationIK\HeadKick.anim
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Animation\AnimationIK\HeadKick.anim
+    projectPath: Assets\Animation\AnimationIK\HeadKick.anim
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Animation\AnimationIK\HeadKick.anim.meta
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Animation\AnimationIK\HeadKick.anim.meta
+    projectPath: Assets\Animation\AnimationIK\HeadKick.anim.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
