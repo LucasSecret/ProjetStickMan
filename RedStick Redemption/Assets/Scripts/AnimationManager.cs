@@ -22,7 +22,7 @@ public class AnimationManager : MonoBehaviour
 
     void Update()
     {
-       
+
     }
 
     /*
@@ -32,7 +32,7 @@ public class AnimationManager : MonoBehaviour
         return this.anim;
     }*/
 
-   public void JumpAnimation()
+    public void JumpAnimation()
     {
         anim.SetBool("isJumping", true);
         anim.SetBool("isWalking", false);
@@ -63,19 +63,19 @@ public class AnimationManager : MonoBehaviour
         anim.SetBool("isWalking", false);
     }
 
-    public void setWalking(bool value)
+    public void setWalking()
     {
-        anim.SetBool("isWalking", value);
+        anim.SetBool("isWalking", true);
     }
 
-    public void setCrouching(bool value)
+    public void setCrounching()
     {
-        anim.SetBool("isCrouching", value);
+        anim.SetBool("isCrouching", true);
     }
 
-    public void setComboKickTrigger()
+    public void setNotCrounching()
     {
-        anim.SetTrigger("comboKick");
+        anim.SetBool("isCrouching", false);
     }
 
 
@@ -89,21 +89,18 @@ public class AnimationManager : MonoBehaviour
 
     public void punchAnimation()
     {
-        anim.SetTrigger("punch");
+        anim.SetBool("punch", true);
+        anim.Play("Punch");
     }
 
-    public void comboPunchAnimation()
+    public bool getIsAttacking()
     {
-        anim.Play("ComboPunch");
+        return anim.GetBool("punch") || anim.GetBool("highKick");
     }
-
     public void kickAnimation()
     {
-        anim.SetTrigger("highKick");
+        anim.SetBool("highKick", true);
+        anim.Play("HighKick");
     }
 
-    public void setCrouchWalking(bool value)
-    {
-        anim.SetBool("isCrouchWalking", value);
-    }
 }
