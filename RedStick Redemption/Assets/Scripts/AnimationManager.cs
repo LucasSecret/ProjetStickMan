@@ -53,9 +53,14 @@ public class AnimationManager : MonoBehaviour
         anim.SetTrigger("isCrouching");
     }
 
-    public void TriggerRunning()
+    public void startRunning()
     {
-        anim.SetTrigger("isRunning");
+        anim.SetBool("isRunning", true);
+    }
+
+    public void stopRunning()
+    {
+        anim.SetBool("isRunning", false);
     }
 
     public void setIdle()

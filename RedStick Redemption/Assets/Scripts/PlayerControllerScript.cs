@@ -238,13 +238,13 @@ public class PlayerControllerScript : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.LeftShift) && isOnGround)
         {
-            animationManager.TriggerRunning();
+            animationManager.startRunning();
             isRunning = true;
         }
         else if (Input.GetKeyUp(KeyCode.LeftShift) && isOnGround)
         {
             isRunning = false;
-            animationManager.resetTrigger("isRunning");
+            animationManager.stopRunning();
         }
 
         if (Input.GetKeyDown(KeyCode.P))
