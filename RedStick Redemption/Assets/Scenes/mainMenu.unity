@@ -284,8 +284,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 522275238}
-  - component: {fileID: 522275237}
   - component: {fileID: 522275239}
+  - component: {fileID: 522275237}
   m_Layer: 0
   m_Name: MusicControllerObj
   m_TagString: MusicControllertag
@@ -5338,7 +5338,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1601256982}
+      - m_Target: {fileID: 0}
         m_MethodName: GotoExit
         m_Mode: 1
         m_Arguments:
@@ -5635,7 +5635,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: c3b3d4832f0170647aca8e843f892e18, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 28d0ae5ed94f5574699cca3ebbe208ee, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
