@@ -205,10 +205,9 @@ public class PlayerControllerScript : MonoBehaviour
         {
             animationManager.JumpAnimation();
             this.rigidbody2D.AddForce(new Vector2(0.0f, jumpForce));
-
+            animationManager.stopRunning();
             isOnGround = false;
             isJumping = !isJumping;
-
         }
 
     }
@@ -306,7 +305,6 @@ public class PlayerControllerScript : MonoBehaviour
         {
             Debug.Log("j'ai frapper normal");
             animationManager.kickAnimation();
-
         }
 
 
