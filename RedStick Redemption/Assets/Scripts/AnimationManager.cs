@@ -104,8 +104,7 @@ public class AnimationManager : MonoBehaviour
     }
     public void kickAnimation()
     {
-        anim.SetBool("highKick", true);
-        anim.Play("HighKick");
+        anim.SetTrigger("kick");
     }
 
 }

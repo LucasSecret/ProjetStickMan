@@ -209,7 +209,6 @@ public class PlayerControllerScript : MonoBehaviour
             isOnGround = false;
             isJumping = !isJumping;
         }
-
     }
 
 
