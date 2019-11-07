@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2019-11-07T12:17:37.725+01:00
-  initializedAtString: 2019-11-07T12:17:37.725+01:00
+  lastUpdatedAtString: 2019-11-07T18:43:41.612+01:00
+  initializedAtString: 2019-11-07T18:43:41.612+01:00
   currentGitRemote:
     name: origin
     url: https://github.com/LucasSecret/ProjetStickMan.git
@@ -24,14 +24,14 @@ MonoBehaviour:
     function: 0
     token: 
   currentGitBranch:
-    name: Liam711
-    tracking: origin/Liam711
+    name: master
+    tracking: origin/master
   currentConfigBranch:
-    name: Liam711
+    name: master
     remote:
       name: origin
       url: https://github.com/LucasSecret/ProjetStickMan.git
-    trackingBranch: Liam711
+    trackingBranch: master
   currentConfigRemote:
     name: origin
     url: https://github.com/LucasSecret/ProjetStickMan.git
