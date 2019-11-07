@@ -205,12 +205,10 @@ public class PlayerControllerScript : MonoBehaviour
         {
             animationManager.JumpAnimation();
             this.rigidbody2D.AddForce(new Vector2(0.0f, jumpForce));
-
+            animationManager.stopRunning();
             isOnGround = false;
             isJumping = !isJumping;
-
         }
-
     }
 
 
@@ -302,15 +300,17 @@ public class PlayerControllerScript : MonoBehaviour
             }
         }
 
+        if (Input.GetKeyDown(KeyCode.L))
+            animationManager.lowKickAnimation();
+
+        if (Input.GetKeyDown(KeyCode.U))
+            animationManager.uppercutAnimation();
+
         if (Input.GetKeyDown(KeyCode.K) && !Input.GetKey(KeyCode.DownArrow) && !Input.GetKey(KeyCode.RightArrow) && !Input.GetKey(KeyCode.LeftArrow) && !Input.GetKey(KeyCode.UpArrow))
         {
             Debug.Log("j'ai frapper normal");
             animationManager.kickAnimation();
-
         }
-
-
-
     }
 }
 
