@@ -305,9 +305,6 @@ public class PlayerControllerScript : MonoBehaviour
             Debug.Log("j'ai frapper normal");
             animationManager.kickAnimation();
         }
-
-
-
     }
 }
 

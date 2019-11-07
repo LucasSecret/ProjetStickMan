@@ -17,7 +17,6 @@ public class AnimationManager : MonoBehaviour
         anim.SetBool("isWalking", false);
         anim.SetBool("isRunning", false);
         anim.SetBool("isCrouching", false);
-
     }
 
     void Update()
@@ -95,16 +94,21 @@ public class AnimationManager : MonoBehaviour
     public void punchAnimation()
     {
         anim.SetBool("punch", true);
-        anim.Play("Punch");
+       //anim.Play("Punch");
     }
 
     public bool getIsAttacking()
     {
-        return anim.GetBool("punch") || anim.GetBool("highKick");
+        return anim.GetBool("punch") || anim.GetBool("kick");
     }
     public void kickAnimation()
     {
-        anim.SetTrigger("kick");
+        anim.SetBool("kick", true);
+    }
+    
+    public void setAnimationState(string animName)
+    {
+        anim.SetBool(animName, false);
     }
 
 }
