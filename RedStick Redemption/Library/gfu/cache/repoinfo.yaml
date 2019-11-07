@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2019-11-07T18:43:41.612+01:00
-  initializedAtString: 2019-11-07T18:43:41.612+01:00
+  lastUpdatedAtString: 2019-11-07T18:50:00.771+01:00
+  initializedAtString: 2019-11-07T18:50:00.771+01:00
   currentGitRemote:
     name: origin
     url: https://github.com/LucasSecret/ProjetStickMan.git
