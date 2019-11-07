@@ -9,10 +9,37 @@ public class PlayerControllerScript : MonoBehaviour
     public float hitStrenghtMultiplier = 1.0f; //Le multiplicateur de force que le joueur possède
 
     protected bool isJumping;
+    public bool IsJumping
+    {
+        get { return isJumping; }
+        set { isJumping = value; }
+    }
     protected bool isOnGround;
+    public bool IsOnGround
+    {
+        get { return isOnGround; }
+        set { isOnGround = value; }
+    }
     protected bool isCrouching;
+    public bool IsCrouching
+    {
+        get { return isCrouching; }
+        set { isCrouching = value; }
+    }
+
     protected bool isRunning;
+    public bool IsRunning
+    {
+        get { return isRunning; }
+        set { isRunning = value; }
+    }
+
     protected bool isAttacking;
+    public bool IsAttacking
+    {
+        get { return isAttacking; }
+        set { isAttacking = value; }
+    }
 
     /* Notre réference vers notre manager d'animation : BIEN SEPARER LE PLAYER CONTROLLER DE LANIMATION CONTROLLER !*/
     private AnimationManager animationManager;
@@ -24,6 +51,7 @@ public class PlayerControllerScript : MonoBehaviour
     private AudioSource audioSource;
     private float sprintMultiplier;
     private float crouchMultiplier;
+    private climbable climbable;
 
 
 
@@ -58,7 +86,7 @@ public class PlayerControllerScript : MonoBehaviour
             this.audioSource = GetComponent<AudioSource>();
         }
 
-        Debug.Log("audiclips lenght : " + audioClips.Length);
+        Debug.Log("audioclips length : " + audioClips.Length);
 
 
     }
@@ -90,7 +118,7 @@ public class PlayerControllerScript : MonoBehaviour
 
 
         }
-
+        
     }
 
     private void handleMoletDroit(Transform childOfRightLeg)
@@ -211,6 +239,11 @@ public class PlayerControllerScript : MonoBehaviour
 
         }
 
+        if (climbable.Climb)
+        {
+           
+
+        }
     }
 
 

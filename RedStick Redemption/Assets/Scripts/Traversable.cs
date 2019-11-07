@@ -17,14 +17,14 @@ public class Traversable : MonoBehaviour
     {
      if (Input.GetKeyUp(KeyCode.RightArrow))
         {
-            waitTime = 0.5f;
+            waitTime = 0.25f;
         }
         if (Input.GetKey(KeyCode.DownArrow))
         {
             if (waitTime <= 0)
             {
                 effector.rotationalOffset = 180f;
-                waitTime = 0.5f;
+                waitTime = 0.25f;
             }
             else
             {
