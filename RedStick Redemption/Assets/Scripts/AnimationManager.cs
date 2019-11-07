@@ -105,7 +105,17 @@ public class AnimationManager : MonoBehaviour
     {
         anim.SetBool("kick", true);
     }
-    
+
+    public void lowKickAnimation()
+    {
+        anim.SetBool("lowKick", true);
+    }
+
+    public void uppercutAnimation()
+    {
+        anim.SetBool("uppercut", true);
+    }
+
     public void setAnimationState(string animName)
     {
         anim.SetBool(animName, false);
