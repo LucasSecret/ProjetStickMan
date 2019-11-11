@@ -90,6 +90,7 @@
     <Compile Include="Assets\Scripts\CaisseControler.cs" />
     <Compile Include="Assets\Scripts\Camera_Follow.cs" />
     <Compile Include="Assets\Scripts\climbable.cs" />
+    <Compile Include="Assets\Scripts\DebugerUiScript.cs" />
     <Compile Include="Assets\Scripts\MainMenu\MainMenu.cs" />
     <Compile Include="Assets\Scripts\MainMenu\MusicController.cs" />
     <Compile Include="Assets\Scripts\MainMenu\OptionMenu.cs" />

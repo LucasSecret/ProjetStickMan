@@ -93,8 +93,7 @@ public class AnimationManager : MonoBehaviour
 
     public void punchAnimation()
     {
-       // anim.SetBool("punch", true);
-       //anim.Play("Punch");
+        anim.SetBool("punch", true);
     }
 
     public bool getIsAttacking()
