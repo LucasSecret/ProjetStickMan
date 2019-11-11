@@ -7,6 +7,7 @@ public class PlayerControllerScript : MonoBehaviour
 {
     public float jumpForce;
     public float hitStrenghtMultiplier = 1.0f; //Le multiplicateur de force que le joueur possède
+    public float climbForce;
 
     protected bool isJumping;
     protected bool isOnGround;
@@ -19,6 +20,8 @@ public class PlayerControllerScript : MonoBehaviour
     protected bool isCrouching;
     protected bool isRunning;
     protected bool isAttacking;
+    protected bool isClimbing;
+    protected bool goUp;
 
     /* Notre réference vers notre manager d'animation : BIEN SEPARER LE PLAYER CONTROLLER DE LANIMATION CONTROLLER !*/
     private AnimationManager animationManager;
@@ -30,10 +33,13 @@ public class PlayerControllerScript : MonoBehaviour
     private AudioSource audioSource;
     private float sprintMultiplier;
     private float crouchMultiplier;
+    private float gravityScale;
 
 
 
     public AudioClip[] audioClips;
+
+
 
 
     // Start is called before the first frame update
@@ -43,6 +49,8 @@ public class PlayerControllerScript : MonoBehaviour
         if (GetComponent<Rigidbody2D>() != null)
         {
             rigidbody2D = GetComponent<Rigidbody2D>();
+            gravityScale = rigidbody2D.gravityScale;
+
         }
 
         if (GetComponent<Transform>() != null)
@@ -78,6 +86,10 @@ public class PlayerControllerScript : MonoBehaviour
 
         }
 
+        else if ((col.gameObject.tag == "climbable"))
+        {
+            isClimbing = true;
+        }
         //On récupere le collider qui rentre en collision avec un tel objet : Utilisé pour gérer les collider des membres, attributs du joueur.
         innerCollider = col.contacts[0].otherCollider;
 
@@ -97,6 +109,15 @@ public class PlayerControllerScript : MonoBehaviour
 
         }
 
+    }
+
+
+    void OnCollisionExit2D(Collision2D col)
+    {
+        if ((col.gameObject.tag == "climbable"))
+        {
+            isClimbing = false;
+        }
     }
 
     private void handleMoletDroit(Transform childOfRightLeg)
@@ -176,8 +197,15 @@ public class PlayerControllerScript : MonoBehaviour
             animationManager.setCrounching();
             isCrouching = true;
         }
+
+        else if (Input.GetAxis("Vertical") > 0)
+        {
+            goUp = true;
+        }
+
         else
         {
+            goUp = false;
             animationManager.setNotCrounching();
             isCrouching = false;
         }
@@ -185,22 +213,36 @@ public class PlayerControllerScript : MonoBehaviour
         HandleInput();
 
         if (isRunning)
-        {
             sprintMultiplier = 2.0f;
-        }
+        
         else
-        {
             sprintMultiplier = 1.0f;
-        }
+       
 
         if (isCrouching)
-        {
             crouchMultiplier = 0.5f;
-        }
+        
         else
-        {
             crouchMultiplier = 1.0f;
+
+
+
+        if (!goUp)
+        {
+            rigidbody2D.gravityScale = gravityScale;
+            animationManager.stopClimbing();
         }
+
+        else if (goUp && isClimbing)
+        {
+            animationManager.startClimbing();
+            transform.position = transform.position + new Vector3(0, 1, 0) * climbForce;
+            rigidbody2D.gravityScale = 0.0f;
+        }
+
+        
+        
+
     }
 
 
@@ -279,10 +321,6 @@ public class PlayerControllerScript : MonoBehaviour
             animationManager.punchAnimation();
 
         }
-
-
-
-
 
 
 
