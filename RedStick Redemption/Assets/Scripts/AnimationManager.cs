@@ -62,6 +62,22 @@ public class AnimationManager : MonoBehaviour
         anim.SetBool("isRunning", false);
     }
 
+    public void startClimbing()
+    {
+        anim.enabled = true;
+        anim.SetBool("isClimbing", true);
+    }
+
+    public void stopClimbing()
+    {
+        anim.SetBool("isClimbing", false);
+    }
+
+    public void pauseClimbing()
+    {
+        anim.enabled = false;
+    }
+
     public void setIdle()
     {
         anim.SetBool("isWalking", false);
