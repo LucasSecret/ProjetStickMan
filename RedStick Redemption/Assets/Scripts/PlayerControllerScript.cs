@@ -233,6 +233,8 @@ public class PlayerControllerScript : MonoBehaviour
             transform.position = transform.position + new Vector3(0, 1, 0) * climbForce;
             rigidbody2D.gravityScale = 0.0f;
         }
+
+        
         
 
     }
