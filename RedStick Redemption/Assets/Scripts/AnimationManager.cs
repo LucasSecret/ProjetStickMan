@@ -108,6 +108,11 @@ public class AnimationManager : MonoBehaviour
         anim.SetBool("isCrouchWalking", false);
     }
 
+    public void startFlyingKick()
+    {
+        anim.SetTrigger("flyingKick");
+    }
+
 
     public void resetTrigger(string animName)
     {

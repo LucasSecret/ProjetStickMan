@@ -13,18 +13,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2019-11-14T10:28:55.541+01:00
+  lastUpdatedAtString: 2019-11-14T11:22:09.096+01:00
   initializedAtString: 2019-11-14T09:25:22.099+01:00
   entries:
-  - path: RedStick Redemption\Assets\Animation\AnimationIK\Crouch.anim
-    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Animation\AnimationIK\Crouch.anim
-    projectPath: Assets\Animation\AnimationIK\Crouch.anim
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: RedStick Redemption\Assets\Animation\AnimationIK\CrouchWalking.anim
-    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Animation\AnimationIK\CrouchWalking.anim
-    projectPath: Assets\Animation\AnimationIK\CrouchWalking.anim
+  - path: RedStick Redemption\Assets\Animation\AnimationIK\FlyingKick.anim
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Animation\AnimationIK\FlyingKick.anim
+    projectPath: Assets\Animation\AnimationIK\FlyingKick.anim
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -70,51 +64,27 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: RedStick Redemption\Library\InspectorExpandedItems.asset
-    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Library\InspectorExpandedItems.asset
-    projectPath: Library\InspectorExpandedItems.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: RedStick Redemption\Library\metadata\19\194a6ba4b89d96e4ebaf72808a0791ce
     fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Library\metadata\19\194a6ba4b89d96e4ebaf72808a0791ce
     projectPath: Library\metadata\19\194a6ba4b89d96e4ebaf72808a0791ce
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: RedStick Redemption\Library\metadata\33\33bc85add094af2499045cb85d7a26f8
-    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Library\metadata\33\33bc85add094af2499045cb85d7a26f8
-    projectPath: Library\metadata\33\33bc85add094af2499045cb85d7a26f8
+  - path: RedStick Redemption\Library\metadata\28\2839aa2d13ac3ef44a6083903d3cc24e
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Library\metadata\28\2839aa2d13ac3ef44a6083903d3cc24e
+    projectPath: Library\metadata\28\2839aa2d13ac3ef44a6083903d3cc24e
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: RedStick Redemption\Library\metadata\33\33bc85add094af2499045cb85d7a26f8.info
-    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Library\metadata\33\33bc85add094af2499045cb85d7a26f8.info
-    projectPath: Library\metadata\33\33bc85add094af2499045cb85d7a26f8.info
+  - path: RedStick Redemption\Library\metadata\28\2839aa2d13ac3ef44a6083903d3cc24e.info
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Library\metadata\28\2839aa2d13ac3ef44a6083903d3cc24e.info
+    projectPath: Library\metadata\28\2839aa2d13ac3ef44a6083903d3cc24e.info
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
   - path: RedStick Redemption\Library\metadata\62\62d5d6dfcc4f2b34a9c09ad04f4e9472
     fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Library\metadata\62\62d5d6dfcc4f2b34a9c09ad04f4e9472
     projectPath: Library\metadata\62\62d5d6dfcc4f2b34a9c09ad04f4e9472
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: RedStick Redemption\Library\metadata\ce\cefab979e647c14479ea42080eadcbdc
-    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Library\metadata\ce\cefab979e647c14479ea42080eadcbdc
-    projectPath: Library\metadata\ce\cefab979e647c14479ea42080eadcbdc
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: RedStick Redemption\Library\metadata\ce\cefab979e647c14479ea42080eadcbdc.info
-    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Library\metadata\ce\cefab979e647c14479ea42080eadcbdc.info
-    projectPath: Library\metadata\ce\cefab979e647c14479ea42080eadcbdc.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: RedStick Redemption\Library\metadata\d6\d6871a306e5e4334d8ab4df37ebbf5e2
-    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Library\metadata\d6\d6871a306e5e4334d8ab4df37ebbf5e2
-    projectPath: Library\metadata\d6\d6871a306e5e4334d8ab4df37ebbf5e2
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3

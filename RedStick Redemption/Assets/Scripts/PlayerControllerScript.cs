@@ -334,44 +334,20 @@ public class PlayerControllerScript : MonoBehaviour
         }
 
 
-
-
-
-        if (Input.GetKeyDown(KeyCode.K))
-        {
-            if (Input.GetKey(KeyCode.DownArrow))
-            {
-                Debug.Log("j'ai frapper en bas");
-            }
-            else if (Input.GetKey(KeyCode.UpArrow))
-            {
-                Debug.Log("j'ai frapper en haut");
-            }
-            else if (Input.GetKey(KeyCode.RightArrow))
-            {
-                Debug.Log("j'ai frapper a droite");
-            }
-            else if (Input.GetKey(KeyCode.LeftArrow))
-            {
-                Debug.Log("j'ai frapper a gauche");
-            }
-        }
-
         if (Input.GetKeyDown(KeyCode.U))
             animationManager.uppercutAnimation();
 
         if (Input.GetKeyDown(KeyCode.L))
             animationManager.lowKickAnimation();
 
-        if (Input.GetKeyDown(KeyCode.K) && !Input.GetKey(KeyCode.DownArrow) && !Input.GetKey(KeyCode.RightArrow) && !Input.GetKey(KeyCode.LeftArrow) && !Input.GetKey(KeyCode.UpArrow))
+        if (Input.GetKeyDown(KeyCode.K))
         {
-            Debug.Log("j'ai frapper normal");
-            animationManager.kickAnimation();
+            if(isOnGround)
+                animationManager.kickAnimation();
 
+            else
+                animationManager.startFlyingKick();
         }
-
-
-
     }
 }
 
