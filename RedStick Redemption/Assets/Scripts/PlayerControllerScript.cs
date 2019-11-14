@@ -239,10 +239,6 @@ public class PlayerControllerScript : MonoBehaviour
             transform.position = transform.position + new Vector3(0, 1, 0) * climbForce;
             rigidbody2D.gravityScale = 0.0f;
         }
-
-        
-        
-
     }
 
 
@@ -345,6 +341,12 @@ public class PlayerControllerScript : MonoBehaviour
                 Debug.Log("j'ai frapper a gauche");
             }
         }
+
+        if (Input.GetKeyDown(KeyCode.U))
+            animationManager.uppercutAnimation();
+
+        if (Input.GetKeyDown(KeyCode.L))
+            animationManager.lowKickAnimation();
 
         if (Input.GetKeyDown(KeyCode.K) && !Input.GetKey(KeyCode.DownArrow) && !Input.GetKey(KeyCode.RightArrow) && !Input.GetKey(KeyCode.LeftArrow) && !Input.GetKey(KeyCode.UpArrow))
         {
