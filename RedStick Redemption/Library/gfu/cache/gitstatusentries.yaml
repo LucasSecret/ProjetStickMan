@@ -13,36 +13,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2019-11-14T11:22:09.096+01:00
+  lastUpdatedAtString: 2019-11-14T11:36:00.869+01:00
   initializedAtString: 2019-11-14T09:25:22.099+01:00
   entries:
   - path: RedStick Redemption\Assets\Animation\AnimationIK\FlyingKick.anim
     fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Animation\AnimationIK\FlyingKick.anim
     projectPath: Assets\Animation\AnimationIK\FlyingKick.anim
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Animation\AnimationIK\Jump.anim
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Animation\AnimationIK\Jump.anim
+    projectPath: Assets\Animation\AnimationIK\Jump.anim
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: RedStick Redemption\Assets\Animation\AnimationIK\Stickman.controller
     fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Animation\AnimationIK\Stickman.controller
     projectPath: Assets\Animation\AnimationIK\Stickman.controller
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: RedStick Redemption\Assets\Scenes\Lucas_scene.unity
-    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Scenes\Lucas_scene.unity
-    projectPath: Assets\Scenes\Lucas_scene.unity
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: RedStick Redemption\Assets\Scripts\AnimationManager.cs
-    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Scripts\AnimationManager.cs
-    projectPath: Assets\Scripts\AnimationManager.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: RedStick Redemption\Assets\Scripts\PlayerControllerScript.cs
-    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Scripts\PlayerControllerScript.cs
-    projectPath: Assets\Scripts\PlayerControllerScript.cs
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -52,51 +40,9 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: RedStick Redemption\Library\gfu\cache\gitlocks.yaml
-    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Library\gfu\cache\gitlocks.yaml
-    projectPath: Library\gfu\cache\gitlocks.yaml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: RedStick Redemption\Library\gfu\cache\gitstatusentries.yaml
-    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Library\gfu\cache\gitstatusentries.yaml
-    projectPath: Library\gfu\cache\gitstatusentries.yaml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: RedStick Redemption\Library\metadata\19\194a6ba4b89d96e4ebaf72808a0791ce
-    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Library\metadata\19\194a6ba4b89d96e4ebaf72808a0791ce
-    projectPath: Library\metadata\19\194a6ba4b89d96e4ebaf72808a0791ce
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: RedStick Redemption\Library\metadata\28\2839aa2d13ac3ef44a6083903d3cc24e
-    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Library\metadata\28\2839aa2d13ac3ef44a6083903d3cc24e
-    projectPath: Library\metadata\28\2839aa2d13ac3ef44a6083903d3cc24e
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: RedStick Redemption\Library\metadata\28\2839aa2d13ac3ef44a6083903d3cc24e.info
-    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Library\metadata\28\2839aa2d13ac3ef44a6083903d3cc24e.info
-    projectPath: Library\metadata\28\2839aa2d13ac3ef44a6083903d3cc24e.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: RedStick Redemption\Library\metadata\62\62d5d6dfcc4f2b34a9c09ad04f4e9472
-    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Library\metadata\62\62d5d6dfcc4f2b34a9c09ad04f4e9472
-    projectPath: Library\metadata\62\62d5d6dfcc4f2b34a9c09ad04f4e9472
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: RedStick Redemption\Library\ScriptAssemblies\Assembly-CSharp.dll
-    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Library\ScriptAssemblies\Assembly-CSharp.dll
-    projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: RedStick Redemption\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
-    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
-    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
+  - path: RedStick Redemption\Library\metadata\32\32e15ce0983247f4fb35388d64a9b5d1
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Library\metadata\32\32e15ce0983247f4fb35388d64a9b5d1
+    projectPath: Library\metadata\32\32e15ce0983247f4fb35388d64a9b5d1
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
