@@ -71,10 +71,6 @@ public class PlayerControllerScript : MonoBehaviour
         {
             this.audioSource = GetComponent<AudioSource>();
         }
-
-        Debug.Log("audiclips lenght : " + audioClips.Length);
-
-
     }
 
     void OnCollisionEnter2D(Collision2D col)
@@ -90,6 +86,7 @@ public class PlayerControllerScript : MonoBehaviour
         {
             isClimbing = true;
         }
+
         //On récupere le collider qui rentre en collision avec un tel objet : Utilisé pour gérer les collider des membres, attributs du joueur.
         innerCollider = col.contacts[0].otherCollider;
 
@@ -105,10 +102,7 @@ public class PlayerControllerScript : MonoBehaviour
                     audioSource.Play();
                 }
             }
-
-
         }
-
     }
 
 
@@ -171,24 +165,43 @@ public class PlayerControllerScript : MonoBehaviour
 
         float direction = Input.GetAxis("Horizontal");
 
-        if (direction > 0 && !isCrouching)
+        if (direction > 0)
         {
             transform.eulerAngles = new Vector3(0, 0, 0);
+
+            if (!isCrouching)
+                animationManager.startWalking();
+            
+
+            else
+                animationManager.startCrouchWalking();
+
+
             GetComponent<Transform>().Translate(GetComponent<Transform>().right * 10.05f * Time.deltaTime * sprintMultiplier * crouchMultiplier);
         }
-        else if (direction < 0 && !isCrouching)
+
+        else if (direction < 0 )
         {
             transform.eulerAngles = new Vector3(0, 180, 0);
+
+            if (!isCrouching)
+                animationManager.startWalking();
+
+            else
+                animationManager.startCrouchWalking();
+            
+
             GetComponent<Transform>().Translate(GetComponent<Transform>().right * (-10.05f) * Time.deltaTime * sprintMultiplier * crouchMultiplier);
         }
 
+        
+
         if (direction == 0)
         {
-            animationManager.setIdle();
-        }
-        else
-        {
-            animationManager.setWalking();
+            if (isCrouching)
+                animationManager.stopCrouchWalking();
+
+            else animationManager.setIdle();
         }
 
 
@@ -196,6 +209,7 @@ public class PlayerControllerScript : MonoBehaviour
         {
             animationManager.setCrounching();
             isCrouching = true;
+
         }
 
         else if (Input.GetAxis("Vertical") > 0)
@@ -207,6 +221,7 @@ public class PlayerControllerScript : MonoBehaviour
         {
             goUp = false;
             animationManager.setNotCrounching();
+            animationManager.stopCrouchWalking();
             isCrouching = false;
         }
 

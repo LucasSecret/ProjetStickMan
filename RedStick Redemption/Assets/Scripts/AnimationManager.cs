@@ -83,7 +83,7 @@ public class AnimationManager : MonoBehaviour
         anim.SetBool("isWalking", false);
     }
 
-    public void setWalking()
+    public void startWalking()
     {
         anim.SetBool("isWalking", true);
     }
@@ -96,6 +96,16 @@ public class AnimationManager : MonoBehaviour
     public void setNotCrounching()
     {
         anim.SetBool("isCrouching", false);
+    }
+
+    public void startCrouchWalking()
+    {
+        anim.SetBool("isCrouchWalking", true);
+    }
+
+    public void stopCrouchWalking()
+    {
+        anim.SetBool("isCrouchWalking", false);
     }
 
 

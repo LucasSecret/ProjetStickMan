@@ -631,7 +631,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   jumpForce: 5000
   hitStrenghtMultiplier: 1
-  climbForce: 0.2
+  climbForce: 0
   audioClips: []
 --- !u!1 &297288025
 GameObject:
