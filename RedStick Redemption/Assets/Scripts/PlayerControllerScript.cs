@@ -171,6 +171,8 @@ public class PlayerControllerScript : MonoBehaviour
 
         float direction = Input.GetAxis("Horizontal");
 
+        
+
         if (direction > 0 && !isCrouching)
         {
             transform.eulerAngles = new Vector3(0, 0, 0);
@@ -240,7 +242,10 @@ public class PlayerControllerScript : MonoBehaviour
             rigidbody2D.gravityScale = 0.0f;
         }
 
-        
+        else if (isClimbing)
+        {
+            
+        }
         
 
     }
