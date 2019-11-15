@@ -377,15 +377,7 @@ public class PlayerControllerScript : MonoBehaviour
             }
         }
 
-
-        if (Input.GetKeyDown(KeyCode.H))
-            headKick();
-    }
-
-
-        
-
-
+   
 
     }
 }
