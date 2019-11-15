@@ -7,7 +7,6 @@ TagManager:
   - floor
   - crate
   - climbable
-  - NPC
   layers:
   - Default
   - TransparentFX

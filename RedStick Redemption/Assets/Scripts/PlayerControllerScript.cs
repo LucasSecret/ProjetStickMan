@@ -22,6 +22,7 @@ public class PlayerControllerScript : MonoBehaviour
     protected bool isAttacking;
     protected bool isClimbing;
     protected bool goUp;
+    protected bool climbingPause;
 
     /* Notre réference vers notre manager d'animation : BIEN SEPARER LE PLAYER CONTROLLER DE LANIMATION CONTROLLER !*/
     private AnimationManager animationManager;
@@ -94,6 +95,7 @@ public class PlayerControllerScript : MonoBehaviour
         {
             isClimbing = true;
         }
+
         //On récupere le collider qui rentre en collision avec un tel objet : Utilisé pour gérer les collider des membres, attributs du joueur.
         innerCollider = col.contacts[0].otherCollider;
 
@@ -106,11 +108,7 @@ public class PlayerControllerScript : MonoBehaviour
                 audioSource.clip = audioClips[UnityEngine.Random.Range(0, audioClips.Length)];
                 audioSource.Play();
             }
-           
-
-
         }
-
     }
 
 
@@ -119,6 +117,9 @@ public class PlayerControllerScript : MonoBehaviour
         if ((col.gameObject.tag == "climbable"))
         {
             isClimbing = false;
+            rigidbody2D.gravityScale = gravityScale;
+            //animationManager.resumeClimbing(); 
+            animationManager.stopClimbing();
         }
     }
 
@@ -173,45 +174,70 @@ public class PlayerControllerScript : MonoBehaviour
 
         float direction = Input.GetAxis("Horizontal");
 
-        
-
-        if (direction > 0 && !isCrouching)
+        if (direction > 0)
         {
             transform.eulerAngles = new Vector3(0, 0, 0);
+
+            if (!isCrouching)
+                animationManager.startWalking();
+            
+
+            else
+                animationManager.startCrouchWalking();
+
+
             GetComponent<Transform>().Translate(GetComponent<Transform>().right * 10.05f * Time.deltaTime * sprintMultiplier * crouchMultiplier);
         }
-        else if (direction < 0 && !isCrouching)
+
+        else if (direction < 0 )
         {
             transform.eulerAngles = new Vector3(0, 180, 0);
+
+            if (!isCrouching)
+                animationManager.startWalking();
+
+            else
+                animationManager.startCrouchWalking();
+            
+
             GetComponent<Transform>().Translate(GetComponent<Transform>().right * (-10.05f) * Time.deltaTime * sprintMultiplier * crouchMultiplier);
         }
 
+        
+
         if (direction == 0)
         {
-            animationManager.setIdle();
+            if (isCrouching)
+                animationManager.stopCrouchWalking();
+
+            else if(!isClimbing) 
+                animationManager.setIdle();
         }
-        else
-        {
-            animationManager.setWalking();
-        }
+
 
 
         if (Input.GetAxis("Vertical") < 0)
         {
             animationManager.setCrounching();
             isCrouching = true;
+
         }
 
         else if (Input.GetAxis("Vertical") > 0)
         {
             goUp = true;
+            animationManager.resumeClimbing();
         }
 
         else
         {
             goUp = false;
-            animationManager.setNotCrounching();
+            animationManager.standUp();
+            animationManager.stopCrouchWalking();
             isCrouching = false;
+
+            if (isClimbing)
+                animationManager.pauseClimbing();
         }
 
         HandleInput();
@@ -231,25 +257,13 @@ public class PlayerControllerScript : MonoBehaviour
 
 
 
-        if (!goUp)
-        {
-            rigidbody2D.gravityScale = gravityScale;
-            animationManager.stopClimbing();
-        }
-
-        else if (goUp && isClimbing)
+        if (goUp && isClimbing)
         {
             animationManager.startClimbing();
             transform.position = transform.position + new Vector3(0, 1, 0) * climbForce;
             rigidbody2D.gravityScale = 0.0f;
+            Debug.Log("Gravity Scale : " + rigidbody2D.gravityScale);
         }
-
-        else if (isClimbing)
-        {
-            
-        }
-        
-
     }
 
 
@@ -273,7 +287,7 @@ public class PlayerControllerScript : MonoBehaviour
     void HandleInput()
     {
 
-        if (Input.GetKeyDown(KeyCode.Space) && isOnGround)
+        if (Input.GetKeyDown(KeyCode.Space) && (isOnGround||isClimbing))
         {
             animationManager.TriggerTakeOff();
             isJumping = true;
@@ -331,11 +345,19 @@ public class PlayerControllerScript : MonoBehaviour
         }
 
 
+        if (Input.GetKeyDown(KeyCode.U))
+            animationManager.uppercutAnimation();
 
-
+        if (Input.GetKeyDown(KeyCode.L))
+            animationManager.lowKickAnimation();
 
         if (Input.GetKeyDown(KeyCode.K))
         {
+            if(isOnGround)
+                animationManager.kickAnimation();
+
+            else
+                animationManager.startFlyingKick();
             if (Input.GetKey(KeyCode.DownArrow))
             {
                 Debug.Log("j'ai frapper en bas");
@@ -355,12 +377,10 @@ public class PlayerControllerScript : MonoBehaviour
             }
         }
 
-        if (Input.GetKeyDown(KeyCode.K) && !Input.GetKey(KeyCode.DownArrow) && !Input.GetKey(KeyCode.RightArrow) && !Input.GetKey(KeyCode.LeftArrow) && !Input.GetKey(KeyCode.UpArrow))
-        {
-            Debug.Log("j'ai frapper normal");
-            animationManager.kickAnimation();
 
-        }
+        if (Input.GetKeyDown(KeyCode.H))
+            headKick();
+    }
 
 
         

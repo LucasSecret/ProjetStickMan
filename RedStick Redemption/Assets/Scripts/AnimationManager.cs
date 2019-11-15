@@ -8,7 +8,8 @@ public class AnimationManager : MonoBehaviour
 
     private PlayerControllerScript playerControllerScript;
 
-
+    public Animator getAnimator()
+    { return anim; }
     void Start()
     {
 
@@ -75,7 +76,12 @@ public class AnimationManager : MonoBehaviour
 
     public void pauseClimbing()
     {
-        anim.enabled = false;
+        anim.SetBool("idleClimbing", true);
+    }
+
+    public void resumeClimbing()
+    {
+        anim.SetBool("idleClimbing", false);
     }
 
     public void setIdle()
@@ -83,7 +89,7 @@ public class AnimationManager : MonoBehaviour
         anim.SetBool("isWalking", false);
     }
 
-    public void setWalking()
+    public void startWalking()
     {
         anim.SetBool("isWalking", true);
     }
@@ -93,9 +99,24 @@ public class AnimationManager : MonoBehaviour
         anim.SetBool("isCrouching", true);
     }
 
-    public void setNotCrounching()
+    public void standUp()
     {
         anim.SetBool("isCrouching", false);
+    }
+
+    public void startCrouchWalking()
+    {
+        anim.SetBool("isCrouchWalking", true);
+    }
+
+    public void stopCrouchWalking()
+    {
+        anim.SetBool("isCrouchWalking", false);
+    }
+
+    public void startFlyingKick()
+    {
+        anim.SetTrigger("flyingKick");
     }
 
 
