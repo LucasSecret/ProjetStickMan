@@ -13,71 +13,36 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-<<<<<<< HEAD
-  lastUpdatedAtString: 2019-11-15T15:20:27.122+01:00
-  initializedAtString: 2019-11-15T15:20:27.122+01:00
+  lastUpdatedAtString: 2019-11-15T16:46:55.217+01:00
+  initializedAtString: 2019-11-15T16:24:35.756+01:00
   entries:
-  - path: RedStick Redemption\Library\EditorInstance.json
-    fullPath: C:\Users\liam8\OneDrive\Documents\GitHub\ProjetStickMan\RedStick Redemption\Library\EditorInstance.json
-    projectPath: Library\EditorInstance.json
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: RedStick Redemption\Library\metadata\0c\0c9746b268c1a9943a8aabf490125511.info
-    fullPath: C:\Users\liam8\OneDrive\Documents\GitHub\ProjetStickMan\RedStick Redemption\Library\metadata\0c\0c9746b268c1a9943a8aabf490125511.info
-    projectPath: Library\metadata\0c\0c9746b268c1a9943a8aabf490125511.info
+  - path: RedStick Redemption\Assembly-CSharp.csproj
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assembly-CSharp.csproj
+    projectPath: Assembly-CSharp.csproj
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 5
-  - path: RedStick Redemption\Library\metadata\48\4896051103021634ab1c13a6419d6d06.info
-    fullPath: C:\Users\liam8\OneDrive\Documents\GitHub\ProjetStickMan\RedStick Redemption\Library\metadata\48\4896051103021634ab1c13a6419d6d06.info
-    projectPath: Library\metadata\48\4896051103021634ab1c13a6419d6d06.info
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assembly-CSharp-Editor.csproj
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assembly-CSharp-Editor.csproj
+    projectPath: Assembly-CSharp-Editor.csproj
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 5
-  - path: RedStick Redemption\Library\metadata\4e\4e324f6263661634089177a3013053d2.info
-    fullPath: C:\Users\liam8\OneDrive\Documents\GitHub\ProjetStickMan\RedStick Redemption\Library\metadata\4e\4e324f6263661634089177a3013053d2.info
-    projectPath: Library\metadata\4e\4e324f6263661634089177a3013053d2.info
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: RedStick Redemption\Library\metadata\69\69a00b738bbf88e48ba83d9af1cee700.info
-    fullPath: C:\Users\liam8\OneDrive\Documents\GitHub\ProjetStickMan\RedStick Redemption\Library\metadata\69\69a00b738bbf88e48ba83d9af1cee700.info
-    projectPath: Library\metadata\69\69a00b738bbf88e48ba83d9af1cee700.info
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: RedStick Redemption\Library\metadata\7e\7e129e5cececacd4bba75f45cb1828a8.info
-    fullPath: C:\Users\liam8\OneDrive\Documents\GitHub\ProjetStickMan\RedStick Redemption\Library\metadata\7e\7e129e5cececacd4bba75f45cb1828a8.info
-    projectPath: Library\metadata\7e\7e129e5cececacd4bba75f45cb1828a8.info
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: RedStick Redemption\Library\metadata\f5\f591cbd83e065c541a5d7a957b83923a.info
-    fullPath: C:\Users\liam8\OneDrive\Documents\GitHub\ProjetStickMan\RedStick Redemption\Library\metadata\f5\f591cbd83e065c541a5d7a957b83923a.info
-    projectPath: Library\metadata\f5\f591cbd83e065c541a5d7a957b83923a.info
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: RedStick Redemption\Library\metadata\fb\fb0f1e011d4dec64a9af964e8f0b271d.info
-    fullPath: C:\Users\liam8\OneDrive\Documents\GitHub\ProjetStickMan\RedStick Redemption\Library\metadata\fb\fb0f1e011d4dec64a9af964e8f0b271d.info
-    projectPath: Library\metadata\fb\fb0f1e011d4dec64a9af964e8f0b271d.info
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-=======
-  lastUpdatedAtString: 2019-11-15T16:08:00.704+01:00
-  initializedAtString: 2019-11-15T11:45:50.079+01:00
-  entries:
-  - path: RedStick Redemption\Assets\Prefabs\NPC_DUMMY.prefab
-    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Prefabs\NPC_DUMMY.prefab
-    projectPath: Assets\Prefabs\NPC_DUMMY.prefab
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assembly-CSharp-Editor-firstpass.csproj
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assembly-CSharp-Editor-firstpass.csproj
+    projectPath: Assembly-CSharp-Editor-firstpass.csproj
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: RedStick Redemption\Assets\Scenes\Mike_scene.unity
     fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Scenes\Mike_scene.unity
     projectPath: Assets\Scenes\Mike_scene.unity
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Scripts\Camera_Follow.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Scripts\Camera_Follow.cs
+    projectPath: Assets\Scripts\Camera_Follow.cs
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -105,15 +70,33 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: RedStick Redemption\Library\gfu\cache\gittrackingstatus.yaml
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\gfu\cache\gittrackingstatus.yaml
+    projectPath: Library\gfu\cache\gittrackingstatus.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\09\0936da89239dd30458cc96c5a711031f
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\09\0936da89239dd30458cc96c5a711031f
+    projectPath: Library\metadata\09\0936da89239dd30458cc96c5a711031f
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: RedStick Redemption\Library\metadata\19\194a6ba4b89d96e4ebaf72808a0791ce
     fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\19\194a6ba4b89d96e4ebaf72808a0791ce
     projectPath: Library\metadata\19\194a6ba4b89d96e4ebaf72808a0791ce
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: RedStick Redemption\Library\metadata\9a\9a27e91ea4d05e24f8efb36602fd6042
-    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\9a\9a27e91ea4d05e24f8efb36602fd6042
-    projectPath: Library\metadata\9a\9a27e91ea4d05e24f8efb36602fd6042
+  - path: RedStick Redemption\Library\metadata\cf\cff7d368b28463a4dbb18a3e3a95cf6f
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\cf\cff7d368b28463a4dbb18a3e3a95cf6f
+    projectPath: Library\metadata\cf\cff7d368b28463a4dbb18a3e3a95cf6f
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\cf\cff7d368b28463a4dbb18a3e3a95cf6f.info
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\cf\cff7d368b28463a4dbb18a3e3a95cf6f.info
+    projectPath: Library\metadata\cf\cff7d368b28463a4dbb18a3e3a95cf6f.info
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -129,28 +112,15 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: RedStick Redemption\Library\StateCache\Hierarchy\301136-9a27e91ea4d05e24f8.json
-    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\StateCache\Hierarchy\301136-9a27e91ea4d05e24f8.json
-    projectPath: Library\StateCache\Hierarchy\301136-9a27e91ea4d05e24f8.json
+  - path: RedStick Redemption\Library\StateCache\Hierarchy\d2601b-mainStage.json
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\StateCache\Hierarchy\d2601b-mainStage.json
+    projectPath: Library\StateCache\Hierarchy\d2601b-mainStage.json
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: RedStick Redemption\Library\StateCache\Hierarchy\301136-mainStage.json
-    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\StateCache\Hierarchy\301136-mainStage.json
-    projectPath: Library\StateCache\Hierarchy\301136-mainStage.json
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: RedStick Redemption\Library\StateCache\SceneView\254a8b-9a27e91ea4d05e24f8.json
-    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\StateCache\SceneView\254a8b-9a27e91ea4d05e24f8.json
-    projectPath: Library\StateCache\SceneView\254a8b-9a27e91ea4d05e24f8.json
+  - path: RedStick Redemption\Library\StateCache\SceneView\5433c4-mainStage.json
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\StateCache\SceneView\5433c4-mainStage.json
+    projectPath: Library\StateCache\SceneView\5433c4-mainStage.json
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: RedStick Redemption\Library\StateCache\SceneView\254a8b-mainStage.json
-    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\StateCache\SceneView\254a8b-mainStage.json
-    projectPath: Library\StateCache\SceneView\254a8b-mainStage.json
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
->>>>>>> mike_ai

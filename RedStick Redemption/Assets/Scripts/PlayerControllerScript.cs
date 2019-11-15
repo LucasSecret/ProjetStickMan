@@ -80,6 +80,18 @@ public class PlayerControllerScript : MonoBehaviour
             this.playerAttackEnum = GetComponent<PlayerAttackEnum>();
         }
 
+        InitStickManColor();
+
+    }
+
+    private void InitStickManColor()
+    {
+        Component[] SpriteMesh = GetComponentsInChildren<Anima2D.SpriteMeshInstance>();
+
+        foreach (Anima2D.SpriteMeshInstance spritemesh in SpriteMesh)
+        {
+            spritemesh.color = Color.red;
+        }
     }
 
     void OnCollisionEnter2D(Collision2D col)
@@ -357,10 +369,14 @@ public class PlayerControllerScript : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.K))
         {
             if(isOnGround)
+            {
                 animationManager.kickAnimation();
-
+            }
             else
+            {
                 animationManager.startFlyingKick();
+                playerAttackEnum.PlayerAttackType = PlayerAttackEnum.PlayerAttack.flyingKick;
+            }
             if (Input.GetKey(KeyCode.DownArrow))
             {
                 Debug.Log("j'ai frapper en bas");

@@ -3854,9 +3854,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cff7d368b28463a4dbb18a3e3a95cf6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1050523354}
-  cameraDistance: 30
-  camera: {fileID: 1763316732}
+  target: {fileID: 1050523354}
+  offset: {x: 0, y: 2.8, z: 0}
+  smoothFollow: 1
 --- !u!1001 &2015988799
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3930,6 +3930,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 6563337831625855946, guid: 9a27e91ea4d05e24f8efb36602fd6042,
         type: 3}
+    - target: {fileID: 876570472079629820, guid: 3c8297cc5dc05db47b20fdc2cf5d2a7b,
+        type: 3}
+      propertyPath: climbForce
+      value: 0.37
+      objectReference: {fileID: 0}
     - target: {fileID: 876570472079629818, guid: 3c8297cc5dc05db47b20fdc2cf5d2a7b,
         type: 3}
       propertyPath: m_CollisionDetection
