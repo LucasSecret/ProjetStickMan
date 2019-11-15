@@ -75,7 +75,12 @@ public class AnimationManager : MonoBehaviour
 
     public void pauseClimbing()
     {
-        anim.enabled = false;
+        anim.SetBool("idleClimbing", true);
+    }
+
+    public void resumeClimbing()
+    {
+        anim.SetBool("idleClimbing", false);
     }
 
     public void setIdle()
@@ -93,7 +98,7 @@ public class AnimationManager : MonoBehaviour
         anim.SetBool("isCrouching", true);
     }
 
-    public void setNotCrounching()
+    public void standUp()
     {
         anim.SetBool("isCrouching", false);
     }

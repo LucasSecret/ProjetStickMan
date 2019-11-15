@@ -22,6 +22,7 @@ public class PlayerControllerScript : MonoBehaviour
     protected bool isAttacking;
     protected bool isClimbing;
     protected bool goUp;
+    protected bool climbingPause;
 
     /* Notre réference vers notre manager d'animation : BIEN SEPARER LE PLAYER CONTROLLER DE LANIMATION CONTROLLER !*/
     private AnimationManager animationManager;
@@ -111,6 +112,9 @@ public class PlayerControllerScript : MonoBehaviour
         if ((col.gameObject.tag == "climbable"))
         {
             isClimbing = false;
+            rigidbody2D.gravityScale = gravityScale;
+            //animationManager.resumeClimbing(); 
+            animationManager.stopClimbing();
         }
     }
 
@@ -201,8 +205,10 @@ public class PlayerControllerScript : MonoBehaviour
             if (isCrouching)
                 animationManager.stopCrouchWalking();
 
-            else animationManager.setIdle();
+            else if(!isClimbing) 
+                animationManager.setIdle();
         }
+
 
 
         if (Input.GetAxis("Vertical") < 0)
@@ -215,14 +221,18 @@ public class PlayerControllerScript : MonoBehaviour
         else if (Input.GetAxis("Vertical") > 0)
         {
             goUp = true;
+            animationManager.resumeClimbing();
         }
 
         else
         {
             goUp = false;
-            animationManager.setNotCrounching();
+            animationManager.standUp();
             animationManager.stopCrouchWalking();
             isCrouching = false;
+
+            if (isClimbing)
+                animationManager.pauseClimbing();
         }
 
         HandleInput();
@@ -242,17 +252,12 @@ public class PlayerControllerScript : MonoBehaviour
 
 
 
-        if (!goUp)
-        {
-            rigidbody2D.gravityScale = gravityScale;
-            animationManager.stopClimbing();
-        }
-
-        else if (goUp && isClimbing)
+        if (goUp && isClimbing)
         {
             animationManager.startClimbing();
             transform.position = transform.position + new Vector3(0, 1, 0) * climbForce;
             rigidbody2D.gravityScale = 0.0f;
+            Debug.Log("Gravity Scale : " + rigidbody2D.gravityScale);
         }
     }
 
@@ -277,7 +282,7 @@ public class PlayerControllerScript : MonoBehaviour
     void HandleInput()
     {
 
-        if (Input.GetKeyDown(KeyCode.Space) && isOnGround)
+        if (Input.GetKeyDown(KeyCode.Space) && (isOnGround||isClimbing))
         {
             animationManager.TriggerTakeOff();
             isJumping = true;
