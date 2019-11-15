@@ -35,7 +35,7 @@ public class PlayerControllerScript : MonoBehaviour
     private float sprintMultiplier;
     private float crouchMultiplier;
     private float gravityScale;
-
+    private PlayerAttackEnum playerAttackEnum;
 
 
     public AudioClip[] audioClips;
@@ -72,6 +72,14 @@ public class PlayerControllerScript : MonoBehaviour
         {
             this.audioSource = GetComponent<AudioSource>();
         }
+
+        if (GetComponent<PlayerAttackEnum>() != null)
+        {
+            this.playerAttackEnum = GetComponent<PlayerAttackEnum>();
+        }
+
+        Debug.Log("audiclips lenght : " + audioClips.Length);
+
     }
 
     void OnCollisionEnter2D(Collision2D col)
@@ -91,17 +99,14 @@ public class PlayerControllerScript : MonoBehaviour
         //On récupere le collider qui rentre en collision avec un tel objet : Utilisé pour gérer les collider des membres, attributs du joueur.
         innerCollider = col.contacts[0].otherCollider;
 
-        if (col.gameObject.tag != "floor" && col.gameObject.tag == "Caisse")
+        if (col.gameObject.tag != "floor" && col.gameObject.tag == "NPC")
         {
-            if (innerCollider.gameObject.name == "MoletG" || innerCollider.gameObject.name == "MoletD" || innerCollider.gameObject.name == "AvBrasG" || innerCollider.gameObject.name == "AvBrasD")
+          
+            if(animationManager.getIsAttacking())
             {
-                if (animationManager.getIsAttacking())
-                {
-                    col.gameObject.GetComponent<CaisseControler>().takeDamage(50);
-
-                    audioSource.clip = audioClips[UnityEngine.Random.Range(0, audioClips.Length)];
-                    audioSource.Play();
-                }
+           //     col.gameObject.GetComponent<NPCHealthBar>().takeDamage(2, PlayerAttackType);
+                audioSource.clip = audioClips[UnityEngine.Random.Range(0, audioClips.Length)];
+                audioSource.Play();
             }
         }
     }
@@ -320,6 +325,7 @@ public class PlayerControllerScript : MonoBehaviour
             else if (Input.GetKey(KeyCode.UpArrow))
             {
                 Debug.Log("j'ai frapper au poingts en haut");
+                animationManager.uppercutAnimation();
             }
             else if (Input.GetKey(KeyCode.RightArrow))
             {
@@ -352,6 +358,23 @@ public class PlayerControllerScript : MonoBehaviour
 
             else
                 animationManager.startFlyingKick();
+            if (Input.GetKey(KeyCode.DownArrow))
+            {
+                Debug.Log("j'ai frapper en bas");
+                animationManager.lowKickAnimation();
+            }
+            else if (Input.GetKey(KeyCode.UpArrow))
+            {
+                Debug.Log("j'ai frapper en haut");
+            }
+            else if (Input.GetKey(KeyCode.RightArrow))
+            {
+                Debug.Log("j'ai frapper a droite");
+            }
+            else if (Input.GetKey(KeyCode.LeftArrow))
+            {
+                Debug.Log("j'ai frapper a gauche");
+            }
         }
 
 
@@ -360,43 +383,10 @@ public class PlayerControllerScript : MonoBehaviour
     }
 
 
-    //public void headKick()
-    //{
-    //    Debug.Log("Start " );
-
-    //    RaycastHit2D hit = Physics2D.Raycast(transform.position, transform.TransformDirection(Vector3.right));
-    //    Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.right) * 1000.0f, Color.red);
-    //    if (hit)
-    //    {
-    //        if (hit.transform.tag == "crate")
-    //        {
-    //            Transform leftArm = transform.Find("IK/LeftArm IK");
-    //            Transform rightArm = transform.Find("IK/RightArm IK");
-
-    //            leftArm.Translate(Vector3.right*Time.deltaTime);
-    //            Transform caisse = hit.transform;
-
-    //            Animation anim = GetComponent<Animation>();
-    //            AnimationCurve curve;
-
-    //            // create a new AnimationClip
-    //            AnimationClip clip = new AnimationClip();
-    //            clip.legacy = true;
-
-    //            // create a curve to move the GameObject and assign to the clip
-    //            Keyframe[] keys;
-    //            keys = new Keyframe[3];
-    //            keys[0] = new Keyframe(0.0f, leftArm.position.x);
-    //            keys[2] = new Keyframe(2.0f, leftArm.position.x + 2.0f);
-    //            curve = new AnimationCurve(keys);
-    //            clip.SetCurve("IK/LeftArm IK", typeof(Transform), "localPosition.x", curve);
+        
 
 
-    //            anim.AddClip(clip, clip.name);
-    //            anim.Play(clip.name);
 
-    //        }
-    //    }
-    //}
+    }
 }
 

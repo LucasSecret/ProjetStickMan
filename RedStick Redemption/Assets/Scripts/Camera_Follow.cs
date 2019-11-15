@@ -34,10 +34,13 @@ public class Camera_Follow : MonoBehaviour
         Vector3 posTemp = camera.transform.position;
 
         posTemp.x += (player.transform.position.x - camera.transform.position.x) * 10f * Time.deltaTime;
+        posTemp.y += (player.transform.position.y - camera.transform.position.y) * 10f * Time.deltaTime;
+
+
 
 
         camera.transform.position = new Vector3(Mathf.Min(maxCameraX, Mathf.Max(posTemp.x, minCameraX)),
-            transform.position.y,
+            posTemp.y,
             transform.position.z);
     }
 }
