@@ -6,7 +6,7 @@ public class PlayerAttackEnum : MonoBehaviour
 {
     // Start is called before the first frame update
 
-    private enum PlayerAttack { kick, lowkick, punch, uppercut, flyingKick }
+    public enum PlayerAttack { kick, lowkick, punch, uppercut, flyingKick }
     public PlayerAttack PlayerAttackType { get; set; }
 
     void Start()

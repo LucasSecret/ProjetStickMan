@@ -353,7 +353,7 @@ public class PlayerControllerScript : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.K))
         {
-            if(isOnGround)
+            if (isOnGround)
                 animationManager.kickAnimation();
 
             else
@@ -376,17 +376,6 @@ public class PlayerControllerScript : MonoBehaviour
                 Debug.Log("j'ai frapper a gauche");
             }
         }
-
-
-        if (Input.GetKeyDown(KeyCode.H))
-            headKick();
-    }
-
-
-        
-
-
-
     }
 }
 
