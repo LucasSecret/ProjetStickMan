@@ -8,6 +8,7 @@ public class PlayerControllerScript : MonoBehaviour
     public float jumpForce;
     public float hitStrenghtMultiplier = 1.0f; //Le multiplicateur de force que le joueur possède
     public float climbForce;
+    public GameObject npc_prefab;
 
     protected bool isJumping;
     protected bool isOnGround;
@@ -35,7 +36,8 @@ public class PlayerControllerScript : MonoBehaviour
     private float crouchMultiplier;
     private float gravityScale;
     private PlayerAttackEnum playerAttackEnum;
-
+    private Vector2 mouseWorld;
+    private Vector2 mousePosScreen;
 
     public AudioClip[] audioClips;
 
@@ -366,6 +368,23 @@ public class PlayerControllerScript : MonoBehaviour
         }
 
 
+        if(Input.GetMouseButtonDown(0))
+        {
+             mousePosScreen = Input.mousePosition;
+             mouseWorld = Camera.main.ScreenToWorldPoint(new Vector3(mousePosScreen.x, mousePosScreen.y, 0));
+
+            GameObject npc = Instantiate(npc_prefab) as GameObject;
+            npc.transform.position = new Vector3(mouseWorld.x, mouseWorld.y, 0);
+
+            Component[] SpriteMesh = npc.GetComponentsInChildren<Anima2D.SpriteMeshInstance>();
+
+            foreach (Anima2D.SpriteMeshInstance spritemesh in SpriteMesh)
+                spritemesh.color = Color.green;
+
+
+
+        }
+
         
 
 
@@ -381,6 +400,8 @@ public class PlayerControllerScript : MonoBehaviour
         GUILayout.Label("Player is jumping : " + isJumping);
         GUILayout.Label("Player is running : " + isRunning);
         GUILayout.Label("Player is onGround : " + isOnGround);
+        GUILayout.Label("mouse pos pixel : " + mousePosScreen);
+        GUILayout.Label("mouse pos world : " + mouseWorld);
         GUILayout.EndArea();
     }
 }

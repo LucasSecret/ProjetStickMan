@@ -870,6 +870,8 @@ MonoBehaviour:
   jumpForce: 5000
   hitStrenghtMultiplier: 1
   climbForce: 0.15
+  npc_prefab: {fileID: 6563337831625855946, guid: 9a27e91ea4d05e24f8efb36602fd6042,
+    type: 3}
   audioClips:
   - {fileID: 8300000, guid: ea5ec29a8a1de5946a5d5b8b0aa479b5, type: 3}
   - {fileID: 8300000, guid: 2802c89143c000c4e9bf80b26f19de18, type: 3}
@@ -905,7 +907,7 @@ Rigidbody2D:
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!95 &876570472079629816
 Animator:
