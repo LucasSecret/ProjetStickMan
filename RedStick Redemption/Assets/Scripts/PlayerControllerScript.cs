@@ -400,8 +400,11 @@ public class PlayerControllerScript : MonoBehaviour
 
             Component[] SpriteMesh = npc.GetComponentsInChildren<Anima2D.SpriteMeshInstance>();
 
-                spritemesh.color = Color.green;
+                
             foreach (Anima2D.SpriteMeshInstance spritemesh in SpriteMesh)
+            {
+                spritemesh.color = Color.green;
+            }
 
 
 
