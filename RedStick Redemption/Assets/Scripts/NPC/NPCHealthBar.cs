@@ -8,6 +8,7 @@ public class NPCHealthBar : MonoBehaviour
 
     public float healthBarLength;
     private bool isDestroyed;
+    Vector2 targetPos;
 
     public PlayerAttackEnum playerAttackEnum;
 
@@ -26,15 +27,17 @@ public class NPCHealthBar : MonoBehaviour
         {
             Destroy(gameObject);
         }
+
+        
+        targetPos = Camera.main.WorldToScreenPoint(transform.position);
     }
 
     void OnGUI()
     {
 
-        Vector2 targetPos;
-        targetPos = Camera.main.WorldToScreenPoint(transform.position);
+        
 
-        GUI.Box(new Rect(targetPos.x, targetPos.y + 150, 60, 20), curHealth + "/" + maxHealth);
+        GUI.Box(new Rect(targetPos.x - (healthBarLength / 2), (Screen.height - targetPos.y) - 100, healthBarLength, 60), curHealth + "/" + maxHealth);
 
     }
 
@@ -59,14 +62,24 @@ public class NPCHealthBar : MonoBehaviour
 
     }
 
-    public void takeDamage(int ammount)
+    public void takeDamage(PlayerAttackEnum.PlayerAttack playerAttackType)
     {
-        this.curHealth -= ammount;
+        int ammountDamage = 0;
 
         if(GetComponent<AudioSource>() != null)
         {
         GetComponent<AudioSource>().Play();
         }
 
+        switch(playerAttackType)
+        {
+            case PlayerAttackEnum.PlayerAttack.punch: ammountDamage = 1;  break;
+            case PlayerAttackEnum.PlayerAttack.uppercut: ammountDamage = 4; break;
+            case PlayerAttackEnum.PlayerAttack.kick: ammountDamage = 5; break;
+            case PlayerAttackEnum.PlayerAttack.lowkick: ammountDamage = 4; break;
+            case PlayerAttackEnum.PlayerAttack.flyingKick: ammountDamage = 10; break;
+        }
+
+        this.curHealth -= ammountDamage;
     }
 }

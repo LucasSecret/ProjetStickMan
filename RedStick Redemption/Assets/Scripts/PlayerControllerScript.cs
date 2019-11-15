@@ -77,8 +77,6 @@ public class PlayerControllerScript : MonoBehaviour
             this.playerAttackEnum = GetComponent<PlayerAttackEnum>();
         }
 
-        Debug.Log("audiclips lenght : " + audioClips.Length);
-
     }
 
     void OnCollisionEnter2D(Collision2D col)
@@ -102,7 +100,8 @@ public class PlayerControllerScript : MonoBehaviour
           
             if(animationManager.getIsAttacking())
             {
-           //     col.gameObject.GetComponent<NPCHealthBar>().takeDamage(2, PlayerAttackType);
+
+                col.gameObject.GetComponent<NPCHealthBar>().takeDamage(playerAttackEnum.PlayerAttackType);
                 audioSource.clip = audioClips[UnityEngine.Random.Range(0, audioClips.Length)];
                 audioSource.Play();
             }
@@ -312,6 +311,7 @@ public class PlayerControllerScript : MonoBehaviour
             {
                 Debug.Log("j'ai frapper au poingts en haut");
                 animationManager.uppercutAnimation();
+                playerAttackEnum.PlayerAttackType = PlayerAttackEnum.PlayerAttack.uppercut;
             }
             else if (Input.GetKey(KeyCode.RightArrow))
             {
@@ -327,6 +327,7 @@ public class PlayerControllerScript : MonoBehaviour
         {
             Debug.Log("j'ai frapper au poingts normal");
             animationManager.punchAnimation();
+            playerAttackEnum.PlayerAttackType = PlayerAttackEnum.PlayerAttack.punch;
 
         }
 
@@ -340,6 +341,7 @@ public class PlayerControllerScript : MonoBehaviour
             {
                 Debug.Log("j'ai frapper en bas");
                 animationManager.lowKickAnimation();
+                playerAttackEnum.PlayerAttackType = PlayerAttackEnum.PlayerAttack.lowkick;
             }
             else if (Input.GetKey(KeyCode.UpArrow))
             {
@@ -359,6 +361,7 @@ public class PlayerControllerScript : MonoBehaviour
         {
             Debug.Log("j'ai frapper normal");
             animationManager.kickAnimation();
+            playerAttackEnum.PlayerAttackType = PlayerAttackEnum.PlayerAttack.kick;
 
         }
 
@@ -367,6 +370,18 @@ public class PlayerControllerScript : MonoBehaviour
 
 
 
+    }
+
+    private void OnGUI()
+    {
+
+        GUILayout.BeginArea(new Rect(20, 20, 250, 120));
+        GUILayout.Label("Player world pos : " + transform.position.ToString());
+        GUILayout.Label("Player is climbing : " + isClimbing);
+        GUILayout.Label("Player is jumping : " + isJumping);
+        GUILayout.Label("Player is running : " + isRunning);
+        GUILayout.Label("Player is onGround : " + isOnGround);
+        GUILayout.EndArea();
     }
 }
 
