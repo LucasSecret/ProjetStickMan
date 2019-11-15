@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 995438498, guid: 68c7e4565cde54155bb78d8e935f1ddb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cacheType: 6
+  lastUpdatedAtString: 2019-11-15T15:20:27.122+01:00
+  initializedAtString: 2019-11-15T15:20:27.122+01:00
+  entries:
+  - path: RedStick Redemption\Library\EditorInstance.json
+    fullPath: C:\Users\liam8\OneDrive\Documents\GitHub\ProjetStickMan\RedStick Redemption\Library\EditorInstance.json
+    projectPath: Library\EditorInstance.json
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Library\metadata\0c\0c9746b268c1a9943a8aabf490125511.info
+    fullPath: C:\Users\liam8\OneDrive\Documents\GitHub\ProjetStickMan\RedStick Redemption\Library\metadata\0c\0c9746b268c1a9943a8aabf490125511.info
+    projectPath: Library\metadata\0c\0c9746b268c1a9943a8aabf490125511.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: RedStick Redemption\Library\metadata\48\4896051103021634ab1c13a6419d6d06.info
+    fullPath: C:\Users\liam8\OneDrive\Documents\GitHub\ProjetStickMan\RedStick Redemption\Library\metadata\48\4896051103021634ab1c13a6419d6d06.info
+    projectPath: Library\metadata\48\4896051103021634ab1c13a6419d6d06.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: RedStick Redemption\Library\metadata\4e\4e324f6263661634089177a3013053d2.info
+    fullPath: C:\Users\liam8\OneDrive\Documents\GitHub\ProjetStickMan\RedStick Redemption\Library\metadata\4e\4e324f6263661634089177a3013053d2.info
+    projectPath: Library\metadata\4e\4e324f6263661634089177a3013053d2.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: RedStick Redemption\Library\metadata\69\69a00b738bbf88e48ba83d9af1cee700.info
+    fullPath: C:\Users\liam8\OneDrive\Documents\GitHub\ProjetStickMan\RedStick Redemption\Library\metadata\69\69a00b738bbf88e48ba83d9af1cee700.info
+    projectPath: Library\metadata\69\69a00b738bbf88e48ba83d9af1cee700.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: RedStick Redemption\Library\metadata\7e\7e129e5cececacd4bba75f45cb1828a8.info
+    fullPath: C:\Users\liam8\OneDrive\Documents\GitHub\ProjetStickMan\RedStick Redemption\Library\metadata\7e\7e129e5cececacd4bba75f45cb1828a8.info
+    projectPath: Library\metadata\7e\7e129e5cececacd4bba75f45cb1828a8.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: RedStick Redemption\Library\metadata\f5\f591cbd83e065c541a5d7a957b83923a.info
+    fullPath: C:\Users\liam8\OneDrive\Documents\GitHub\ProjetStickMan\RedStick Redemption\Library\metadata\f5\f591cbd83e065c541a5d7a957b83923a.info
+    projectPath: Library\metadata\f5\f591cbd83e065c541a5d7a957b83923a.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: RedStick Redemption\Library\metadata\fb\fb0f1e011d4dec64a9af964e8f0b271d.info
+    fullPath: C:\Users\liam8\OneDrive\Documents\GitHub\ProjetStickMan\RedStick Redemption\Library\metadata\fb\fb0f1e011d4dec64a9af964e8f0b271d.info
+    projectPath: Library\metadata\fb\fb0f1e011d4dec64a9af964e8f0b271d.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
