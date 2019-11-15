@@ -84,7 +84,7 @@ public class AnimationManager : MonoBehaviour
         anim.SetBool("idleClimbing", false);
     }
 
-    public void setIdle()
+    public void stopWalking()
     {
         anim.SetBool("isWalking", false);
     }

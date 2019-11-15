@@ -84,6 +84,7 @@ public class PlayerControllerScript : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D col)
     {
+
         if (col.gameObject.tag == "floor") //Doit être remplacé par un tag platform 
         {
             isOnGround = true;
@@ -211,7 +212,7 @@ public class PlayerControllerScript : MonoBehaviour
                 animationManager.stopCrouchWalking();
 
             else if(!isClimbing) 
-                animationManager.setIdle();
+                animationManager.stopWalking();
         }
 
 
