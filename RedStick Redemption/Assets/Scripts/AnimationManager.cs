@@ -8,7 +8,8 @@ public class AnimationManager : MonoBehaviour
 
     private PlayerControllerScript playerControllerScript;
 
-
+    public Animator getAnimator()
+    { return anim; }
     void Start()
     {
 

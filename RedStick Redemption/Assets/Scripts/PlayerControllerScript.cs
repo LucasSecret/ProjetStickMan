@@ -353,6 +353,50 @@ public class PlayerControllerScript : MonoBehaviour
             else
                 animationManager.startFlyingKick();
         }
+
+
+        if (Input.GetKeyDown(KeyCode.H))
+            headKick();
     }
+
+
+    //public void headKick()
+    //{
+    //    Debug.Log("Start " );
+
+    //    RaycastHit2D hit = Physics2D.Raycast(transform.position, transform.TransformDirection(Vector3.right));
+    //    Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.right) * 1000.0f, Color.red);
+    //    if (hit)
+    //    {
+    //        if (hit.transform.tag == "crate")
+    //        {
+    //            Transform leftArm = transform.Find("IK/LeftArm IK");
+    //            Transform rightArm = transform.Find("IK/RightArm IK");
+
+    //            leftArm.Translate(Vector3.right*Time.deltaTime);
+    //            Transform caisse = hit.transform;
+
+    //            Animation anim = GetComponent<Animation>();
+    //            AnimationCurve curve;
+
+    //            // create a new AnimationClip
+    //            AnimationClip clip = new AnimationClip();
+    //            clip.legacy = true;
+
+    //            // create a curve to move the GameObject and assign to the clip
+    //            Keyframe[] keys;
+    //            keys = new Keyframe[3];
+    //            keys[0] = new Keyframe(0.0f, leftArm.position.x);
+    //            keys[2] = new Keyframe(2.0f, leftArm.position.x + 2.0f);
+    //            curve = new AnimationCurve(keys);
+    //            clip.SetCurve("IK/LeftArm IK", typeof(Transform), "localPosition.x", curve);
+
+
+    //            anim.AddClip(clip, clip.name);
+    //            anim.Play(clip.name);
+
+    //        }
+    //    }
+    //}
 }
 
