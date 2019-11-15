@@ -127,7 +127,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6563337830228357269}
-  m_LocalRotation: {x: 0, y: 0, z: 0.9934977, w: 0.11385229}
+  m_LocalRotation: {x: 0, y: 0, z: 0.9934977, w: 0.113852166}
   m_LocalPosition: {x: -0.086411394, y: 0.03495326, z: 0}
   m_LocalScale: {x: 1.247201, y: 1, z: 1}
   m_Children:
@@ -148,7 +148,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Length: 1.0562234
+  m_Length: 1.0562238
   m_ChildTransform: {fileID: 6563337831503880853}
   m_AttachedIK: {fileID: 6563337832025821228}
 --- !u!1 &6563337830328360370
@@ -619,7 +619,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6563337830513393255}
-  m_LocalRotation: {x: 0, y: 0, z: 0.43155828, w: 0.90208507}
+  m_LocalRotation: {x: 0, y: 0, z: 0.43155867, w: 0.9020849}
   m_LocalPosition: {x: 1.1958873, y: 0.00000035762787, z: 0.00048828125}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -1247,7 +1247,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6563337831128453971}
-  m_LocalRotation: {x: 0, y: 0, z: -0.99766517, w: 0.06829528}
+  m_LocalRotation: {x: 0, y: 0, z: -0.9976652, w: 0.06829493}
   m_LocalPosition: {x: 1.6514366, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -1268,7 +1268,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Length: 1.195887
+  m_Length: 1.1958876
   m_ChildTransform: {fileID: 6563337830513393254}
   m_AttachedIK: {fileID: 6563337831675272637}
 --- !u!1 &6563337831263053208
@@ -1445,7 +1445,7 @@ GameObject:
   - component: {fileID: 6563337831625855936}
   m_Layer: 0
   m_Name: NPC_DUMMY
-  m_TagString: Untagged
+  m_TagString: NPC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1498,7 +1498,7 @@ Rigidbody2D:
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!61 &6563337831625855948
 BoxCollider2D:
@@ -1513,7 +1513,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.37, y: -3.6}
+  m_Offset: {x: 0.5406332, y: -2.0629082}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -1524,7 +1524,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 3.0474129, y: 2.9621048}
+  m_Size: {x: 2.0918713, y: 6.0362883}
   m_EdgeRadius: 0
 --- !u!95 &6563337831625855949
 Animator:
@@ -1559,7 +1559,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 100
   curHealth: 100
-  healthBarLength: 16.12
+  healthBarLength: 13.98
+  playerAttackEnum: {fileID: 0}
 --- !u!1 &6563337831675272634
 GameObject:
   m_ObjectHideFlags: 0
@@ -1615,15 +1616,15 @@ MonoBehaviour:
     m_SolverPoses:
     - m_BoneTransform: {fileID: 6563337831128453970}
       solverPosition: {x: 0, y: 0, z: 0}
-      solverRotation: {x: 0, y: 0, z: -0.99766517, w: 0.06829528}
+      solverRotation: {x: 0, y: 0, z: -0.99766517, w: 0.06829492}
       defaultLocalRotation: {x: 0, y: 0, z: 0.7023715, w: 0.7118106}
     - m_BoneTransform: {fileID: 6563337830513393254}
       solverPosition: {x: 0, y: 0, z: 0}
-      solverRotation: {x: 0, y: 0, z: 0.43155828, w: 0.90208507}
+      solverRotation: {x: 0, y: 0, z: 0.43155867, w: 0.9020849}
       defaultLocalRotation: {x: -0, y: -0, z: -0.95138526, w: -0.3080034}
     m_Weight: 1
     m_RestoreDefaultPose: 1
-    targetPosition: {x: -20.95, y: -6.3100004, z: 0}
+    targetPosition: {x: -20.95, y: -5.45, z: 0}
     flip: 0
 --- !u!1 &6563337831700599836
 GameObject:
@@ -1975,7 +1976,7 @@ MonoBehaviour:
       defaultLocalRotation: {x: 0, y: 0, z: 0.33298418, w: -0.9429324}
     m_Weight: 1
     m_RestoreDefaultPose: 1
-    targetPosition: {x: -21.94, y: -6.59, z: 0}
+    targetPosition: {x: -21.94, y: -5.73, z: 0}
     flip: 0
 --- !u!1 &6563337831924755113
 GameObject:
@@ -2084,7 +2085,7 @@ MonoBehaviour:
     m_SolverPoses:
     - m_BoneTransform: {fileID: 6563337830228357268}
       solverPosition: {x: 0, y: 0, z: 0}
-      solverRotation: {x: 0, y: 0, z: 0.99349767, w: 0.113852285}
+      solverRotation: {x: 0, y: 0, z: 0.9934977, w: 0.113852166}
       defaultLocalRotation: {x: 0, y: 0, z: -0.75878745, w: 0.6513384}
     - m_BoneTransform: {fileID: 6563337831503880853}
       solverPosition: {x: 0, y: 0, z: 0}
@@ -2092,7 +2093,7 @@ MonoBehaviour:
       defaultLocalRotation: {x: 0, y: 0, z: -0.009926125, w: 0.99995077}
     m_Weight: 1
     m_RestoreDefaultPose: 0
-    targetPosition: {x: -22.570002, y: -8.97, z: 0}
+    targetPosition: {x: -22.570002, y: -8.110001, z: 0}
     flip: 1
 --- !u!1 &6563337832113696819
 GameObject:
@@ -2189,5 +2190,5 @@ MonoBehaviour:
       defaultLocalRotation: {x: 0.019225264, y: -0.00397598, z: -0.10850123, w: 0.99390244}
     m_Weight: 1
     m_RestoreDefaultPose: 0
-    targetPosition: {x: -21.150002, y: -9.190001, z: 0}
+    targetPosition: {x: -21.150002, y: -8.33, z: 0}
     flip: 1

@@ -14,11 +14,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cacheType: 5
 <<<<<<< HEAD
+<<<<<<< HEAD
   lastUpdatedAtString: 2019-11-14T09:25:22.173+01:00
   initializedAtString: 2019-11-14T09:25:22.173+01:00
 =======
   lastUpdatedAtString: 2019-11-15T15:20:27.179+01:00
   initializedAtString: 2019-11-15T15:20:27.179+01:00
 >>>>>>> Liam_1511
+=======
+  lastUpdatedAtString: 2019-11-15T11:45:50.151+01:00
+  initializedAtString: 2019-11-15T11:45:50.151+01:00
+>>>>>>> mike_ai
   ahead: 0
   behind: 0
