@@ -34,7 +34,7 @@ public class PlayerControllerScript : MonoBehaviour
     private float sprintMultiplier;
     private float crouchMultiplier;
     private float gravityScale;
-
+    private PlayerAttackEnum playerAttackEnum;
 
 
     public AudioClip[] audioClips;
@@ -72,8 +72,12 @@ public class PlayerControllerScript : MonoBehaviour
             this.audioSource = GetComponent<AudioSource>();
         }
 
-        Debug.Log("audiclips lenght : " + audioClips.Length);
+        if (GetComponent<PlayerAttackEnum>() != null)
+        {
+            this.playerAttackEnum = GetComponent<PlayerAttackEnum>();
+        }
 
+        Debug.Log("audiclips lenght : " + audioClips.Length);
 
     }
 
@@ -93,18 +97,16 @@ public class PlayerControllerScript : MonoBehaviour
         //On récupere le collider qui rentre en collision avec un tel objet : Utilisé pour gérer les collider des membres, attributs du joueur.
         innerCollider = col.contacts[0].otherCollider;
 
-        if (col.gameObject.tag != "floor" && col.gameObject.tag == "Caisse")
+        if (col.gameObject.tag != "floor" && col.gameObject.tag == "NPC")
         {
-            if (innerCollider.gameObject.name == "MoletG" || innerCollider.gameObject.name == "MoletD" || innerCollider.gameObject.name == "AvBrasG" || innerCollider.gameObject.name == "AvBrasD")
+          
+            if(animationManager.getIsAttacking())
             {
-                if (animationManager.getIsAttacking())
-                {
-                    col.gameObject.GetComponent<CaisseControler>().takeDamage(50);
-
-                    audioSource.clip = audioClips[UnityEngine.Random.Range(0, audioClips.Length)];
-                    audioSource.Play();
-                }
+           //     col.gameObject.GetComponent<NPCHealthBar>().takeDamage(2, PlayerAttackType);
+                audioSource.clip = audioClips[UnityEngine.Random.Range(0, audioClips.Length)];
+                audioSource.Play();
             }
+           
 
 
         }
@@ -309,6 +311,7 @@ public class PlayerControllerScript : MonoBehaviour
             else if (Input.GetKey(KeyCode.UpArrow))
             {
                 Debug.Log("j'ai frapper au poingts en haut");
+                animationManager.uppercutAnimation();
             }
             else if (Input.GetKey(KeyCode.RightArrow))
             {
@@ -336,6 +339,7 @@ public class PlayerControllerScript : MonoBehaviour
             if (Input.GetKey(KeyCode.DownArrow))
             {
                 Debug.Log("j'ai frapper en bas");
+                animationManager.lowKickAnimation();
             }
             else if (Input.GetKey(KeyCode.UpArrow))
             {
@@ -357,6 +361,9 @@ public class PlayerControllerScript : MonoBehaviour
             animationManager.kickAnimation();
 
         }
+
+
+        
 
 
 

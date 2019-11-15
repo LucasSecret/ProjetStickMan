@@ -114,7 +114,7 @@ public class AnimationManager : MonoBehaviour
 
     public bool getIsAttacking()
     {
-        return anim.GetBool("punch") || anim.GetBool("kick");
+        return anim.GetBool("punch") || anim.GetBool("kick") || anim.GetBool("lowKick") || anim.GetBool("uppercut");
     }
     public void kickAnimation()
     {
