@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 8736124436854857642}
   - component: {fileID: 8736124436854857643}
   m_Layer: 0
-  m_Name: Caisses (3)
+  m_Name: Caisses
   m_TagString: Destroyable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -123,7 +123,7 @@ TilemapRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: adb161e09b41d0447b86047d70ee4777, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

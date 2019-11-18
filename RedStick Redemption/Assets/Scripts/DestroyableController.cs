@@ -32,7 +32,6 @@ public class DestroyableController : MonoBehaviour
     {
         this.hitPoint -= ammount;
         GetComponent<AudioSource>().Play();
-        Debug.Log(hitPoint);
     }
 
   
