@@ -26,6 +26,7 @@ public class WeaponInit : MonoBehaviour
         if(col.tag == "Player")
         {
             transform.SetParent(GameObject.Find("MainDroite").transform);
+            transform.localPosition = new Vector2(0, 0);
         }
     }
 }
