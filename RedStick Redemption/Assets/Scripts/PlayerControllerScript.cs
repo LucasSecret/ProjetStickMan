@@ -12,6 +12,7 @@ public class PlayerControllerScript : MonoBehaviour
 
     protected bool isJumping;
     protected bool isOnGround;
+
     public bool IsOnGround
     {
         get { return isOnGround; }
@@ -39,6 +40,7 @@ public class PlayerControllerScript : MonoBehaviour
     private PlayerAttackEnum playerAttackEnum;
     private Vector2 mouseWorld;
     private Vector2 mousePosScreen;
+    private float direction;
 
     public AudioClip[] audioClips;
 
@@ -117,7 +119,7 @@ public class PlayerControllerScript : MonoBehaviour
             if(animationManager.getIsAttacking())
             {
 
-                col.gameObject.GetComponent<NPCHealthBar>().takeDamage(playerAttackEnum.PlayerAttackType);
+                col.gameObject.GetComponent<NPCHealthBar>().takeDamage(playerAttackEnum.PlayerAttackType, transform.forward.z);
                 audioSource.clip = audioClips[UnityEngine.Random.Range(0, audioClips.Length)];
                 audioSource.Play();
             }
@@ -185,7 +187,7 @@ public class PlayerControllerScript : MonoBehaviour
     void Update()
     {
 
-        float direction = Input.GetAxis("Horizontal");
+         direction = Input.GetAxis("Horizontal");
 
         if (direction > 0)
         {
@@ -361,10 +363,17 @@ public class PlayerControllerScript : MonoBehaviour
 
 
         if (Input.GetKeyDown(KeyCode.U))
+        {
             animationManager.uppercutAnimation();
+            playerAttackEnum.PlayerAttackType = PlayerAttackEnum.PlayerAttack.uppercut;
+        }
+            
 
         if (Input.GetKeyDown(KeyCode.L))
+        {
             animationManager.lowKickAnimation();
+            playerAttackEnum.PlayerAttackType = PlayerAttackEnum.PlayerAttack.lowkick;
+        }
 
         if (Input.GetKeyDown(KeyCode.K))
         {
@@ -419,7 +428,7 @@ public class PlayerControllerScript : MonoBehaviour
                 
             foreach (Anima2D.SpriteMeshInstance spritemesh in SpriteMesh)
             {
-                spritemesh.color = Color.green;
+                spritemesh.color = Color.red;
             }
 
 
@@ -435,14 +444,13 @@ public class PlayerControllerScript : MonoBehaviour
     private void OnGUI()
     {
 
-        GUILayout.BeginArea(new Rect(20, 20, 250, 120));
+        GUILayout.BeginArea(new Rect(20, 20, 250, 150));
         GUILayout.Label("Player world pos : " + transform.position.ToString());
         GUILayout.Label("Player is climbing : " + isClimbing);
         GUILayout.Label("Player is jumping : " + isJumping);
         GUILayout.Label("Player is running : " + isRunning);
         GUILayout.Label("Player is onGround : " + isOnGround);
-        GUILayout.Label("mouse pos pixel : " + mousePosScreen);
-        GUILayout.Label("mouse pos world : " + mouseWorld);
+        GUILayout.Label("direction player transform : " + transform.forward.z);
         GUILayout.EndArea();
     }
 }

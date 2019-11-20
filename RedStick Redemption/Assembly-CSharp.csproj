@@ -94,6 +94,7 @@
     <Compile Include="Assets\Scripts\MainMenu\MainMenu.cs" />
     <Compile Include="Assets\Scripts\MainMenu\MusicController.cs" />
     <Compile Include="Assets\Scripts\MainMenu\OptionMenu.cs" />
+    <Compile Include="Assets\Scripts\NPC\NpcBehavior.cs" />
     <Compile Include="Assets\Scripts\NPC\NPCHealthBar.cs" />
     <Compile Include="Assets\Scripts\PlayerAttackEnum.cs" />
     <Compile Include="Assets\Scripts\PlayerControllerScript.cs" />

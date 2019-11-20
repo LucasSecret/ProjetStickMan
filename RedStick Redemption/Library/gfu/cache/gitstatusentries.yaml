@@ -13,9 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-<<<<<<< HEAD
-  lastUpdatedAtString: 2019-11-15T16:46:55.217+01:00
-  initializedAtString: 2019-11-15T16:24:35.756+01:00
+  lastUpdatedAtString: 2019-11-16T19:37:11.657+01:00
+  initializedAtString: 2019-11-16T14:28:51.990+01:00
   entries:
   - path: RedStick Redemption\Assembly-CSharp.csproj
     fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assembly-CSharp.csproj
@@ -23,27 +22,1306 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: RedStick Redemption\Assembly-CSharp-Editor.csproj
-    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assembly-CSharp-Editor.csproj
-    projectPath: Assembly-CSharp-Editor.csproj
+  - path: RedStick Redemption\Assets\Anima2D\Examples\Robot\Animations\RobotAnimatorController.controller
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Examples\Robot\Animations\RobotAnimatorController.controller
+    projectPath: Assets\Anima2D\Examples\Robot\Animations\RobotAnimatorController.controller
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: RedStick Redemption\Assembly-CSharp-Editor-firstpass.csproj
-    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assembly-CSharp-Editor-firstpass.csproj
-    projectPath: Assembly-CSharp-Editor-firstpass.csproj
+  - path: RedStick Redemption\Assets\Anima2D\Examples\Robot\Animations\Run.anim
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Examples\Robot\Animations\Run.anim
+    projectPath: Assets\Anima2D\Examples\Robot\Animations\Run.anim
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: RedStick Redemption\Assets\Scenes\Mike_scene.unity
-    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Scenes\Mike_scene.unity
-    projectPath: Assets\Scenes\Mike_scene.unity
+  - path: RedStick Redemption\Assets\Anima2D\Examples\Robot\Animations\Weel.anim
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Examples\Robot\Animations\Weel.anim
+    projectPath: Assets\Anima2D\Examples\Robot\Animations\Weel.anim
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: RedStick Redemption\Assets\Scripts\Camera_Follow.cs
-    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Scripts\Camera_Follow.cs
-    projectPath: Assets\Scripts\Camera_Follow.cs
+  - path: RedStick Redemption\Assets\Anima2D\Examples\Scenes\Robot.unity
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Examples\Scenes\Robot.unity
+    projectPath: Assets\Anima2D\Examples\Scenes\Robot.unity
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Examples\Scenes\TRex.unity
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Examples\Scenes\TRex.unity
+    projectPath: Assets\Anima2D\Examples\Scenes\TRex.unity
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Examples\Scenes\TRex_BakedAnimations.unity
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Examples\Scenes\TRex_BakedAnimations.unity
+    projectPath: Assets\Anima2D\Examples\Scenes\TRex_BakedAnimations.unity
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Examples\Scenes\TRex_CombinedMesh.unity
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Examples\Scenes\TRex_CombinedMesh.unity
+    projectPath: Assets\Anima2D\Examples\Scenes\TRex_CombinedMesh.unity
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Examples\Scenes\UnityChan.unity
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Examples\Scenes\UnityChan.unity
+    projectPath: Assets\Anima2D\Examples\Scenes\UnityChan.unity
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Examples\Scripts\CharacterMotion.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Examples\Scripts\CharacterMotion.cs
+    projectPath: Assets\Anima2D\Examples\Scripts\CharacterMotion.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Examples\Scripts\Follow.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Examples\Scripts\Follow.cs
+    projectPath: Assets\Anima2D\Examples\Scripts\Follow.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Examples\Scripts\SkinnedMeshCombiner.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Examples\Scripts\SkinnedMeshCombiner.cs
+    projectPath: Assets\Anima2D\Examples\Scripts\SkinnedMeshCombiner.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Examples\Scripts\SpringBone.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Examples\Scripts\SpringBone.cs
+    projectPath: Assets\Anima2D\Examples\Scripts\SpringBone.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Examples\Scripts\SpringCollider.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Examples\Scripts\SpringCollider.cs
+    projectPath: Assets\Anima2D\Examples\Scripts\SpringCollider.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Examples\Scripts\SpringManager.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Examples\Scripts\SpringManager.cs
+    projectPath: Assets\Anima2D\Examples\Scripts\SpringManager.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Examples\Scripts\SpriteCycle.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Examples\Scripts\SpriteCycle.cs
+    projectPath: Assets\Anima2D\Examples\Scripts\SpriteCycle.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Examples\Scripts\SpriteCycleParallax.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Examples\Scripts\SpriteCycleParallax.cs
+    projectPath: Assets\Anima2D\Examples\Scripts\SpriteCycleParallax.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Examples\Shaders\Unlit-Alpha-Cull-off.shader
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Examples\Shaders\Unlit-Alpha-Cull-off.shader
+    projectPath: Assets\Anima2D\Examples\Shaders\Unlit-Alpha-Cull-off.shader
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Examples\Shaders\VertexLitOneDirectional.shader
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Examples\Shaders\VertexLitOneDirectional.shader
+    projectPath: Assets\Anima2D\Examples\Shaders\VertexLitOneDirectional.shader
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Examples\Shaders\VisibleInsideMask.mat
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Examples\Shaders\VisibleInsideMask.mat
+    projectPath: Assets\Anima2D\Examples\Shaders\VisibleInsideMask.mat
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Examples\Shaders\VisibleInsideMask.shader
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Examples\Shaders\VisibleInsideMask.shader
+    projectPath: Assets\Anima2D\Examples\Shaders\VisibleInsideMask.shader
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Examples\Shaders\VisibleOutsideMask.mat
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Examples\Shaders\VisibleOutsideMask.mat
+    projectPath: Assets\Anima2D\Examples\Shaders\VisibleOutsideMask.mat
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Examples\Shaders\VisibleOutsideMask.shader
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Examples\Shaders\VisibleOutsideMask.shader
+    projectPath: Assets\Anima2D\Examples\Shaders\VisibleOutsideMask.shader
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Examples\TRex\Animations\Idle.anim
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Examples\TRex\Animations\Idle.anim
+    projectPath: Assets\Anima2D\Examples\TRex\Animations\Idle.anim
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Examples\TRex\Animations\Idle_Baked.anim
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Examples\TRex\Animations\Idle_Baked.anim
+    projectPath: Assets\Anima2D\Examples\TRex\Animations\Idle_Baked.anim
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Examples\TRex\Animations\Trex.controller
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Examples\TRex\Animations\Trex.controller
+    projectPath: Assets\Anima2D\Examples\TRex\Animations\Trex.controller
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Examples\TRex\Animations\Trex_Baked_Animations.overrideController
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Examples\TRex\Animations\Trex_Baked_Animations.overrideController
+    projectPath: Assets\Anima2D\Examples\TRex\Animations\Trex_Baked_Animations.overrideController
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Examples\TRex\Animations\Walk.anim
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Examples\TRex\Animations\Walk.anim
+    projectPath: Assets\Anima2D\Examples\TRex\Animations\Walk.anim
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Examples\TRex\Animations\Walk_Baked.anim
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Examples\TRex\Animations\Walk_Baked.anim
+    projectPath: Assets\Anima2D\Examples\TRex\Animations\Walk_Baked.anim
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Examples\TRex\Poses\Base.asset
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Examples\TRex\Poses\Base.asset
+    projectPath: Assets\Anima2D\Examples\TRex\Poses\Base.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Examples\TRex\Poses\Warning.asset
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Examples\TRex\Poses\Warning.asset
+    projectPath: Assets\Anima2D\Examples\TRex\Poses\Warning.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Examples\TRex\SpriteMeshes\t_rex_body.asset
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Examples\TRex\SpriteMeshes\t_rex_body.asset
+    projectPath: Assets\Anima2D\Examples\TRex\SpriteMeshes\t_rex_body.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Examples\TRex\SpriteMeshes\t_rex_jaw_open.asset
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Examples\TRex\SpriteMeshes\t_rex_jaw_open.asset
+    projectPath: Assets\Anima2D\Examples\TRex\SpriteMeshes\t_rex_jaw_open.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Examples\TRex\SpriteMeshes\t_rex_jaw_open_back.asset
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Examples\TRex\SpriteMeshes\t_rex_jaw_open_back.asset
+    projectPath: Assets\Anima2D\Examples\TRex\SpriteMeshes\t_rex_jaw_open_back.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Examples\TRex\SpriteMeshes\t_rex_leg.asset
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Examples\TRex\SpriteMeshes\t_rex_leg.asset
+    projectPath: Assets\Anima2D\Examples\TRex\SpriteMeshes\t_rex_leg.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Examples\TRex\TRexAtlas.spriteatlas
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Examples\TRex\TRexAtlas.spriteatlas
+    projectPath: Assets\Anima2D\Examples\TRex\TRexAtlas.spriteatlas
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Examples\UnityChan\Animations\Idle.anim
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Examples\UnityChan\Animations\Idle.anim
+    projectPath: Assets\Anima2D\Examples\UnityChan\Animations\Idle.anim
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Examples\UnityChan\Animations\Unity chan.controller
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Examples\UnityChan\Animations\Unity
+      chan.controller
+    projectPath: Assets\Anima2D\Examples\UnityChan\Animations\Unity chan.controller
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Examples\UnityChan\Poses\Base.asset
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Examples\UnityChan\Poses\Base.asset
+    projectPath: Assets\Anima2D\Examples\UnityChan\Poses\Base.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Examples\UnityChan\SpriteMeshes\arm_1.asset
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Examples\UnityChan\SpriteMeshes\arm_1.asset
+    projectPath: Assets\Anima2D\Examples\UnityChan\SpriteMeshes\arm_1.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Examples\UnityChan\SpriteMeshes\arm_2.asset
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Examples\UnityChan\SpriteMeshes\arm_2.asset
+    projectPath: Assets\Anima2D\Examples\UnityChan\SpriteMeshes\arm_2.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Examples\UnityChan\SpriteMeshes\dress.asset
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Examples\UnityChan\SpriteMeshes\dress.asset
+    projectPath: Assets\Anima2D\Examples\UnityChan\SpriteMeshes\dress.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Examples\UnityChan\SpriteMeshes\eye_1.asset
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Examples\UnityChan\SpriteMeshes\eye_1.asset
+    projectPath: Assets\Anima2D\Examples\UnityChan\SpriteMeshes\eye_1.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Examples\UnityChan\SpriteMeshes\eye_2.asset
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Examples\UnityChan\SpriteMeshes\eye_2.asset
+    projectPath: Assets\Anima2D\Examples\UnityChan\SpriteMeshes\eye_2.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Examples\UnityChan\SpriteMeshes\eye_ball_1.asset
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Examples\UnityChan\SpriteMeshes\eye_ball_1.asset
+    projectPath: Assets\Anima2D\Examples\UnityChan\SpriteMeshes\eye_ball_1.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Examples\UnityChan\SpriteMeshes\eye_ball_2.asset
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Examples\UnityChan\SpriteMeshes\eye_ball_2.asset
+    projectPath: Assets\Anima2D\Examples\UnityChan\SpriteMeshes\eye_ball_2.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Examples\UnityChan\SpriteMeshes\eye_lash_1.asset
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Examples\UnityChan\SpriteMeshes\eye_lash_1.asset
+    projectPath: Assets\Anima2D\Examples\UnityChan\SpriteMeshes\eye_lash_1.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Examples\UnityChan\SpriteMeshes\eye_lash_2.asset
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Examples\UnityChan\SpriteMeshes\eye_lash_2.asset
+    projectPath: Assets\Anima2D\Examples\UnityChan\SpriteMeshes\eye_lash_2.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Examples\UnityChan\SpriteMeshes\face.asset
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Examples\UnityChan\SpriteMeshes\face.asset
+    projectPath: Assets\Anima2D\Examples\UnityChan\SpriteMeshes\face.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Examples\UnityChan\SpriteMeshes\hair_1.asset
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Examples\UnityChan\SpriteMeshes\hair_1.asset
+    projectPath: Assets\Anima2D\Examples\UnityChan\SpriteMeshes\hair_1.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Examples\UnityChan\SpriteMeshes\hair_2.asset
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Examples\UnityChan\SpriteMeshes\hair_2.asset
+    projectPath: Assets\Anima2D\Examples\UnityChan\SpriteMeshes\hair_2.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Examples\UnityChan\SpriteMeshes\hair_3.asset
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Examples\UnityChan\SpriteMeshes\hair_3.asset
+    projectPath: Assets\Anima2D\Examples\UnityChan\SpriteMeshes\hair_3.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Examples\UnityChan\SpriteMeshes\hair_4.asset
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Examples\UnityChan\SpriteMeshes\hair_4.asset
+    projectPath: Assets\Anima2D\Examples\UnityChan\SpriteMeshes\hair_4.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Examples\UnityChan\SpriteMeshes\hips.asset
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Examples\UnityChan\SpriteMeshes\hips.asset
+    projectPath: Assets\Anima2D\Examples\UnityChan\SpriteMeshes\hips.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Examples\UnityChan\SpriteMeshes\leg_1.asset
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Examples\UnityChan\SpriteMeshes\leg_1.asset
+    projectPath: Assets\Anima2D\Examples\UnityChan\SpriteMeshes\leg_1.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Examples\UnityChan\SpriteMeshes\leg_2.asset
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Examples\UnityChan\SpriteMeshes\leg_2.asset
+    projectPath: Assets\Anima2D\Examples\UnityChan\SpriteMeshes\leg_2.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Examples\UnityChan\SpriteMeshes\neck.asset
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Examples\UnityChan\SpriteMeshes\neck.asset
+    projectPath: Assets\Anima2D\Examples\UnityChan\SpriteMeshes\neck.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Examples\UnityChan\SpriteMeshes\ribbon.asset
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Examples\UnityChan\SpriteMeshes\ribbon.asset
+    projectPath: Assets\Anima2D\Examples\UnityChan\SpriteMeshes\ribbon.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Examples\UnityChan\SpriteMeshes\ribbon_2.asset
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Examples\UnityChan\SpriteMeshes\ribbon_2.asset
+    projectPath: Assets\Anima2D\Examples\UnityChan\SpriteMeshes\ribbon_2.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Examples\UnityChan\SpriteMeshes\sleeve_1.asset
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Examples\UnityChan\SpriteMeshes\sleeve_1.asset
+    projectPath: Assets\Anima2D\Examples\UnityChan\SpriteMeshes\sleeve_1.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Examples\UnityChan\SpriteMeshes\sleeve_1_back.asset
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Examples\UnityChan\SpriteMeshes\sleeve_1_back.asset
+    projectPath: Assets\Anima2D\Examples\UnityChan\SpriteMeshes\sleeve_1_back.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Examples\UnityChan\SpriteMeshes\sleeve_2.asset
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Examples\UnityChan\SpriteMeshes\sleeve_2.asset
+    projectPath: Assets\Anima2D\Examples\UnityChan\SpriteMeshes\sleeve_2.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Examples\UnityChan\SpriteMeshes\sleeve_back_2.asset
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Examples\UnityChan\SpriteMeshes\sleeve_back_2.asset
+    projectPath: Assets\Anima2D\Examples\UnityChan\SpriteMeshes\sleeve_back_2.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Examples\UnityChan\UnityChanAtlas.spriteatlas
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Examples\UnityChan\UnityChanAtlas.spriteatlas
+    projectPath: Assets\Anima2D\Examples\UnityChan\UnityChanAtlas.spriteatlas
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Licenses.txt
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Licenses.txt
+    projectPath: Assets\Anima2D\Licenses.txt
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Readme.txt
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Readme.txt
+    projectPath: Assets\Anima2D\Readme.txt
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Bone2D.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Bone2D.cs
+    projectPath: Assets\Anima2D\Scripts\Bone2D.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Control.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Control.cs
+    projectPath: Assets\Anima2D\Scripts\Control.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\AnimationBaker.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\AnimationBaker.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\AnimationBaker.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\AnimationFixer\AnimationFixer.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\AnimationFixer\AnimationFixer.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\AnimationFixer\AnimationFixer.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\AnimationWindowExtra\AnimationWindowExtra.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\AnimationWindowExtra\AnimationWindowExtra.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\AnimationWindowExtra\AnimationWindowExtra.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\AnimationWindowExtra\AnimationWindowImpl_2017_1.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\AnimationWindowExtra\AnimationWindowImpl_2017_1.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\AnimationWindowExtra\AnimationWindowImpl_2017_1.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\AnimationWindowExtra\AnimationWindowImpl_50.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\AnimationWindowExtra\AnimationWindowImpl_50.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\AnimationWindowExtra\AnimationWindowImpl_50.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\AnimationWindowExtra\AnimationWindowImpl_51_52_53_54_55.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\AnimationWindowExtra\AnimationWindowImpl_51_52_53_54_55.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\AnimationWindowExtra\AnimationWindowImpl_51_52_53_54_55.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\AnimationWindowExtra\AnimationWindowImpl_56.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\AnimationWindowExtra\AnimationWindowImpl_56.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\AnimationWindowExtra\AnimationWindowImpl_56.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\AnimationWindowExtra\IAnimationWindowImpl.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\AnimationWindowExtra\IAnimationWindowImpl.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\AnimationWindowExtra\IAnimationWindowImpl.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\BbwPlugin.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\BbwPlugin.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\BbwPlugin.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\BindInfo.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\BindInfo.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\BindInfo.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\BlendShape.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\BlendShape.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\BlendShape.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\BlendShapeEditor.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\BlendShapeEditor.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\BlendShapeEditor.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\BlendShapeFrame.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\BlendShapeFrame.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\BlendShapeFrame.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\BlendShapeFrameEditor.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\BlendShapeFrameEditor.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\BlendShapeFrameEditor.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\Bone2DEditor.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\Bone2DEditor.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\Bone2DEditor.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\BoneUtils.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\BoneUtils.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\BoneUtils.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\BoneWeight.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\BoneWeight.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\BoneWeight.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\ColorRing.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\ColorRing.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\ColorRing.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\ContextMenu.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\ContextMenu.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\ContextMenu.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\CurveUtility.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\CurveUtility.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\CurveUtility.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\Edge.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\Edge.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\Edge.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\EditorEventHandler.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\EditorEventHandler.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\EditorEventHandler.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\EditorExtra.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\EditorExtra.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\EditorExtra.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\EditorGUIExtra.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\EditorGUIExtra.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\EditorGUIExtra.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\EditorUpdater.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\EditorUpdater.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\EditorUpdater.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\Exporter\Exporter.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\Exporter\Exporter.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\Exporter\Exporter.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\Gizmos.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\Gizmos.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\Gizmos.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\HandlesExtra.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\HandlesExtra.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\HandlesExtra.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\Hole.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\Hole.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\Hole.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\Ik2DEditor.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\Ik2DEditor.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\Ik2DEditor.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\IkCCD2DEditor.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\IkCCD2DEditor.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\IkCCD2DEditor.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\IkGroupEditor.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\IkGroupEditor.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\IkGroupEditor.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\IkLimb2DEditor.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\IkLimb2DEditor.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\IkLimb2DEditor.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\IkUtils.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\IkUtils.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\IkUtils.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\IndexedEdge.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\IndexedEdge.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\IndexedEdge.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\InspectorEditor.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\InspectorEditor.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\InspectorEditor.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\MaskCreator.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\MaskCreator.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\MaskCreator.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\MeshToolEditor.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\MeshToolEditor.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\MeshToolEditor.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\Node.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\Node.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\Node.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\OnionSkin\MaterialCache.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\OnionSkin\MaterialCache.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\OnionSkin\MaterialCache.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\OnionSkin\ObjectPool.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\OnionSkin\ObjectPool.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\OnionSkin\ObjectPool.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\OnionSkin\OnionLayer.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\OnionSkin\OnionLayer.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\OnionSkin\OnionLayer.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\OnionSkin\OnionLayer_56.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\OnionSkin\OnionLayer_56.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\OnionSkin\OnionLayer_56.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\OnionSkin\OnionLayerManager.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\OnionSkin\OnionLayerManager.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\OnionSkin\OnionLayerManager.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\OnionSkin\OnionSkinWindow.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\OnionSkin\OnionSkinWindow.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\OnionSkin\OnionSkinWindow.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\PoseManagerEditor.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\PoseManagerEditor.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\PoseManagerEditor.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\PoseUtils.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\PoseUtils.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\PoseUtils.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\RectHandles.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\RectHandles.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\RectHandles.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\ScriptableObjectUtility.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\ScriptableObjectUtility.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\ScriptableObjectUtility.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\SelectionRectTool.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\SelectionRectTool.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\SelectionRectTool.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\SerializedCache.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\SerializedCache.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\SerializedCache.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\SliceEditor.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\SliceEditor.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\SliceEditor.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\SpriteMeshAnimationEditor.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\SpriteMeshAnimationEditor.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\SpriteMeshAnimationEditor.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\SpriteMeshCache.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\SpriteMeshCache.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\SpriteMeshCache.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\SpriteMeshData.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\SpriteMeshData.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\SpriteMeshData.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\SpriteMeshEditor.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\SpriteMeshEditor.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\SpriteMeshEditor.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\SpriteMeshEditorWindow.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\SpriteMeshEditorWindow.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\SpriteMeshEditorWindow.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\SpriteMeshInstanceEditor.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\SpriteMeshInstanceEditor.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\SpriteMeshInstanceEditor.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\SpriteMeshPostprocessor.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\SpriteMeshPostprocessor.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\SpriteMeshPostprocessor.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\SpriteMeshUtils.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\SpriteMeshUtils.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\SpriteMeshUtils.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\TextureEditorWindow.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\TextureEditorWindow.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\TextureEditorWindow.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\TimeLine\BlendShapeFrameDopeElement.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\TimeLine\BlendShapeFrameDopeElement.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\TimeLine\BlendShapeFrameDopeElement.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\TimeLine\IDopeElement.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\TimeLine\IDopeElement.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\TimeLine\IDopeElement.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\TimeLine\TickHandler.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\TimeLine\TickHandler.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\TimeLine\TickHandler.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\TimeLine\TickStyle.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\TimeLine\TickStyle.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\TimeLine\TickStyle.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\TimeLine\TimeArea.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\TimeLine\TimeArea.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\TimeLine\TimeArea.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\TimeLine\TimeLine.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\TimeLine\TimeLine.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\TimeLine\TimeLine.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\TimeLine\ZoomableArea.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\TimeLine\ZoomableArea.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\TimeLine\ZoomableArea.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\ToolsExtra.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\ToolsExtra.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\ToolsExtra.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\Triangle\Algorithm\Dwyer.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\Triangle\Algorithm\Dwyer.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\Triangle\Algorithm\Dwyer.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\Triangle\Algorithm\Incremental.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\Triangle\Algorithm\Incremental.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\Triangle\Algorithm\Incremental.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\Triangle\Algorithm\ITriangulator.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\Triangle\Algorithm\ITriangulator.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\Triangle\Algorithm\ITriangulator.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\Triangle\Algorithm\SweepLine.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\Triangle\Algorithm\SweepLine.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\Triangle\Algorithm\SweepLine.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\Triangle\BadTriQueue.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\Triangle\BadTriQueue.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\Triangle\BadTriQueue.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\Triangle\Behavior.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\Triangle\Behavior.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\Triangle\Behavior.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\Triangle\Carver.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\Triangle\Carver.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\Triangle\Carver.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\Triangle\Data\BadSubseg.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\Triangle\Data\BadSubseg.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\Triangle\Data\BadSubseg.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\Triangle\Data\BadTriangle.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\Triangle\Data\BadTriangle.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\Triangle\Data\BadTriangle.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\Triangle\Data\Osub.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\Triangle\Data\Osub.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\Triangle\Data\Osub.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\Triangle\Data\Otri.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\Triangle\Data\Otri.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\Triangle\Data\Otri.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\Triangle\Data\Segment.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\Triangle\Data\Segment.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\Triangle\Data\Segment.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\Triangle\Data\Triangle.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\Triangle\Data\Triangle.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\Triangle\Data\Triangle.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\Triangle\Data\Vertex.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\Triangle\Data\Vertex.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\Triangle\Data\Vertex.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\Triangle\Enums.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\Triangle\Enums.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\Triangle\Enums.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\Triangle\Geometry\BoundingBox.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\Triangle\Geometry\BoundingBox.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\Triangle\Geometry\BoundingBox.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\Triangle\Geometry\Edge.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\Triangle\Geometry\Edge.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\Triangle\Geometry\Edge.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\Triangle\Geometry\EdgeEnumerator.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\Triangle\Geometry\EdgeEnumerator.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\Triangle\Geometry\EdgeEnumerator.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\Triangle\Geometry\InputGeometry.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\Triangle\Geometry\InputGeometry.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\Triangle\Geometry\InputGeometry.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\Triangle\Geometry\ISegment.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\Triangle\Geometry\ISegment.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\Triangle\Geometry\ISegment.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\Triangle\Geometry\ITriangle.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\Triangle\Geometry\ITriangle.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\Triangle\Geometry\ITriangle.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\Triangle\Geometry\Point.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\Triangle\Geometry\Point.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\Triangle\Geometry\Point.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\Triangle\Geometry\RegionPointer.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\Triangle\Geometry\RegionPointer.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\Triangle\Geometry\RegionPointer.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\Triangle\IO\DataReader.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\Triangle\IO\DataReader.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\Triangle\IO\DataReader.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\Triangle\IO\DebugWriter.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\Triangle\IO\DebugWriter.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\Triangle\IO\DebugWriter.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\Triangle\IO\FileReader.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\Triangle\IO\FileReader.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\Triangle\IO\FileReader.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\Triangle\IO\FileWriter.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\Triangle\IO\FileWriter.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\Triangle\IO\FileWriter.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\Triangle\IO\IGeometryFormat.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\Triangle\IO\IGeometryFormat.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\Triangle\IO\IGeometryFormat.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\Triangle\IO\IMeshFormat.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\Triangle\IO\IMeshFormat.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\Triangle\IO\IMeshFormat.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\Triangle\IO\InputTriangle.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\Triangle\IO\InputTriangle.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\Triangle\IO\InputTriangle.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\Triangle\IO\TriangleFormat.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\Triangle\IO\TriangleFormat.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\Triangle\IO\TriangleFormat.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\Triangle\Mesh.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\Triangle\Mesh.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\Triangle\Mesh.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\Triangle\NewLocation.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\Triangle\NewLocation.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\Triangle\NewLocation.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\Triangle\Primitives.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\Triangle\Primitives.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\Triangle\Primitives.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\Triangle\Quality.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\Triangle\Quality.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\Triangle\Quality.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\Triangle\Sampler.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\Triangle\Sampler.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\Triangle\Sampler.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\Triangle\Smoothing\ISmoother.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\Triangle\Smoothing\ISmoother.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\Triangle\Smoothing\ISmoother.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\Triangle\Smoothing\SimpleSmoother.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\Triangle\Smoothing\SimpleSmoother.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\Triangle\Smoothing\SimpleSmoother.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\Triangle\Tools\AdjacencyMatrix.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\Triangle\Tools\AdjacencyMatrix.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\Triangle\Tools\AdjacencyMatrix.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\Triangle\Tools\BoundedVoronoi.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\Triangle\Tools\BoundedVoronoi.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\Triangle\Tools\BoundedVoronoi.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\Triangle\Tools\CuthillMcKee.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\Triangle\Tools\CuthillMcKee.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\Triangle\Tools\CuthillMcKee.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\Triangle\Tools\IVoronoi.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\Triangle\Tools\IVoronoi.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\Triangle\Tools\IVoronoi.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\Triangle\Tools\QuadTree.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\Triangle\Tools\QuadTree.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\Triangle\Tools\QuadTree.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\Triangle\Tools\QualityMeasure.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\Triangle\Tools\QualityMeasure.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\Triangle\Tools\QualityMeasure.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\Triangle\Tools\RegionIterator.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\Triangle\Tools\RegionIterator.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\Triangle\Tools\RegionIterator.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\Triangle\Tools\Statistic.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\Triangle\Tools\Statistic.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\Triangle\Tools\Statistic.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\Triangle\Tools\Voronoi.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\Triangle\Tools\Voronoi.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\Triangle\Tools\Voronoi.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\Triangle\Tools\VoronoiRegion.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\Triangle\Tools\VoronoiRegion.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\Triangle\Tools\VoronoiRegion.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\Triangle\TriangleLocator.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\Triangle\TriangleLocator.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\Triangle\TriangleLocator.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\VertexAnimation\BakedMesh.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\VertexAnimation\BakedMesh.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\VertexAnimation\BakedMesh.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\VertexAnimation\SpriteMeshInstanceTracker.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\VertexAnimation\SpriteMeshInstanceTracker.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\VertexAnimation\SpriteMeshInstanceTracker.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\VertexAnimation\TransformTracker.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\VertexAnimation\TransformTracker.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\VertexAnimation\TransformTracker.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\VertexAnimation\VertexSelection.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\VertexAnimation\VertexSelection.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\VertexAnimation\VertexSelection.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\VertexManipulator\IVertexManipulable.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\VertexManipulator\IVertexManipulable.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\VertexManipulator\IVertexManipulable.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\VertexManipulator\IVertexManipulator.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\VertexManipulator\IVertexManipulator.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\VertexManipulator\IVertexManipulator.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\VertexManipulator\RectManipulator\IRectManipulable.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\VertexManipulator\RectManipulator\IRectManipulable.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\VertexManipulator\RectManipulator\IRectManipulable.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\VertexManipulator\RectManipulator\IRectManipulatorData.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\VertexManipulator\RectManipulator\IRectManipulatorData.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\VertexManipulator\RectManipulator\IRectManipulatorData.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\VertexManipulator\RectManipulator\RectManipulator.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\VertexManipulator\RectManipulator\RectManipulator.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\VertexManipulator\RectManipulator\RectManipulator.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\VertexManipulator\RectManipulator\RectManipulatorData.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\VertexManipulator\RectManipulator\RectManipulatorData.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\VertexManipulator\RectManipulator\RectManipulatorData.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\VertexManipulator\RectManipulator\RectManipulatorParams.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\VertexManipulator\RectManipulator\RectManipulatorParams.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\VertexManipulator\RectManipulator\RectManipulatorParams.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\VertexManipulator\VertexManipulator.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\VertexManipulator\VertexManipulator.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\VertexManipulator\VertexManipulator.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\WeightEditor.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\WeightEditor.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\WeightEditor.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Editor\WindowEditorTool.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Editor\WindowEditorTool.cs
+    projectPath: Assets\Anima2D\Scripts\Editor\WindowEditorTool.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\EditorUpdaterProxy.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\EditorUpdaterProxy.cs
+    projectPath: Assets\Anima2D\Scripts\EditorUpdaterProxy.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Ik2D.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Ik2D.cs
+    projectPath: Assets\Anima2D\Scripts\Ik2D.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\IkCCD2D.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\IkCCD2D.cs
+    projectPath: Assets\Anima2D\Scripts\IkCCD2D.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\IkGroup.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\IkGroup.cs
+    projectPath: Assets\Anima2D\Scripts\IkGroup.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\IkLimb2D.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\IkLimb2D.cs
+    projectPath: Assets\Anima2D\Scripts\IkLimb2D.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\IkSolver2D.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\IkSolver2D.cs
+    projectPath: Assets\Anima2D\Scripts\IkSolver2D.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\IkSolver2DCCD.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\IkSolver2DCCD.cs
+    projectPath: Assets\Anima2D\Scripts\IkSolver2DCCD.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\IkSolver2DLimb.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\IkSolver2DLimb.cs
+    projectPath: Assets\Anima2D\Scripts\IkSolver2DLimb.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\MathUtils.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\MathUtils.cs
+    projectPath: Assets\Anima2D\Scripts\MathUtils.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\Pose.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\Pose.cs
+    projectPath: Assets\Anima2D\Scripts\Pose.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\PoseManager.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\PoseManager.cs
+    projectPath: Assets\Anima2D\Scripts\PoseManager.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\SpriteMesh.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\SpriteMesh.cs
+    projectPath: Assets\Anima2D\Scripts\SpriteMesh.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\SpriteMeshAnimation.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\SpriteMeshAnimation.cs
+    projectPath: Assets\Anima2D\Scripts\SpriteMeshAnimation.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Anima2D\Scripts\SpriteMeshInstance.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Anima2D\Scripts\SpriteMeshInstance.cs
+    projectPath: Assets\Anima2D\Scripts\SpriteMeshInstance.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Prefabs\NPC_DUMMY.prefab
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Prefabs\NPC_DUMMY.prefab
+    projectPath: Assets\Prefabs\NPC_DUMMY.prefab
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Prefabs\Stickman 1.prefab
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Prefabs\Stickman 1.prefab
+    projectPath: Assets\Prefabs\Stickman 1.prefab
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Assets\Scripts\NPC\NpcBehavior.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Scripts\NPC\NpcBehavior.cs
+    projectPath: Assets\Scripts\NPC\NpcBehavior.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Scripts\NPC\NPCHealthBar.cs
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assets\Scripts\NPC\NPCHealthBar.cs
+    projectPath: Assets\Scripts\NPC\NPCHealthBar.cs
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -56,6 +1334,18 @@ MonoBehaviour:
   - path: RedStick Redemption\Library\assetDatabase3
     fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\assetDatabase3
     projectPath: Library\assetDatabase3
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\CurrentLayout-default.dwlt
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\CurrentLayout-default.dwlt
+    projectPath: Library\CurrentLayout-default.dwlt
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\EditorInstance.json
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\EditorInstance.json
+    projectPath: Library\EditorInstance.json
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -77,9 +1367,165 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: RedStick Redemption\Library\metadata\09\0936da89239dd30458cc96c5a711031f
-    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\09\0936da89239dd30458cc96c5a711031f
-    projectPath: Library\metadata\09\0936da89239dd30458cc96c5a711031f
+  - path: RedStick Redemption\Library\gfu\cache\repoinfo.yaml
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\gfu\cache\repoinfo.yaml
+    projectPath: Library\gfu\cache\repoinfo.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\00\00205760caa03457ab45ba8232524b25
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\00\00205760caa03457ab45ba8232524b25
+    projectPath: Library\metadata\00\00205760caa03457ab45ba8232524b25
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\00\00ebb149ba0199d47a078ec69cf373c3
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\00\00ebb149ba0199d47a078ec69cf373c3
+    projectPath: Library\metadata\00\00ebb149ba0199d47a078ec69cf373c3
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\00\00ebb149ba0199d47a078ec69cf373c3.info
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\00\00ebb149ba0199d47a078ec69cf373c3.info
+    projectPath: Library\metadata\00\00ebb149ba0199d47a078ec69cf373c3.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\03\034ff52510bf94a57b59e824bec8eb9e
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\03\034ff52510bf94a57b59e824bec8eb9e
+    projectPath: Library\metadata\03\034ff52510bf94a57b59e824bec8eb9e
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\03\03b157d7625014c58bfbad3513f40289
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\03\03b157d7625014c58bfbad3513f40289
+    projectPath: Library\metadata\03\03b157d7625014c58bfbad3513f40289
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\03\03c5c506bf7c64b1da23c9c956733538
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\03\03c5c506bf7c64b1da23c9c956733538
+    projectPath: Library\metadata\03\03c5c506bf7c64b1da23c9c956733538
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\03\03d5630d5c179475ab1e5a13a76f1a8e
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\03\03d5630d5c179475ab1e5a13a76f1a8e
+    projectPath: Library\metadata\03\03d5630d5c179475ab1e5a13a76f1a8e
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\03\03fb51d7f6b0c4d63844311d53c337df
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\03\03fb51d7f6b0c4d63844311d53c337df
+    projectPath: Library\metadata\03\03fb51d7f6b0c4d63844311d53c337df
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\04\047003c59e5b3489a98c3fb64b3d84e8
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\04\047003c59e5b3489a98c3fb64b3d84e8
+    projectPath: Library\metadata\04\047003c59e5b3489a98c3fb64b3d84e8
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\04\047003c59e5b3489a98c3fb64b3d84e8.info
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\04\047003c59e5b3489a98c3fb64b3d84e8.info
+    projectPath: Library\metadata\04\047003c59e5b3489a98c3fb64b3d84e8.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\05\054cba2959de141cc99bb00604d3d1c0
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\05\054cba2959de141cc99bb00604d3d1c0
+    projectPath: Library\metadata\05\054cba2959de141cc99bb00604d3d1c0
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\05\05e4f2701491b4ddd89a2412db245572
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\05\05e4f2701491b4ddd89a2412db245572
+    projectPath: Library\metadata\05\05e4f2701491b4ddd89a2412db245572
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\05\05e87c68d8a21427fbed18e6ee880e28
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\05\05e87c68d8a21427fbed18e6ee880e28
+    projectPath: Library\metadata\05\05e87c68d8a21427fbed18e6ee880e28
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\07\07040d2550d0745079dc599072435c6c
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\07\07040d2550d0745079dc599072435c6c
+    projectPath: Library\metadata\07\07040d2550d0745079dc599072435c6c
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\08\082cfb9f5d6284f44a8b09f1c0f99534
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\08\082cfb9f5d6284f44a8b09f1c0f99534
+    projectPath: Library\metadata\08\082cfb9f5d6284f44a8b09f1c0f99534
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\09\09a50bcc33bad413694da2d2f5708921
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\09\09a50bcc33bad413694da2d2f5708921
+    projectPath: Library\metadata\09\09a50bcc33bad413694da2d2f5708921
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\0c\0c9746b268c1a9943a8aabf490125511.info
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\0c\0c9746b268c1a9943a8aabf490125511.info
+    projectPath: Library\metadata\0c\0c9746b268c1a9943a8aabf490125511.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Library\metadata\0f\0f119c93e6518492286638c8de266388
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\0f\0f119c93e6518492286638c8de266388
+    projectPath: Library\metadata\0f\0f119c93e6518492286638c8de266388
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\12\128e816d22ff04e16a3fce7b8e4e865c
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\12\128e816d22ff04e16a3fce7b8e4e865c
+    projectPath: Library\metadata\12\128e816d22ff04e16a3fce7b8e4e865c
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\13\13edadb66f46049079036d72c18ccfe8
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\13\13edadb66f46049079036d72c18ccfe8
+    projectPath: Library\metadata\13\13edadb66f46049079036d72c18ccfe8
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\13\13fba999ffc1b4a7c8eba21bd77be3c9
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\13\13fba999ffc1b4a7c8eba21bd77be3c9
+    projectPath: Library\metadata\13\13fba999ffc1b4a7c8eba21bd77be3c9
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\14\1453352292c044aedae57e186de9315b
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\14\1453352292c044aedae57e186de9315b
+    projectPath: Library\metadata\14\1453352292c044aedae57e186de9315b
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\16\1617d6fa55a124601ad5f37109b7d344
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\16\1617d6fa55a124601ad5f37109b7d344
+    projectPath: Library\metadata\16\1617d6fa55a124601ad5f37109b7d344
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\16\16d3ff6fd45504522be8898f3058ceb8
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\16\16d3ff6fd45504522be8898f3058ceb8
+    projectPath: Library\metadata\16\16d3ff6fd45504522be8898f3058ceb8
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\19\190367202099b4e1c8579d8a94010bd8
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\19\190367202099b4e1c8579d8a94010bd8
+    projectPath: Library\metadata\19\190367202099b4e1c8579d8a94010bd8
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\19\190367202099b4e1c8579d8a94010bd8.info
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\19\190367202099b4e1c8579d8a94010bd8.info
+    projectPath: Library\metadata\19\190367202099b4e1c8579d8a94010bd8.info
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -89,15 +1535,1743 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: RedStick Redemption\Library\metadata\cf\cff7d368b28463a4dbb18a3e3a95cf6f
-    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\cf\cff7d368b28463a4dbb18a3e3a95cf6f
-    projectPath: Library\metadata\cf\cff7d368b28463a4dbb18a3e3a95cf6f
+  - path: RedStick Redemption\Library\metadata\1b\1b458d58a3a7148058bd39593a0a46e1
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\1b\1b458d58a3a7148058bd39593a0a46e1
+    projectPath: Library\metadata\1b\1b458d58a3a7148058bd39593a0a46e1
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: RedStick Redemption\Library\metadata\cf\cff7d368b28463a4dbb18a3e3a95cf6f.info
-    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\cf\cff7d368b28463a4dbb18a3e3a95cf6f.info
-    projectPath: Library\metadata\cf\cff7d368b28463a4dbb18a3e3a95cf6f.info
+  - path: RedStick Redemption\Library\metadata\1c\1cfdd8d249905b545941aef9b6c595ee
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\1c\1cfdd8d249905b545941aef9b6c595ee
+    projectPath: Library\metadata\1c\1cfdd8d249905b545941aef9b6c595ee
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Library\metadata\1c\1cfdd8d249905b545941aef9b6c595ee.info
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\1c\1cfdd8d249905b545941aef9b6c595ee.info
+    projectPath: Library\metadata\1c\1cfdd8d249905b545941aef9b6c595ee.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Library\metadata\1d\1d69d281900984b539b4aeffdaf328db
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\1d\1d69d281900984b539b4aeffdaf328db
+    projectPath: Library\metadata\1d\1d69d281900984b539b4aeffdaf328db
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\1f\1fad5543f1b511443a395deaa561a14e
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\1f\1fad5543f1b511443a395deaa561a14e
+    projectPath: Library\metadata\1f\1fad5543f1b511443a395deaa561a14e
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\20\204281eda18e848e3807efa87d00713b
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\20\204281eda18e848e3807efa87d00713b
+    projectPath: Library\metadata\20\204281eda18e848e3807efa87d00713b
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\21\21ead2e5b806343ac94d543c63ba1461
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\21\21ead2e5b806343ac94d543c63ba1461
+    projectPath: Library\metadata\21\21ead2e5b806343ac94d543c63ba1461
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\22\222676071e0f56747b94f8c91c9b48e8
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\22\222676071e0f56747b94f8c91c9b48e8
+    projectPath: Library\metadata\22\222676071e0f56747b94f8c91c9b48e8
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: RedStick Redemption\Library\metadata\22\22cdcac9591be401ea03354b7a7110c7
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\22\22cdcac9591be401ea03354b7a7110c7
+    projectPath: Library\metadata\22\22cdcac9591be401ea03354b7a7110c7
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\23\237550c32e206450ea782bd05a644951
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\23\237550c32e206450ea782bd05a644951
+    projectPath: Library\metadata\23\237550c32e206450ea782bd05a644951
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\24\242740043abb84fe793a2597e44204d2
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\24\242740043abb84fe793a2597e44204d2
+    projectPath: Library\metadata\24\242740043abb84fe793a2597e44204d2
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\24\2436745ca625b9f4dadffdba856a4cb7
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\24\2436745ca625b9f4dadffdba856a4cb7
+    projectPath: Library\metadata\24\2436745ca625b9f4dadffdba856a4cb7
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: RedStick Redemption\Library\metadata\24\24c0aca98c77e484d85570f690b1250e.info
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\24\24c0aca98c77e484d85570f690b1250e.info
+    projectPath: Library\metadata\24\24c0aca98c77e484d85570f690b1250e.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Library\metadata\25\25bc9bf3417544316bedd7b7a945f590
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\25\25bc9bf3417544316bedd7b7a945f590
+    projectPath: Library\metadata\25\25bc9bf3417544316bedd7b7a945f590
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\26\26244210383c847feaae53c1e91b4e33
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\26\26244210383c847feaae53c1e91b4e33
+    projectPath: Library\metadata\26\26244210383c847feaae53c1e91b4e33
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\26\26d12a9b4bf5bff4888a43ea72c88ce7
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\26\26d12a9b4bf5bff4888a43ea72c88ce7
+    projectPath: Library\metadata\26\26d12a9b4bf5bff4888a43ea72c88ce7
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\27\276c3aae4c4dd499cb88572428b44ff7
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\27\276c3aae4c4dd499cb88572428b44ff7
+    projectPath: Library\metadata\27\276c3aae4c4dd499cb88572428b44ff7
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\27\2777fbe47d9e341b297b314bab597c3d
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\27\2777fbe47d9e341b297b314bab597c3d
+    projectPath: Library\metadata\27\2777fbe47d9e341b297b314bab597c3d
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\28\2839aa2d13ac3ef44a6083903d3cc24e
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\28\2839aa2d13ac3ef44a6083903d3cc24e
+    projectPath: Library\metadata\28\2839aa2d13ac3ef44a6083903d3cc24e
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: RedStick Redemption\Library\metadata\28\28a2b4619044d4c39a943a09291dffe6
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\28\28a2b4619044d4c39a943a09291dffe6
+    projectPath: Library\metadata\28\28a2b4619044d4c39a943a09291dffe6
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\28\28b21cc094161004394290e5cc7b4361
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\28\28b21cc094161004394290e5cc7b4361
+    projectPath: Library\metadata\28\28b21cc094161004394290e5cc7b4361
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: RedStick Redemption\Library\metadata\29\291501800867140b3ba54c0b3e1e54df
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\29\291501800867140b3ba54c0b3e1e54df
+    projectPath: Library\metadata\29\291501800867140b3ba54c0b3e1e54df
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\2a\2a96dfbd565384a3ca1aa3dbc517f371
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\2a\2a96dfbd565384a3ca1aa3dbc517f371
+    projectPath: Library\metadata\2a\2a96dfbd565384a3ca1aa3dbc517f371
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\2a\2a96dfbd565384a3ca1aa3dbc517f371.info
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\2a\2a96dfbd565384a3ca1aa3dbc517f371.info
+    projectPath: Library\metadata\2a\2a96dfbd565384a3ca1aa3dbc517f371.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\2b\2bb1c2f3dea1b3a4981fb3bdc18fbc16
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\2b\2bb1c2f3dea1b3a4981fb3bdc18fbc16
+    projectPath: Library\metadata\2b\2bb1c2f3dea1b3a4981fb3bdc18fbc16
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\2b\2bb1c2f3dea1b3a4981fb3bdc18fbc16.info
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\2b\2bb1c2f3dea1b3a4981fb3bdc18fbc16.info
+    projectPath: Library\metadata\2b\2bb1c2f3dea1b3a4981fb3bdc18fbc16.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Library\metadata\2d\2d5335df599a9446384db436a98d5fea
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\2d\2d5335df599a9446384db436a98d5fea
+    projectPath: Library\metadata\2d\2d5335df599a9446384db436a98d5fea
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\2e\2eae94e2a1cfa884a81453d194003f89
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\2e\2eae94e2a1cfa884a81453d194003f89
+    projectPath: Library\metadata\2e\2eae94e2a1cfa884a81453d194003f89
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\30\3090c1554e8ca3f49a0070e7ca040a8a
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\30\3090c1554e8ca3f49a0070e7ca040a8a
+    projectPath: Library\metadata\30\3090c1554e8ca3f49a0070e7ca040a8a
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\31\315ee65f910e84c6c8c8b891a9513484
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\31\315ee65f910e84c6c8c8b891a9513484
+    projectPath: Library\metadata\31\315ee65f910e84c6c8c8b891a9513484
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\32\327dce4e434c9404ebeeaa1b183cc89d
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\32\327dce4e434c9404ebeeaa1b183cc89d
+    projectPath: Library\metadata\32\327dce4e434c9404ebeeaa1b183cc89d
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\33\3396df8e825d94ff3b8535e85da0d247
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\33\3396df8e825d94ff3b8535e85da0d247
+    projectPath: Library\metadata\33\3396df8e825d94ff3b8535e85da0d247
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\34\340acdf816a05420eaab10982127fe50
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\34\340acdf816a05420eaab10982127fe50
+    projectPath: Library\metadata\34\340acdf816a05420eaab10982127fe50
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\34\340acdf816a05420eaab10982127fe50.info
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\34\340acdf816a05420eaab10982127fe50.info
+    projectPath: Library\metadata\34\340acdf816a05420eaab10982127fe50.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\35\350eff1a329d3403e865f355a02f7c02
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\35\350eff1a329d3403e865f355a02f7c02
+    projectPath: Library\metadata\35\350eff1a329d3403e865f355a02f7c02
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\35\350eff1a329d3403e865f355a02f7c02.info
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\35\350eff1a329d3403e865f355a02f7c02.info
+    projectPath: Library\metadata\35\350eff1a329d3403e865f355a02f7c02.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\35\35e9cacc81a6e4740b2de651b2e19532
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\35\35e9cacc81a6e4740b2de651b2e19532
+    projectPath: Library\metadata\35\35e9cacc81a6e4740b2de651b2e19532
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\35\35ffb3f49fbd749d9aafe56cbad9ab10
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\35\35ffb3f49fbd749d9aafe56cbad9ab10
+    projectPath: Library\metadata\35\35ffb3f49fbd749d9aafe56cbad9ab10
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\36\36ffd3d4864ad404a9a0300f6a513e2b
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\36\36ffd3d4864ad404a9a0300f6a513e2b
+    projectPath: Library\metadata\36\36ffd3d4864ad404a9a0300f6a513e2b
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\38\38d4d68d702564f7e9015436cef0ebc3
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\38\38d4d68d702564f7e9015436cef0ebc3
+    projectPath: Library\metadata\38\38d4d68d702564f7e9015436cef0ebc3
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\38\38dcc47d9172640dc85d5c6a27b863ac
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\38\38dcc47d9172640dc85d5c6a27b863ac
+    projectPath: Library\metadata\38\38dcc47d9172640dc85d5c6a27b863ac
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\39\39cf0f77dc26b429db9c792d4ea37788
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\39\39cf0f77dc26b429db9c792d4ea37788
+    projectPath: Library\metadata\39\39cf0f77dc26b429db9c792d4ea37788
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\3a\3af9604360df6489ab3fa31d079bcf72
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\3a\3af9604360df6489ab3fa31d079bcf72
+    projectPath: Library\metadata\3a\3af9604360df6489ab3fa31d079bcf72
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\3a\3afb7638c04ae42ac84d166a5645ad47
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\3a\3afb7638c04ae42ac84d166a5645ad47
+    projectPath: Library\metadata\3a\3afb7638c04ae42ac84d166a5645ad47
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\3c\3c8297cc5dc05db47b20fdc2cf5d2a7b
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\3c\3c8297cc5dc05db47b20fdc2cf5d2a7b
+    projectPath: Library\metadata\3c\3c8297cc5dc05db47b20fdc2cf5d2a7b
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\3d\3d9424e13eabaf046a7a42ad947e9f0c
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\3d\3d9424e13eabaf046a7a42ad947e9f0c
+    projectPath: Library\metadata\3d\3d9424e13eabaf046a7a42ad947e9f0c
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\3f\3ff9294d7fc4745c48d99be9219aba3e
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\3f\3ff9294d7fc4745c48d99be9219aba3e
+    projectPath: Library\metadata\3f\3ff9294d7fc4745c48d99be9219aba3e
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\3f\3ff9294d7fc4745c48d99be9219aba3e.info
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\3f\3ff9294d7fc4745c48d99be9219aba3e.info
+    projectPath: Library\metadata\3f\3ff9294d7fc4745c48d99be9219aba3e.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\41\411e4d2563d1c4c45bebdb9d97c7ac0e
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\41\411e4d2563d1c4c45bebdb9d97c7ac0e
+    projectPath: Library\metadata\41\411e4d2563d1c4c45bebdb9d97c7ac0e
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\41\411e4d2563d1c4c45bebdb9d97c7ac0e.info
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\41\411e4d2563d1c4c45bebdb9d97c7ac0e.info
+    projectPath: Library\metadata\41\411e4d2563d1c4c45bebdb9d97c7ac0e.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\41\4134d45413cf5294aaf55c2804158d1f
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\41\4134d45413cf5294aaf55c2804158d1f
+    projectPath: Library\metadata\41\4134d45413cf5294aaf55c2804158d1f
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: RedStick Redemption\Library\metadata\41\41a86d89041a6403bbc6f97ab0e3f5e1
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\41\41a86d89041a6403bbc6f97ab0e3f5e1
+    projectPath: Library\metadata\41\41a86d89041a6403bbc6f97ab0e3f5e1
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\43\435b5466795ea4d7ca6909ee3bee64f7
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\43\435b5466795ea4d7ca6909ee3bee64f7
+    projectPath: Library\metadata\43\435b5466795ea4d7ca6909ee3bee64f7
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\43\4388d0f9f81c74d66b19f198d097db18
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\43\4388d0f9f81c74d66b19f198d097db18
+    projectPath: Library\metadata\43\4388d0f9f81c74d66b19f198d097db18
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\43\43fe60a9d569f44d9aee00ee2d5e82e5
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\43\43fe60a9d569f44d9aee00ee2d5e82e5
+    projectPath: Library\metadata\43\43fe60a9d569f44d9aee00ee2d5e82e5
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\44\44b1c1d0f217e400f8c98072868231cc
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\44\44b1c1d0f217e400f8c98072868231cc
+    projectPath: Library\metadata\44\44b1c1d0f217e400f8c98072868231cc
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\45\452e7b03812d544549659324548ba191
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\45\452e7b03812d544549659324548ba191
+    projectPath: Library\metadata\45\452e7b03812d544549659324548ba191
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\46\46819ad241d02405ea01a7516d87cb68
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\46\46819ad241d02405ea01a7516d87cb68
+    projectPath: Library\metadata\46\46819ad241d02405ea01a7516d87cb68
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\48\48065ae8dcb0b4f1599f36be238a12e1
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\48\48065ae8dcb0b4f1599f36be238a12e1
+    projectPath: Library\metadata\48\48065ae8dcb0b4f1599f36be238a12e1
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\48\4896051103021634ab1c13a6419d6d06.info
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\48\4896051103021634ab1c13a6419d6d06.info
+    projectPath: Library\metadata\48\4896051103021634ab1c13a6419d6d06.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Library\metadata\4a\4aa2275b837aa44bb9145dee50090201
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\4a\4aa2275b837aa44bb9145dee50090201
+    projectPath: Library\metadata\4a\4aa2275b837aa44bb9145dee50090201
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\4b\4b858a4086da447b4b157fe726568894
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\4b\4b858a4086da447b4b157fe726568894
+    projectPath: Library\metadata\4b\4b858a4086da447b4b157fe726568894
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\4b\4b858a4086da447b4b157fe726568894.info
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\4b\4b858a4086da447b4b157fe726568894.info
+    projectPath: Library\metadata\4b\4b858a4086da447b4b157fe726568894.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\4b\4be2628ba5d605044ad2808507c17c3b
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\4b\4be2628ba5d605044ad2808507c17c3b
+    projectPath: Library\metadata\4b\4be2628ba5d605044ad2808507c17c3b
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\4c\4cf12c2e6248442208c8e44d5eb786c3
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\4c\4cf12c2e6248442208c8e44d5eb786c3
+    projectPath: Library\metadata\4c\4cf12c2e6248442208c8e44d5eb786c3
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\4d\4d819f148a73e4d538336155d321cc92
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\4d\4d819f148a73e4d538336155d321cc92
+    projectPath: Library\metadata\4d\4d819f148a73e4d538336155d321cc92
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\4e\4e51296b41ebf4189ba1aba1c5ddbc48
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\4e\4e51296b41ebf4189ba1aba1c5ddbc48
+    projectPath: Library\metadata\4e\4e51296b41ebf4189ba1aba1c5ddbc48
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\4e\4efd2f4e6b756493cad2c93d7e94f1b2
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\4e\4efd2f4e6b756493cad2c93d7e94f1b2
+    projectPath: Library\metadata\4e\4efd2f4e6b756493cad2c93d7e94f1b2
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\50\505601a915fcb4ce791279fae666315c
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\50\505601a915fcb4ce791279fae666315c
+    projectPath: Library\metadata\50\505601a915fcb4ce791279fae666315c
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\51\513d93dc9c2500345bbf5614b0b6c36a.info
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\51\513d93dc9c2500345bbf5614b0b6c36a.info
+    projectPath: Library\metadata\51\513d93dc9c2500345bbf5614b0b6c36a.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Library\metadata\51\51e092fe888ad4be48658846931d9dfd
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\51\51e092fe888ad4be48658846931d9dfd
+    projectPath: Library\metadata\51\51e092fe888ad4be48658846931d9dfd
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\53\533669fe702b5414cbcdd5a5efeb8e36
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\53\533669fe702b5414cbcdd5a5efeb8e36
+    projectPath: Library\metadata\53\533669fe702b5414cbcdd5a5efeb8e36
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\54\54efe52693aae4e42919cdebf24a8451
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\54\54efe52693aae4e42919cdebf24a8451
+    projectPath: Library\metadata\54\54efe52693aae4e42919cdebf24a8451
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\55\554d6b0fe9c4d4c9397736a601764772
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\55\554d6b0fe9c4d4c9397736a601764772
+    projectPath: Library\metadata\55\554d6b0fe9c4d4c9397736a601764772
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\56\5638e81ef4c8c5c4eb7ea80dd685ba4f
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\56\5638e81ef4c8c5c4eb7ea80dd685ba4f
+    projectPath: Library\metadata\56\5638e81ef4c8c5c4eb7ea80dd685ba4f
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\56\5638e81ef4c8c5c4eb7ea80dd685ba4f.info
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\56\5638e81ef4c8c5c4eb7ea80dd685ba4f.info
+    projectPath: Library\metadata\56\5638e81ef4c8c5c4eb7ea80dd685ba4f.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\56\56f32b8d13fa44ee8b3ab376e9e0803b
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\56\56f32b8d13fa44ee8b3ab376e9e0803b
+    projectPath: Library\metadata\56\56f32b8d13fa44ee8b3ab376e9e0803b
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\58\5812bd3bc171b4cb9a1bc6036fa15423
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\58\5812bd3bc171b4cb9a1bc6036fa15423
+    projectPath: Library\metadata\58\5812bd3bc171b4cb9a1bc6036fa15423
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\58\58e23e72fa0f0481789f1062751fe90e
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\58\58e23e72fa0f0481789f1062751fe90e
+    projectPath: Library\metadata\58\58e23e72fa0f0481789f1062751fe90e
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\5a\5a40b11f027704454a09fbc626d0ce04
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\5a\5a40b11f027704454a09fbc626d0ce04
+    projectPath: Library\metadata\5a\5a40b11f027704454a09fbc626d0ce04
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\5b\5bc1e9f16920040f7beffb1a303e7e15
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\5b\5bc1e9f16920040f7beffb1a303e7e15
+    projectPath: Library\metadata\5b\5bc1e9f16920040f7beffb1a303e7e15
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\5c\5c537fc8ed5d34931bf006b3f15bba35
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\5c\5c537fc8ed5d34931bf006b3f15bba35
+    projectPath: Library\metadata\5c\5c537fc8ed5d34931bf006b3f15bba35
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\5c\5c8204aae5206404f9a0f6ed1b6c138a
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\5c\5c8204aae5206404f9a0f6ed1b6c138a
+    projectPath: Library\metadata\5c\5c8204aae5206404f9a0f6ed1b6c138a
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\5d\5d4a2c9d29e244fbe8f0b61d69a47af3
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\5d\5d4a2c9d29e244fbe8f0b61d69a47af3
+    projectPath: Library\metadata\5d\5d4a2c9d29e244fbe8f0b61d69a47af3
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\5d\5dfb6091bac8043cc97e5deb900d60b8
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\5d\5dfb6091bac8043cc97e5deb900d60b8
+    projectPath: Library\metadata\5d\5dfb6091bac8043cc97e5deb900d60b8
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\5e\5e0139ca0a3b04dbd85eb4171c920ed6
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\5e\5e0139ca0a3b04dbd85eb4171c920ed6
+    projectPath: Library\metadata\5e\5e0139ca0a3b04dbd85eb4171c920ed6
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\5e\5ec17ceaa560940e9bf0dbeafc3a1971
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\5e\5ec17ceaa560940e9bf0dbeafc3a1971
+    projectPath: Library\metadata\5e\5ec17ceaa560940e9bf0dbeafc3a1971
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\5f\5f5505ceb547042909596a146de64653
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\5f\5f5505ceb547042909596a146de64653
+    projectPath: Library\metadata\5f\5f5505ceb547042909596a146de64653
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\5f\5fc994a8551544553b255dfd17ccf558
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\5f\5fc994a8551544553b255dfd17ccf558
+    projectPath: Library\metadata\5f\5fc994a8551544553b255dfd17ccf558
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\60\60a4e0e5be13d462b8721f2aa076bcf6
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\60\60a4e0e5be13d462b8721f2aa076bcf6
+    projectPath: Library\metadata\60\60a4e0e5be13d462b8721f2aa076bcf6
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\61\6196ac54c59b94f108eecda9dd6f2559
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\61\6196ac54c59b94f108eecda9dd6f2559
+    projectPath: Library\metadata\61\6196ac54c59b94f108eecda9dd6f2559
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\63\63b782183e5cc4fd0b9b5ac24f27f914
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\63\63b782183e5cc4fd0b9b5ac24f27f914
+    projectPath: Library\metadata\63\63b782183e5cc4fd0b9b5ac24f27f914
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\64\6470ae239a00d495db1f74073bd1af08
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\64\6470ae239a00d495db1f74073bd1af08
+    projectPath: Library\metadata\64\6470ae239a00d495db1f74073bd1af08
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\64\6470ae239a00d495db1f74073bd1af08.info
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\64\6470ae239a00d495db1f74073bd1af08.info
+    projectPath: Library\metadata\64\6470ae239a00d495db1f74073bd1af08.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\65\653258c388ea8424db08ebf1e13eb628
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\65\653258c388ea8424db08ebf1e13eb628
+    projectPath: Library\metadata\65\653258c388ea8424db08ebf1e13eb628
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\67\67abf18f5ffdf49daa75d5ff17c614dd
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\67\67abf18f5ffdf49daa75d5ff17c614dd
+    projectPath: Library\metadata\67\67abf18f5ffdf49daa75d5ff17c614dd
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\67\67abf18f5ffdf49daa75d5ff17c614dd.info
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\67\67abf18f5ffdf49daa75d5ff17c614dd.info
+    projectPath: Library\metadata\67\67abf18f5ffdf49daa75d5ff17c614dd.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\68\68a76ebee21f3594a9e96e0fa04e3043
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\68\68a76ebee21f3594a9e96e0fa04e3043
+    projectPath: Library\metadata\68\68a76ebee21f3594a9e96e0fa04e3043
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\68\68db920237fe34acfb56aa298b80aa56
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\68\68db920237fe34acfb56aa298b80aa56
+    projectPath: Library\metadata\68\68db920237fe34acfb56aa298b80aa56
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\69\69a00b738bbf88e48ba83d9af1cee700.info
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\69\69a00b738bbf88e48ba83d9af1cee700.info
+    projectPath: Library\metadata\69\69a00b738bbf88e48ba83d9af1cee700.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Library\metadata\69\69ae4fd6f42d145009ab903686ea2fbf
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\69\69ae4fd6f42d145009ab903686ea2fbf
+    projectPath: Library\metadata\69\69ae4fd6f42d145009ab903686ea2fbf
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\6c\6c214b534428f4cf0926bd5c429fae61
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\6c\6c214b534428f4cf0926bd5c429fae61
+    projectPath: Library\metadata\6c\6c214b534428f4cf0926bd5c429fae61
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\6c\6c214b534428f4cf0926bd5c429fae61.info
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\6c\6c214b534428f4cf0926bd5c429fae61.info
+    projectPath: Library\metadata\6c\6c214b534428f4cf0926bd5c429fae61.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\6c\6c5cfa5e6c00e4cb18be3426d449a953
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\6c\6c5cfa5e6c00e4cb18be3426d449a953
+    projectPath: Library\metadata\6c\6c5cfa5e6c00e4cb18be3426d449a953
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\6c\6c9cdd70e74024c42ba7269339d17728
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\6c\6c9cdd70e74024c42ba7269339d17728
+    projectPath: Library\metadata\6c\6c9cdd70e74024c42ba7269339d17728
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\6c\6c9cdd70e74024c42ba7269339d17728.info
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\6c\6c9cdd70e74024c42ba7269339d17728.info
+    projectPath: Library\metadata\6c\6c9cdd70e74024c42ba7269339d17728.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\6d\6d4ac52e41f5e45c6835cab122dcc17a
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\6d\6d4ac52e41f5e45c6835cab122dcc17a
+    projectPath: Library\metadata\6d\6d4ac52e41f5e45c6835cab122dcc17a
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\6e\6e53743d80943f8409cbea62c672a599
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\6e\6e53743d80943f8409cbea62c672a599
+    projectPath: Library\metadata\6e\6e53743d80943f8409cbea62c672a599
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: RedStick Redemption\Library\metadata\6e\6eaae6b4b3037724b8cd08c9e0408573
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\6e\6eaae6b4b3037724b8cd08c9e0408573
+    projectPath: Library\metadata\6e\6eaae6b4b3037724b8cd08c9e0408573
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\6e\6efea3388b2ff4f22bc4eb8953abda10
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\6e\6efea3388b2ff4f22bc4eb8953abda10
+    projectPath: Library\metadata\6e\6efea3388b2ff4f22bc4eb8953abda10
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\6f\6ffc6cc31c4334f7b9307e1145c9dc87
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\6f\6ffc6cc31c4334f7b9307e1145c9dc87
+    projectPath: Library\metadata\6f\6ffc6cc31c4334f7b9307e1145c9dc87
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\72\726d2784a87b044f182b7487b3b8ebb8
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\72\726d2784a87b044f182b7487b3b8ebb8
+    projectPath: Library\metadata\72\726d2784a87b044f182b7487b3b8ebb8
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\72\72d51583c49d741ca80a9b811fac4656
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\72\72d51583c49d741ca80a9b811fac4656
+    projectPath: Library\metadata\72\72d51583c49d741ca80a9b811fac4656
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\77\775b362c27457774cb713e8bc227ed15
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\77\775b362c27457774cb713e8bc227ed15
+    projectPath: Library\metadata\77\775b362c27457774cb713e8bc227ed15
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\77\775b362c27457774cb713e8bc227ed15.info
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\77\775b362c27457774cb713e8bc227ed15.info
+    projectPath: Library\metadata\77\775b362c27457774cb713e8bc227ed15.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\78\782220bdc0aae4ceaa4ac746633fa21f
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\78\782220bdc0aae4ceaa4ac746633fa21f
+    projectPath: Library\metadata\78\782220bdc0aae4ceaa4ac746633fa21f
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\78\782220bdc0aae4ceaa4ac746633fa21f.info
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\78\782220bdc0aae4ceaa4ac746633fa21f.info
+    projectPath: Library\metadata\78\782220bdc0aae4ceaa4ac746633fa21f.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\79\798e2b64c4e1f46dc85feeaee835e0f3
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\79\798e2b64c4e1f46dc85feeaee835e0f3
+    projectPath: Library\metadata\79\798e2b64c4e1f46dc85feeaee835e0f3
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\7a\7a68003e02cc044e9b3eb065cbdc8bec
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\7a\7a68003e02cc044e9b3eb065cbdc8bec
+    projectPath: Library\metadata\7a\7a68003e02cc044e9b3eb065cbdc8bec
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\7c\7c76a291fad75584eac532f89e6d1c8e
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\7c\7c76a291fad75584eac532f89e6d1c8e
+    projectPath: Library\metadata\7c\7c76a291fad75584eac532f89e6d1c8e
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: RedStick Redemption\Library\metadata\7c\7ce005d3146f247c688909dfe5a6ee1d
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\7c\7ce005d3146f247c688909dfe5a6ee1d
+    projectPath: Library\metadata\7c\7ce005d3146f247c688909dfe5a6ee1d
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\7e\7e129e5cececacd4bba75f45cb1828a8.info
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\7e\7e129e5cececacd4bba75f45cb1828a8.info
+    projectPath: Library\metadata\7e\7e129e5cececacd4bba75f45cb1828a8.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\7f\7f832bf8de39b6d47b08af92afcad3d1
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\7f\7f832bf8de39b6d47b08af92afcad3d1
+    projectPath: Library\metadata\7f\7f832bf8de39b6d47b08af92afcad3d1
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: RedStick Redemption\Library\metadata\7f\7f99eba3988e6314184cfe3b09e33fc8.info
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\7f\7f99eba3988e6314184cfe3b09e33fc8.info
+    projectPath: Library\metadata\7f\7f99eba3988e6314184cfe3b09e33fc8.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Library\metadata\80\8023b4f6f397644de867d8b858bd694a
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\80\8023b4f6f397644de867d8b858bd694a
+    projectPath: Library\metadata\80\8023b4f6f397644de867d8b858bd694a
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\82\82141c28611044913b30edeb186705a6
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\82\82141c28611044913b30edeb186705a6
+    projectPath: Library\metadata\82\82141c28611044913b30edeb186705a6
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\84\84902ee5ae17c406fb353455fe00c583
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\84\84902ee5ae17c406fb353455fe00c583
+    projectPath: Library\metadata\84\84902ee5ae17c406fb353455fe00c583
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\84\84a20b1a728e747c9b58c22e483fae75
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\84\84a20b1a728e747c9b58c22e483fae75
+    projectPath: Library\metadata\84\84a20b1a728e747c9b58c22e483fae75
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\84\84a20b1a728e747c9b58c22e483fae75.info
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\84\84a20b1a728e747c9b58c22e483fae75.info
+    projectPath: Library\metadata\84\84a20b1a728e747c9b58c22e483fae75.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\85\85bb1fd80234b4dad9a1414d69268bbb
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\85\85bb1fd80234b4dad9a1414d69268bbb
+    projectPath: Library\metadata\85\85bb1fd80234b4dad9a1414d69268bbb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\85\85c3822fcd8a54f518280df4861f247f
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\85\85c3822fcd8a54f518280df4861f247f
+    projectPath: Library\metadata\85\85c3822fcd8a54f518280df4861f247f
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\86\8617cb91a4f9ccb4cb46ec7a3987ce2b
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\86\8617cb91a4f9ccb4cb46ec7a3987ce2b
+    projectPath: Library\metadata\86\8617cb91a4f9ccb4cb46ec7a3987ce2b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Library\metadata\86\8617cb91a4f9ccb4cb46ec7a3987ce2b.info
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\86\8617cb91a4f9ccb4cb46ec7a3987ce2b.info
+    projectPath: Library\metadata\86\8617cb91a4f9ccb4cb46ec7a3987ce2b.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Library\metadata\86\86991b75a172e4e75be5fdfaa246da29
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\86\86991b75a172e4e75be5fdfaa246da29
+    projectPath: Library\metadata\86\86991b75a172e4e75be5fdfaa246da29
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\87\87950ea3326114c43bf8f5833ad823ac
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\87\87950ea3326114c43bf8f5833ad823ac
+    projectPath: Library\metadata\87\87950ea3326114c43bf8f5833ad823ac
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\87\87a9a65e788af4ae88d02d3b1f270f60
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\87\87a9a65e788af4ae88d02d3b1f270f60
+    projectPath: Library\metadata\87\87a9a65e788af4ae88d02d3b1f270f60
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\87\87efaf20c96bd46b2a6e7bf4d4d3fd57
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\87\87efaf20c96bd46b2a6e7bf4d4d3fd57
+    projectPath: Library\metadata\87\87efaf20c96bd46b2a6e7bf4d4d3fd57
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\88\88b09b3aea72e4f05b46c44c667957f8
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\88\88b09b3aea72e4f05b46c44c667957f8
+    projectPath: Library\metadata\88\88b09b3aea72e4f05b46c44c667957f8
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\88\88bc19417997a47739968cc7a27dc26b
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\88\88bc19417997a47739968cc7a27dc26b
+    projectPath: Library\metadata\88\88bc19417997a47739968cc7a27dc26b
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\89\893f4e6f40de34215b7bdd4622394730
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\89\893f4e6f40de34215b7bdd4622394730
+    projectPath: Library\metadata\89\893f4e6f40de34215b7bdd4622394730
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\8b\8b396fa8c4f12964c9cee5cfb9b9ff4e
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\8b\8b396fa8c4f12964c9cee5cfb9b9ff4e
+    projectPath: Library\metadata\8b\8b396fa8c4f12964c9cee5cfb9b9ff4e
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: RedStick Redemption\Library\metadata\8b\8b4c062f43ae34bebb588988f7ce5bd3
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\8b\8b4c062f43ae34bebb588988f7ce5bd3
+    projectPath: Library\metadata\8b\8b4c062f43ae34bebb588988f7ce5bd3
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\8c\8c39d07edeac04bb5abe4b01c683959b
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\8c\8c39d07edeac04bb5abe4b01c683959b
+    projectPath: Library\metadata\8c\8c39d07edeac04bb5abe4b01c683959b
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\8d\8d6fc0e161ea54538bded5b0a7b6dafa
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\8d\8d6fc0e161ea54538bded5b0a7b6dafa
+    projectPath: Library\metadata\8d\8d6fc0e161ea54538bded5b0a7b6dafa
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\8d\8d7b165077e6e1a4ab143ba5c3a6f76c
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\8d\8d7b165077e6e1a4ab143ba5c3a6f76c
+    projectPath: Library\metadata\8d\8d7b165077e6e1a4ab143ba5c3a6f76c
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\8d\8d98f21b8191f4234909caa04c07fe82
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\8d\8d98f21b8191f4234909caa04c07fe82
+    projectPath: Library\metadata\8d\8d98f21b8191f4234909caa04c07fe82
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\8d\8dd5ff47da273493d9c15bc334297b8f
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\8d\8dd5ff47da273493d9c15bc334297b8f
+    projectPath: Library\metadata\8d\8dd5ff47da273493d9c15bc334297b8f
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\8e\8e549144c721642308bf9649f283b840
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\8e\8e549144c721642308bf9649f283b840
+    projectPath: Library\metadata\8e\8e549144c721642308bf9649f283b840
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\8e\8e85f51ff02024a7f91cbbfbaa7e3f04
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\8e\8e85f51ff02024a7f91cbbfbaa7e3f04
+    projectPath: Library\metadata\8e\8e85f51ff02024a7f91cbbfbaa7e3f04
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\8f\8f3da8c167dce440cbf0c440ef4f2625
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\8f\8f3da8c167dce440cbf0c440ef4f2625
+    projectPath: Library\metadata\8f\8f3da8c167dce440cbf0c440ef4f2625
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\8f\8f74da08c235647f68ec5142281af180
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\8f\8f74da08c235647f68ec5142281af180
+    projectPath: Library\metadata\8f\8f74da08c235647f68ec5142281af180
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\8f\8fb1294fd76dd438da596ce01a96c742
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\8f\8fb1294fd76dd438da596ce01a96c742
+    projectPath: Library\metadata\8f\8fb1294fd76dd438da596ce01a96c742
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\90\90e9a45a558954086ae11eb3ce8dcb68
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\90\90e9a45a558954086ae11eb3ce8dcb68
+    projectPath: Library\metadata\90\90e9a45a558954086ae11eb3ce8dcb68
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\91\919519c1fce27b44f842ced3b24ebba2.info
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\91\919519c1fce27b44f842ced3b24ebba2.info
+    projectPath: Library\metadata\91\919519c1fce27b44f842ced3b24ebba2.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Library\metadata\91\91ac9ca59d5434f39b3a65b2aaa847d6
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\91\91ac9ca59d5434f39b3a65b2aaa847d6
+    projectPath: Library\metadata\91\91ac9ca59d5434f39b3a65b2aaa847d6
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\91\91ac9ca59d5434f39b3a65b2aaa847d6.info
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\91\91ac9ca59d5434f39b3a65b2aaa847d6.info
+    projectPath: Library\metadata\91\91ac9ca59d5434f39b3a65b2aaa847d6.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\94\94e392f01f8f0584c851d87ade57bef8
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\94\94e392f01f8f0584c851d87ade57bef8
+    projectPath: Library\metadata\94\94e392f01f8f0584c851d87ade57bef8
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\96\96c3588b5aeb15746b81abc79b686a83
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\96\96c3588b5aeb15746b81abc79b686a83
+    projectPath: Library\metadata\96\96c3588b5aeb15746b81abc79b686a83
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\98\98b03b6de822b4716a770ebdfd304ffe
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\98\98b03b6de822b4716a770ebdfd304ffe
+    projectPath: Library\metadata\98\98b03b6de822b4716a770ebdfd304ffe
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\98\98d0ec678e95aa44da7cf503cb8607fa
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\98\98d0ec678e95aa44da7cf503cb8607fa
+    projectPath: Library\metadata\98\98d0ec678e95aa44da7cf503cb8607fa
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: RedStick Redemption\Library\metadata\99\99091f75dac5d4ede961d37f71798fc6
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\99\99091f75dac5d4ede961d37f71798fc6
+    projectPath: Library\metadata\99\99091f75dac5d4ede961d37f71798fc6
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\99\998ec57a005165b4aab09cc0af4ba71d
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\99\998ec57a005165b4aab09cc0af4ba71d
+    projectPath: Library\metadata\99\998ec57a005165b4aab09cc0af4ba71d
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: RedStick Redemption\Library\metadata\9a\9a27e91ea4d05e24f8efb36602fd6042
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\9a\9a27e91ea4d05e24f8efb36602fd6042
+    projectPath: Library\metadata\9a\9a27e91ea4d05e24f8efb36602fd6042
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\9a\9a27e91ea4d05e24f8efb36602fd6042.info
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\9a\9a27e91ea4d05e24f8efb36602fd6042.info
+    projectPath: Library\metadata\9a\9a27e91ea4d05e24f8efb36602fd6042.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Library\metadata\9a\9a2c3422578b547868d390c581db0fe8
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\9a\9a2c3422578b547868d390c581db0fe8
+    projectPath: Library\metadata\9a\9a2c3422578b547868d390c581db0fe8
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\9b\9b0c2f4d101b947f0a1464e3cc4f0966
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\9b\9b0c2f4d101b947f0a1464e3cc4f0966
+    projectPath: Library\metadata\9b\9b0c2f4d101b947f0a1464e3cc4f0966
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\9d\9d49ba4cc39814ca6bc7b0d71a6cd2de
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\9d\9d49ba4cc39814ca6bc7b0d71a6cd2de
+    projectPath: Library\metadata\9d\9d49ba4cc39814ca6bc7b0d71a6cd2de
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\9d\9dbae3d26da2a44b8b5bc00b3fd92e54
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\9d\9dbae3d26da2a44b8b5bc00b3fd92e54
+    projectPath: Library\metadata\9d\9dbae3d26da2a44b8b5bc00b3fd92e54
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\9e\9e5f1b54715b9c448a5a64e36a4b0c63.info
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\9e\9e5f1b54715b9c448a5a64e36a4b0c63.info
+    projectPath: Library\metadata\9e\9e5f1b54715b9c448a5a64e36a4b0c63.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Library\metadata\9e\9e715ea371f114f4a8d2584ad476634d
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\9e\9e715ea371f114f4a8d2584ad476634d
+    projectPath: Library\metadata\9e\9e715ea371f114f4a8d2584ad476634d
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\9e\9effcd0f10dc54c95921d8463907e923
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\9e\9effcd0f10dc54c95921d8463907e923
+    projectPath: Library\metadata\9e\9effcd0f10dc54c95921d8463907e923
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\9f\9f8fe9f2ba63c7e48903655eee56258f
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\9f\9f8fe9f2ba63c7e48903655eee56258f
+    projectPath: Library\metadata\9f\9f8fe9f2ba63c7e48903655eee56258f
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: RedStick Redemption\Library\metadata\9f\9ffee625f880444068dd5d3a154c600c
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\9f\9ffee625f880444068dd5d3a154c600c
+    projectPath: Library\metadata\9f\9ffee625f880444068dd5d3a154c600c
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\a1\a12a518ce3c7249308eddd9db82800f7
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\a1\a12a518ce3c7249308eddd9db82800f7
+    projectPath: Library\metadata\a1\a12a518ce3c7249308eddd9db82800f7
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\a1\a181574a098a74c91a4adf2cc3c6fbd6
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\a1\a181574a098a74c91a4adf2cc3c6fbd6
+    projectPath: Library\metadata\a1\a181574a098a74c91a4adf2cc3c6fbd6
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\a2\a245051d5faac4a72b3c22c5bdb4c32d
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\a2\a245051d5faac4a72b3c22c5bdb4c32d
+    projectPath: Library\metadata\a2\a245051d5faac4a72b3c22c5bdb4c32d
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\a2\a2e00daa1f6114aa180d42c8f4b6e507
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\a2\a2e00daa1f6114aa180d42c8f4b6e507
+    projectPath: Library\metadata\a2\a2e00daa1f6114aa180d42c8f4b6e507
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\a3\a394e4901b78a4e04a0a05a8faf4f0dd
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\a3\a394e4901b78a4e04a0a05a8faf4f0dd
+    projectPath: Library\metadata\a3\a394e4901b78a4e04a0a05a8faf4f0dd
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\a4\a4b4f1ed82eef4ee89930360beee3f04
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\a4\a4b4f1ed82eef4ee89930360beee3f04
+    projectPath: Library\metadata\a4\a4b4f1ed82eef4ee89930360beee3f04
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\a6\a698e46febae94e1890b81ba948e96e6
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\a6\a698e46febae94e1890b81ba948e96e6
+    projectPath: Library\metadata\a6\a698e46febae94e1890b81ba948e96e6
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\a8\a8fc50df0fc5b4b968a73718ea584282
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\a8\a8fc50df0fc5b4b968a73718ea584282
+    projectPath: Library\metadata\a8\a8fc50df0fc5b4b968a73718ea584282
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\a9\a99eeda0ca2d240a59008cdca9ce1943
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\a9\a99eeda0ca2d240a59008cdca9ce1943
+    projectPath: Library\metadata\a9\a99eeda0ca2d240a59008cdca9ce1943
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\aa\aa6246f681dba461b9e4a4d3ac247378
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\aa\aa6246f681dba461b9e4a4d3ac247378
+    projectPath: Library\metadata\aa\aa6246f681dba461b9e4a4d3ac247378
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\aa\aa6549755d219428ba10f10cba5bd443
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\aa\aa6549755d219428ba10f10cba5bd443
+    projectPath: Library\metadata\aa\aa6549755d219428ba10f10cba5bd443
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\ad\ad57fc2a5742e401dbd68fdd7021b6da
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\ad\ad57fc2a5742e401dbd68fdd7021b6da
+    projectPath: Library\metadata\ad\ad57fc2a5742e401dbd68fdd7021b6da
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\ad\adc5765549a8f4d838c9b63507ccfcf8
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\ad\adc5765549a8f4d838c9b63507ccfcf8
+    projectPath: Library\metadata\ad\adc5765549a8f4d838c9b63507ccfcf8
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\ad\add18c76c7a1a4f90bf0372999963ae1
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\ad\add18c76c7a1a4f90bf0372999963ae1
+    projectPath: Library\metadata\ad\add18c76c7a1a4f90bf0372999963ae1
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\ae\ae0543fe805424df99fe08ce744cbe49
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\ae\ae0543fe805424df99fe08ce744cbe49
+    projectPath: Library\metadata\ae\ae0543fe805424df99fe08ce744cbe49
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\ae\ae1f8b74314c34565adfbacc0a29be10
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\ae\ae1f8b74314c34565adfbacc0a29be10
+    projectPath: Library\metadata\ae\ae1f8b74314c34565adfbacc0a29be10
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\ae\aea20dcab01684d23810205e0a4a6e06
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\ae\aea20dcab01684d23810205e0a4a6e06
+    projectPath: Library\metadata\ae\aea20dcab01684d23810205e0a4a6e06
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\af\af623c7ef05bc784da9b53a04cbfa154
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\af\af623c7ef05bc784da9b53a04cbfa154
+    projectPath: Library\metadata\af\af623c7ef05bc784da9b53a04cbfa154
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Library\metadata\af\af623c7ef05bc784da9b53a04cbfa154.info
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\af\af623c7ef05bc784da9b53a04cbfa154.info
+    projectPath: Library\metadata\af\af623c7ef05bc784da9b53a04cbfa154.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Library\metadata\af\afa0f0d16d4fdbe4ab2a1fc11e33e4dd
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\af\afa0f0d16d4fdbe4ab2a1fc11e33e4dd
+    projectPath: Library\metadata\af\afa0f0d16d4fdbe4ab2a1fc11e33e4dd
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: RedStick Redemption\Library\metadata\b0\b05cae35e106e4e14afe482a02906d09
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\b0\b05cae35e106e4e14afe482a02906d09
+    projectPath: Library\metadata\b0\b05cae35e106e4e14afe482a02906d09
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\b0\b05cae35e106e4e14afe482a02906d09.info
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\b0\b05cae35e106e4e14afe482a02906d09.info
+    projectPath: Library\metadata\b0\b05cae35e106e4e14afe482a02906d09.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\b0\b0dd05de3f4094ab2ab2173560d87b08
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\b0\b0dd05de3f4094ab2ab2173560d87b08
+    projectPath: Library\metadata\b0\b0dd05de3f4094ab2ab2173560d87b08
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\b0\b0dd05de3f4094ab2ab2173560d87b08.info
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\b0\b0dd05de3f4094ab2ab2173560d87b08.info
+    projectPath: Library\metadata\b0\b0dd05de3f4094ab2ab2173560d87b08.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\b1\b1f784523475e4fbc8d3178a08bbfafb
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\b1\b1f784523475e4fbc8d3178a08bbfafb
+    projectPath: Library\metadata\b1\b1f784523475e4fbc8d3178a08bbfafb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\b2\b22361bc7ffb14026acfe05cefa59f8a
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\b2\b22361bc7ffb14026acfe05cefa59f8a
+    projectPath: Library\metadata\b2\b22361bc7ffb14026acfe05cefa59f8a
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\b2\b22361bc7ffb14026acfe05cefa59f8a.info
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\b2\b22361bc7ffb14026acfe05cefa59f8a.info
+    projectPath: Library\metadata\b2\b22361bc7ffb14026acfe05cefa59f8a.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\b4\b43d8d7efb156684f949af3de44f59d6
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\b4\b43d8d7efb156684f949af3de44f59d6
+    projectPath: Library\metadata\b4\b43d8d7efb156684f949af3de44f59d6
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Library\metadata\b4\b43d8d7efb156684f949af3de44f59d6.info
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\b4\b43d8d7efb156684f949af3de44f59d6.info
+    projectPath: Library\metadata\b4\b43d8d7efb156684f949af3de44f59d6.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Library\metadata\b4\b4db49fd3fc124deeb9c54e0ef53383d
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\b4\b4db49fd3fc124deeb9c54e0ef53383d
+    projectPath: Library\metadata\b4\b4db49fd3fc124deeb9c54e0ef53383d
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\b5\b5238df4a804d4c31935f458ab7af339
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\b5\b5238df4a804d4c31935f458ab7af339
+    projectPath: Library\metadata\b5\b5238df4a804d4c31935f458ab7af339
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\b6\b64d5a1afe0a54002a310377fef073a0
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\b6\b64d5a1afe0a54002a310377fef073a0
+    projectPath: Library\metadata\b6\b64d5a1afe0a54002a310377fef073a0
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\b6\b67c67a280b524f15b96c16d4933c9c6
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\b6\b67c67a280b524f15b96c16d4933c9c6
+    projectPath: Library\metadata\b6\b67c67a280b524f15b96c16d4933c9c6
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\b9\b9bc33eca179e4af394c2739b6ceed13
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\b9\b9bc33eca179e4af394c2739b6ceed13
+    projectPath: Library\metadata\b9\b9bc33eca179e4af394c2739b6ceed13
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\ba\ba4158d3b551f4253ad878e18308c726
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\ba\ba4158d3b551f4253ad878e18308c726
+    projectPath: Library\metadata\ba\ba4158d3b551f4253ad878e18308c726
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\ba\ba4158d3b551f4253ad878e18308c726.info
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\ba\ba4158d3b551f4253ad878e18308c726.info
+    projectPath: Library\metadata\ba\ba4158d3b551f4253ad878e18308c726.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\bb\bb29a03cecfd848b59eb5d65feceb795
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\bb\bb29a03cecfd848b59eb5d65feceb795
+    projectPath: Library\metadata\bb\bb29a03cecfd848b59eb5d65feceb795
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\bb\bb388b6068a1848198f078e9b8e2c2b4
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\bb\bb388b6068a1848198f078e9b8e2c2b4
+    projectPath: Library\metadata\bb\bb388b6068a1848198f078e9b8e2c2b4
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\bb\bb8b60e2bb20a4ba589276a30a7b7744
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\bb\bb8b60e2bb20a4ba589276a30a7b7744
+    projectPath: Library\metadata\bb\bb8b60e2bb20a4ba589276a30a7b7744
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\bd\bd3c9bb3ca8714b8cbbf3d7b660362aa
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\bd\bd3c9bb3ca8714b8cbbf3d7b660362aa
+    projectPath: Library\metadata\bd\bd3c9bb3ca8714b8cbbf3d7b660362aa
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\bd\bd7828c7cb8bf487ca75969ac9d172ea
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\bd\bd7828c7cb8bf487ca75969ac9d172ea
+    projectPath: Library\metadata\bd\bd7828c7cb8bf487ca75969ac9d172ea
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\bd\bde39206ba92f4478ba2ac0dca81be81
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\bd\bde39206ba92f4478ba2ac0dca81be81
+    projectPath: Library\metadata\bd\bde39206ba92f4478ba2ac0dca81be81
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\bd\bde39206ba92f4478ba2ac0dca81be81.info
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\bd\bde39206ba92f4478ba2ac0dca81be81.info
+    projectPath: Library\metadata\bd\bde39206ba92f4478ba2ac0dca81be81.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\be\be43faca17c49544cbb36ac063ac6e93
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\be\be43faca17c49544cbb36ac063ac6e93
+    projectPath: Library\metadata\be\be43faca17c49544cbb36ac063ac6e93
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\bf\bf9479154ff064bc0b4e059e6378205a
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\bf\bf9479154ff064bc0b4e059e6378205a
+    projectPath: Library\metadata\bf\bf9479154ff064bc0b4e059e6378205a
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\c1\c10c0be6d28fe4d539c4a39822fe301c
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\c1\c10c0be6d28fe4d539c4a39822fe301c
+    projectPath: Library\metadata\c1\c10c0be6d28fe4d539c4a39822fe301c
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\c4\c44803939cbd940809e801f192ca978f
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\c4\c44803939cbd940809e801f192ca978f
+    projectPath: Library\metadata\c4\c44803939cbd940809e801f192ca978f
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\c4\c460a47caef16422ba67e13ae4296e32
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\c4\c460a47caef16422ba67e13ae4296e32
+    projectPath: Library\metadata\c4\c460a47caef16422ba67e13ae4296e32
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\c4\c464fd7f95dc041dea1c15c193fe4a6c
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\c4\c464fd7f95dc041dea1c15c193fe4a6c
+    projectPath: Library\metadata\c4\c464fd7f95dc041dea1c15c193fe4a6c
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\c7\c7880a19c219b43e0ab0f053bf0ed52e
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\c7\c7880a19c219b43e0ab0f053bf0ed52e
+    projectPath: Library\metadata\c7\c7880a19c219b43e0ab0f053bf0ed52e
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\c7\c7c1a63fcbdfc254598ef93275050e37
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\c7\c7c1a63fcbdfc254598ef93275050e37
+    projectPath: Library\metadata\c7\c7c1a63fcbdfc254598ef93275050e37
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Library\metadata\c7\c7c1a63fcbdfc254598ef93275050e37.info
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\c7\c7c1a63fcbdfc254598ef93275050e37.info
+    projectPath: Library\metadata\c7\c7c1a63fcbdfc254598ef93275050e37.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Library\metadata\c7\c7d4fa4e7bf71447cb31915c040e30b0
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\c7\c7d4fa4e7bf71447cb31915c040e30b0
+    projectPath: Library\metadata\c7\c7d4fa4e7bf71447cb31915c040e30b0
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\c9\c965ff307ab134dbb8ad43b153561704
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\c9\c965ff307ab134dbb8ad43b153561704
+    projectPath: Library\metadata\c9\c965ff307ab134dbb8ad43b153561704
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\c9\c981e4c7f35c042fe973072806bcbd0f
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\c9\c981e4c7f35c042fe973072806bcbd0f
+    projectPath: Library\metadata\c9\c981e4c7f35c042fe973072806bcbd0f
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\cb\cbb28e31a21e8d943bc9b351f1418a8d
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\cb\cbb28e31a21e8d943bc9b351f1418a8d
+    projectPath: Library\metadata\cb\cbb28e31a21e8d943bc9b351f1418a8d
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\cc\cc1b60db68def4a92b2272ee87290078
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\cc\cc1b60db68def4a92b2272ee87290078
+    projectPath: Library\metadata\cc\cc1b60db68def4a92b2272ee87290078
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\cc\cc739c87234a5408d8e23d3df936ff16
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\cc\cc739c87234a5408d8e23d3df936ff16
+    projectPath: Library\metadata\cc\cc739c87234a5408d8e23d3df936ff16
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\cd\cda1c64e86dcdba429383c9f1df03fdc
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\cd\cda1c64e86dcdba429383c9f1df03fdc
+    projectPath: Library\metadata\cd\cda1c64e86dcdba429383c9f1df03fdc
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Library\metadata\cd\cda1c64e86dcdba429383c9f1df03fdc.info
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\cd\cda1c64e86dcdba429383c9f1df03fdc.info
+    projectPath: Library\metadata\cd\cda1c64e86dcdba429383c9f1df03fdc.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Library\metadata\cd\cde60765d375b4ed58de62a5855759c0
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\cd\cde60765d375b4ed58de62a5855759c0
+    projectPath: Library\metadata\cd\cde60765d375b4ed58de62a5855759c0
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\ce\ce35b494a9b994503a0fdcdfeb39549d
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\ce\ce35b494a9b994503a0fdcdfeb39549d
+    projectPath: Library\metadata\ce\ce35b494a9b994503a0fdcdfeb39549d
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\ce\cea0a0275548b4df08f37a6e225db32f
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\ce\cea0a0275548b4df08f37a6e225db32f
+    projectPath: Library\metadata\ce\cea0a0275548b4df08f37a6e225db32f
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\ce\cefab979e647c14479ea42080eadcbdc
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\ce\cefab979e647c14479ea42080eadcbdc
+    projectPath: Library\metadata\ce\cefab979e647c14479ea42080eadcbdc
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: RedStick Redemption\Library\metadata\cf\cf2c003a4df9a2742b8fd6f94233ceab
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\cf\cf2c003a4df9a2742b8fd6f94233ceab
+    projectPath: Library\metadata\cf\cf2c003a4df9a2742b8fd6f94233ceab
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\d0\d06266ce538c649a1b72065b11f39a41
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\d0\d06266ce538c649a1b72065b11f39a41
+    projectPath: Library\metadata\d0\d06266ce538c649a1b72065b11f39a41
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\d3\d326031976a6945c9a2e1fd94c428966
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\d3\d326031976a6945c9a2e1fd94c428966
+    projectPath: Library\metadata\d3\d326031976a6945c9a2e1fd94c428966
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\d3\d369edf573c0a46d19421cd6720016be
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\d3\d369edf573c0a46d19421cd6720016be
+    projectPath: Library\metadata\d3\d369edf573c0a46d19421cd6720016be
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\d4\d474981ed7b54464188c6f98ce06b101
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\d4\d474981ed7b54464188c6f98ce06b101
+    projectPath: Library\metadata\d4\d474981ed7b54464188c6f98ce06b101
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\d6\d611b3a3027c64f4783e473600c95b1f
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\d6\d611b3a3027c64f4783e473600c95b1f
+    projectPath: Library\metadata\d6\d611b3a3027c64f4783e473600c95b1f
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\d6\d648c36f5fa1b4507b2ca25e4df25a85
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\d6\d648c36f5fa1b4507b2ca25e4df25a85
+    projectPath: Library\metadata\d6\d648c36f5fa1b4507b2ca25e4df25a85
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\d7\d763cbcc29f414f03821c2de7e214239
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\d7\d763cbcc29f414f03821c2de7e214239
+    projectPath: Library\metadata\d7\d763cbcc29f414f03821c2de7e214239
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\d7\d7c3d9a32f30c4ae4bc775ff0636d7d2
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\d7\d7c3d9a32f30c4ae4bc775ff0636d7d2
+    projectPath: Library\metadata\d7\d7c3d9a32f30c4ae4bc775ff0636d7d2
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\d9\d9c3109a08a7bd34196ce48bb1711c32
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\d9\d9c3109a08a7bd34196ce48bb1711c32
+    projectPath: Library\metadata\d9\d9c3109a08a7bd34196ce48bb1711c32
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: RedStick Redemption\Library\metadata\da\da4200b173d5a4dce91788c6eaba456f
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\da\da4200b173d5a4dce91788c6eaba456f
+    projectPath: Library\metadata\da\da4200b173d5a4dce91788c6eaba456f
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\da\da562b44d24c041d386fb435583cea33
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\da\da562b44d24c041d386fb435583cea33
+    projectPath: Library\metadata\da\da562b44d24c041d386fb435583cea33
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\db\db405e6911a4f8941a1e94d3bf9b2e7d
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\db\db405e6911a4f8941a1e94d3bf9b2e7d
+    projectPath: Library\metadata\db\db405e6911a4f8941a1e94d3bf9b2e7d
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\db\db773087cb9934528ace5cd537015e3d
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\db\db773087cb9934528ace5cd537015e3d
+    projectPath: Library\metadata\db\db773087cb9934528ace5cd537015e3d
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\dc\dcdae5b64b6ca0e439e741769a07050b
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\dc\dcdae5b64b6ca0e439e741769a07050b
+    projectPath: Library\metadata\dc\dcdae5b64b6ca0e439e741769a07050b
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: RedStick Redemption\Library\metadata\dc\dcf81b8bd80534d8783dd6a3a6aaacbb
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\dc\dcf81b8bd80534d8783dd6a3a6aaacbb
+    projectPath: Library\metadata\dc\dcf81b8bd80534d8783dd6a3a6aaacbb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\dd\dd003d6d892af429caeba2997798748b
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\dd\dd003d6d892af429caeba2997798748b
+    projectPath: Library\metadata\dd\dd003d6d892af429caeba2997798748b
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\dd\dd105a39e474c4706aba36b8be4febd9
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\dd\dd105a39e474c4706aba36b8be4febd9
+    projectPath: Library\metadata\dd\dd105a39e474c4706aba36b8be4febd9
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\de\de14b5b48fe462148aca8fb6310959c7
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\de\de14b5b48fe462148aca8fb6310959c7
+    projectPath: Library\metadata\de\de14b5b48fe462148aca8fb6310959c7
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\df\df9dabb2d4c5342199f8a8758533a44b
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\df\df9dabb2d4c5342199f8a8758533a44b
+    projectPath: Library\metadata\df\df9dabb2d4c5342199f8a8758533a44b
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\e0\e06d507589475425c919d9d4d7722190
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\e0\e06d507589475425c919d9d4d7722190
+    projectPath: Library\metadata\e0\e06d507589475425c919d9d4d7722190
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\e1\e181a7f47c3d844548c10ebfad251df5
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\e1\e181a7f47c3d844548c10ebfad251df5
+    projectPath: Library\metadata\e1\e181a7f47c3d844548c10ebfad251df5
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\e1\e1b17e4b594d643a89eb952f2bdb2e49
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\e1\e1b17e4b594d643a89eb952f2bdb2e49
+    projectPath: Library\metadata\e1\e1b17e4b594d643a89eb952f2bdb2e49
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\e2\e21b19cc9e5f229499f8ca94f6a1511e
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\e2\e21b19cc9e5f229499f8ca94f6a1511e
+    projectPath: Library\metadata\e2\e21b19cc9e5f229499f8ca94f6a1511e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Library\metadata\e2\e21b19cc9e5f229499f8ca94f6a1511e.info
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\e2\e21b19cc9e5f229499f8ca94f6a1511e.info
+    projectPath: Library\metadata\e2\e21b19cc9e5f229499f8ca94f6a1511e.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Library\metadata\e3\e355e8db9f7fe4cbea705ddaaf697b81
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\e3\e355e8db9f7fe4cbea705ddaaf697b81
+    projectPath: Library\metadata\e3\e355e8db9f7fe4cbea705ddaaf697b81
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\e3\e355e8db9f7fe4cbea705ddaaf697b81.info
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\e3\e355e8db9f7fe4cbea705ddaaf697b81.info
+    projectPath: Library\metadata\e3\e355e8db9f7fe4cbea705ddaaf697b81.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\e5\e52620d9b5f1c480f8c8a676785ae505
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\e5\e52620d9b5f1c480f8c8a676785ae505
+    projectPath: Library\metadata\e5\e52620d9b5f1c480f8c8a676785ae505
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\e5\e52620d9b5f1c480f8c8a676785ae505.info
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\e5\e52620d9b5f1c480f8c8a676785ae505.info
+    projectPath: Library\metadata\e5\e52620d9b5f1c480f8c8a676785ae505.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\eb\ebb624c2038899d4eb69729ecc3edabb
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\eb\ebb624c2038899d4eb69729ecc3edabb
+    projectPath: Library\metadata\eb\ebb624c2038899d4eb69729ecc3edabb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\ed\ed03140f4be284ed9a8c783e189e93de
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\ed\ed03140f4be284ed9a8c783e189e93de
+    projectPath: Library\metadata\ed\ed03140f4be284ed9a8c783e189e93de
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\ed\ed46dac10942d4e288ef492b28646f58
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\ed\ed46dac10942d4e288ef492b28646f58
+    projectPath: Library\metadata\ed\ed46dac10942d4e288ef492b28646f58
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\ed\ed8c9347c4b814c6393f0e37481f4e6f
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\ed\ed8c9347c4b814c6393f0e37481f4e6f
+    projectPath: Library\metadata\ed\ed8c9347c4b814c6393f0e37481f4e6f
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\ef\ef3f10a2d92014c9aaa9b10cd4b42c6c
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\ef\ef3f10a2d92014c9aaa9b10cd4b42c6c
+    projectPath: Library\metadata\ef\ef3f10a2d92014c9aaa9b10cd4b42c6c
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\f0\f0d8e1091c01d4c508393e566125c380
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\f0\f0d8e1091c01d4c508393e566125c380
+    projectPath: Library\metadata\f0\f0d8e1091c01d4c508393e566125c380
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\f2\f2610140fed2d49d6b3568528c3cd55a
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\f2\f2610140fed2d49d6b3568528c3cd55a
+    projectPath: Library\metadata\f2\f2610140fed2d49d6b3568528c3cd55a
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\f2\f27a2cfb7f80f4bc7b09777d757d1a1d
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\f2\f27a2cfb7f80f4bc7b09777d757d1a1d
+    projectPath: Library\metadata\f2\f27a2cfb7f80f4bc7b09777d757d1a1d
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\f2\f2df5e351be2146b9b0e94be6649523f
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\f2\f2df5e351be2146b9b0e94be6649523f
+    projectPath: Library\metadata\f2\f2df5e351be2146b9b0e94be6649523f
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\f2\f2df5e351be2146b9b0e94be6649523f.info
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\f2\f2df5e351be2146b9b0e94be6649523f.info
+    projectPath: Library\metadata\f2\f2df5e351be2146b9b0e94be6649523f.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\f5\f591cbd83e065c541a5d7a957b83923a.info
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\f5\f591cbd83e065c541a5d7a957b83923a.info
+    projectPath: Library\metadata\f5\f591cbd83e065c541a5d7a957b83923a.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Library\metadata\f7\f75ed09c9ce0056468d0f394cf5268ef
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\f7\f75ed09c9ce0056468d0f394cf5268ef
+    projectPath: Library\metadata\f7\f75ed09c9ce0056468d0f394cf5268ef
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\f7\f7a290166fab24e29be3e114e7c95490
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\f7\f7a290166fab24e29be3e114e7c95490
+    projectPath: Library\metadata\f7\f7a290166fab24e29be3e114e7c95490
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\f9\f942023ed8f88439aa7596becf45f402
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\f9\f942023ed8f88439aa7596becf45f402
+    projectPath: Library\metadata\f9\f942023ed8f88439aa7596becf45f402
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\f9\f94da1015d2f34a75a02db2ab3a79387
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\f9\f94da1015d2f34a75a02db2ab3a79387
+    projectPath: Library\metadata\f9\f94da1015d2f34a75a02db2ab3a79387
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\f9\f94da1015d2f34a75a02db2ab3a79387.info
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\f9\f94da1015d2f34a75a02db2ab3a79387.info
+    projectPath: Library\metadata\f9\f94da1015d2f34a75a02db2ab3a79387.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\fb\fb0f1e011d4dec64a9af964e8f0b271d.info
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\fb\fb0f1e011d4dec64a9af964e8f0b271d.info
+    projectPath: Library\metadata\fb\fb0f1e011d4dec64a9af964e8f0b271d.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Library\metadata\fd\fd02135b301f84ff9b81c363db246072
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\fd\fd02135b301f84ff9b81c363db246072
+    projectPath: Library\metadata\fd\fd02135b301f84ff9b81c363db246072
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\fd\fd02135b301f84ff9b81c363db246072.info
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\fd\fd02135b301f84ff9b81c363db246072.info
+    projectPath: Library\metadata\fd\fd02135b301f84ff9b81c363db246072.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\fd\fdb5d9c8e02b24d439c0c699cf2ddee6
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\fd\fdb5d9c8e02b24d439c0c699cf2ddee6
+    projectPath: Library\metadata\fd\fdb5d9c8e02b24d439c0c699cf2ddee6
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\fe\fe37dec954d5ddf49834e7af29a1d2b2
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\fe\fe37dec954d5ddf49834e7af29a1d2b2
+    projectPath: Library\metadata\fe\fe37dec954d5ddf49834e7af29a1d2b2
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\fe\fe3db36a253b140539a0b3a5b7955194
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\fe\fe3db36a253b140539a0b3a5b7955194
+    projectPath: Library\metadata\fe\fe3db36a253b140539a0b3a5b7955194
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\fe\fe3db36a253b140539a0b3a5b7955194.info
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\fe\fe3db36a253b140539a0b3a5b7955194.info
+    projectPath: Library\metadata\fe\fe3db36a253b140539a0b3a5b7955194.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\SceneVisibilityState.asset
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\SceneVisibilityState.asset
+    projectPath: Library\SceneVisibilityState.asset
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -113,42 +3287,147 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: RedStick Redemption\Library\StateCache\Hierarchy\d2601b-mainStage.json
-    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\StateCache\Hierarchy\d2601b-mainStage.json
-    projectPath: Library\StateCache\Hierarchy\d2601b-mainStage.json
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: RedStick Redemption\Library\StateCache\SceneView\5433c4-mainStage.json
-    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\StateCache\SceneView\5433c4-mainStage.json
-    projectPath: Library\StateCache\SceneView\5433c4-mainStage.json
-    originalPath: 
-=======
-  lastUpdatedAtString: 2019-11-15T15:30:58.452+01:00
-  initializedAtString: 2019-11-15T15:30:58.452+01:00
-  entries:
-  - path: RedStick Redemption\Library\assetDatabase3
-    fullPath: C:\Users\liam8\OneDrive\Documents\GitHub\ProjetStickMan\RedStick Redemption\Library\assetDatabase3
-    projectPath: Library\assetDatabase3
+  - path: RedStick Redemption\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: RedStick Redemption\Library\EditorInstance.json
-    fullPath: C:\Users\liam8\OneDrive\Documents\GitHub\ProjetStickMan\RedStick Redemption\Library\EditorInstance.json
-    projectPath: Library\EditorInstance.json
+  - path: RedStick Redemption\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.Rider.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\ScriptAssemblies\Unity.Timeline.dll
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\ScriptAssemblies\Unity.Timeline.dll
+    projectPath: Library\ScriptAssemblies\Unity.Timeline.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+    projectPath: Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\ScriptAssemblies\UnityEditor.UI.dll
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\ScriptAssemblies\UnityEditor.UI.dll
+    projectPath: Library\ScriptAssemblies\UnityEditor.UI.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+    projectPath: Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\ScriptAssemblies\UnityEngine.UI.dll
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\ScriptAssemblies\UnityEngine.UI.dll
+    projectPath: Library\ScriptAssemblies\UnityEngine.UI.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\ScriptMapper
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\ScriptMapper
+    projectPath: Library\ScriptMapper
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\ShaderCache\EditorEncounteredVariants
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\ShaderCache\EditorEncounteredVariants
+    projectPath: Library\ShaderCache\EditorEncounteredVariants
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\SpriteAtlasDatabase.asset
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\SpriteAtlasDatabase.asset
+    projectPath: Library\SpriteAtlasDatabase.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\StateCache\Hierarchy\0cf207-9a27e91ea4d05e24f8.json
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\StateCache\Hierarchy\0cf207-9a27e91ea4d05e24f8.json
+    projectPath: Library\StateCache\Hierarchy\0cf207-9a27e91ea4d05e24f8.json
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: RedStick Redemption\Library\metadata\7c\7c76a291fad75584eac532f89e6d1c8e
-    fullPath: C:\Users\liam8\OneDrive\Documents\GitHub\ProjetStickMan\RedStick Redemption\Library\metadata\7c\7c76a291fad75584eac532f89e6d1c8e
-    projectPath: Library\metadata\7c\7c76a291fad75584eac532f89e6d1c8e
+  - path: RedStick Redemption\Library\StateCache\Hierarchy\0cf207-mainStage.json
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\StateCache\Hierarchy\0cf207-mainStage.json
+    projectPath: Library\StateCache\Hierarchy\0cf207-mainStage.json
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: RedStick Redemption\Library\metadata\7c\7c76a291fad75584eac532f89e6d1c8e.info
-    fullPath: C:\Users\liam8\OneDrive\Documents\GitHub\ProjetStickMan\RedStick Redemption\Library\metadata\7c\7c76a291fad75584eac532f89e6d1c8e.info
-    projectPath: Library\metadata\7c\7c76a291fad75584eac532f89e6d1c8e.info
+  - path: RedStick Redemption\Library\StateCache\Hierarchy\c3318c-9a27e91ea4d05e24f8.json
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\StateCache\Hierarchy\c3318c-9a27e91ea4d05e24f8.json
+    projectPath: Library\StateCache\Hierarchy\c3318c-9a27e91ea4d05e24f8.json
     originalPath: 
->>>>>>> Liam_1511
     indexStatus: 1
     workTreeStatus: 1
+  - path: RedStick Redemption\Library\StateCache\Hierarchy\c3318c-mainStage.json
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\StateCache\Hierarchy\c3318c-mainStage.json
+    projectPath: Library\StateCache\Hierarchy\c3318c-mainStage.json
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Library\StateCache\SceneView\230e87-9a27e91ea4d05e24f8.json
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\StateCache\SceneView\230e87-9a27e91ea4d05e24f8.json
+    projectPath: Library\StateCache\SceneView\230e87-9a27e91ea4d05e24f8.json
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Library\StateCache\SceneView\230e87-mainStage.json
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\StateCache\SceneView\230e87-mainStage.json
+    projectPath: Library\StateCache\SceneView\230e87-mainStage.json
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Library\StateCache\SceneView\9229cb-9a27e91ea4d05e24f8.json
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\StateCache\SceneView\9229cb-9a27e91ea4d05e24f8.json
+    projectPath: Library\StateCache\SceneView\9229cb-9a27e91ea4d05e24f8.json
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Library\StateCache\SceneView\9229cb-mainStage.json
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\StateCache\SceneView\9229cb-mainStage.json
+    projectPath: Library\StateCache\SceneView\9229cb-mainStage.json
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\ProjectSettings\ProjectVersion.txt
+    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\ProjectSettings\ProjectVersion.txt
+    projectPath: ProjectSettings\ProjectVersion.txt
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3

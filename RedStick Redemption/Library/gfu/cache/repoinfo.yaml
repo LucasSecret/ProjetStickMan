@@ -13,23 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  lastUpdatedAtString: 2019-11-09T12:44:48.266+01:00
-  initializedAtString: 2019-11-09T12:44:48.266+01:00
-=======
-  lastUpdatedAtString: 2019-11-15T15:20:26.513+01:00
-  initializedAtString: 2019-11-15T15:20:26.513+01:00
->>>>>>> Liam_1511
-=======
-  lastUpdatedAtString: 2019-11-15T11:45:48.849+01:00
-  initializedAtString: 2019-11-15T11:45:48.849+01:00
->>>>>>> mike_ai
-=======
-  lastUpdatedAtString: 2019-11-15T15:30:57.693+01:00
-  initializedAtString: 2019-11-15T15:30:57.693+01:00
->>>>>>> Liam_1511
+  lastUpdatedAtString: 2019-11-16T14:28:48.563+01:00
+  initializedAtString: 2019-11-16T14:28:48.563+01:00
   currentGitRemote:
     name: origin
     url: https://github.com/LucasSecret/ProjetStickMan.git
@@ -39,36 +24,14 @@ MonoBehaviour:
     function: 0
     token: 
   currentGitBranch:
-<<<<<<< HEAD
-<<<<<<< HEAD
-    name: mike_meca
-    tracking: origin/mike_meca
-  currentConfigBranch:
-    name: mike_meca
-    remote:
-      name: origin
-      url: https://github.com/LucasSecret/ProjetStickMan.git
-    trackingBranch: mike_meca
-=======
-    name: mike_ai
+    name: mike_ultra_instinct
     tracking: 
   currentConfigBranch:
-    name: mike_ai
+    name: mike_ultra_instinct
     remote:
       name: 
       url: 
     trackingBranch: 
->>>>>>> mike_ai
-=======
-    name: Liam_1511
-    tracking: origin/Liam_1511
-  currentConfigBranch:
-    name: Liam_1511
-    remote:
-      name: origin
-      url: https://github.com/LucasSecret/ProjetStickMan.git
-    trackingBranch: Liam_1511
->>>>>>> Liam_1511
   currentConfigRemote:
     name: origin
     url: https://github.com/LucasSecret/ProjetStickMan.git

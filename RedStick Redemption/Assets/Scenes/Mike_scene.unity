@@ -3924,22 +3924,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 876570472079629820, guid: 3c8297cc5dc05db47b20fdc2cf5d2a7b,
-        type: 3}
-      propertyPath: npc_prefab
-      value: 
-      objectReference: {fileID: 6563337831625855946, guid: 9a27e91ea4d05e24f8efb36602fd6042,
-        type: 3}
-    - target: {fileID: 876570472079629820, guid: 3c8297cc5dc05db47b20fdc2cf5d2a7b,
-        type: 3}
-      propertyPath: climbForce
-      value: 0.37
-      objectReference: {fileID: 0}
-    - target: {fileID: 876570472079629818, guid: 3c8297cc5dc05db47b20fdc2cf5d2a7b,
-        type: 3}
-      propertyPath: m_CollisionDetection
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 876570472251053606, guid: 3c8297cc5dc05db47b20fdc2cf5d2a7b,
         type: 3}
       propertyPath: m_Mesh

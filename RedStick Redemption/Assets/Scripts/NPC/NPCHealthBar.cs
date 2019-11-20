@@ -11,11 +11,13 @@ public class NPCHealthBar : MonoBehaviour
     Vector2 targetPos;
 
     public PlayerAttackEnum playerAttackEnum;
+    private Rigidbody2D rigidbody2D;
 
     // Use this for initialization
     void Start()
     {
         healthBarLength = Screen.width / 6;
+        rigidbody2D = GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
@@ -62,7 +64,7 @@ public class NPCHealthBar : MonoBehaviour
 
     }
 
-    public void takeDamage(PlayerAttackEnum.PlayerAttack playerAttackType)
+    public void takeDamage(PlayerAttackEnum.PlayerAttack playerAttackType, float dir)
     {
         int ammountDamage = 0;
 
@@ -73,9 +75,17 @@ public class NPCHealthBar : MonoBehaviour
 
         switch(playerAttackType)
         {
-            case PlayerAttackEnum.PlayerAttack.punch: ammountDamage = 1;  break;
-            case PlayerAttackEnum.PlayerAttack.uppercut: ammountDamage = 4; break;
-            case PlayerAttackEnum.PlayerAttack.kick: ammountDamage = 5; break;
+            case PlayerAttackEnum.PlayerAttack.punch:
+                ammountDamage = 1;
+                break;
+            case PlayerAttackEnum.PlayerAttack.uppercut:
+                rigidbody2D.AddForce(new Vector2(100f * dir, 5000f));
+                ammountDamage = 4;
+                break;
+            case PlayerAttackEnum.PlayerAttack.kick:
+                rigidbody2D.AddForce(new Vector2(3000.0f * dir, 2200f));
+                ammountDamage = 5;
+                break;
             case PlayerAttackEnum.PlayerAttack.lowkick: ammountDamage = 4; break;
             case PlayerAttackEnum.PlayerAttack.flyingKick: ammountDamage = 10; break;
         }
