@@ -25,8 +25,16 @@ public class WeaponInit : MonoBehaviour
     {
         if(col.tag == "Player")
         {
+            GetComponent<Animator>().enabled = false;
             transform.SetParent(GameObject.Find("MainDroite").transform);
             transform.localPosition = new Vector2(0, 0);
+
+            Debug.Log(transform.rotation);
+            transform.localRotation = Quaternion.Euler(0, 0, 0);
+            Debug.Log(transform.rotation);
+
+            GetComponent<Collider2D>().enabled = false;
+            GameObject.Find("Stickman").GetComponent<Animator>().SetFloat("GunTree", 1);
         }
     }
 }

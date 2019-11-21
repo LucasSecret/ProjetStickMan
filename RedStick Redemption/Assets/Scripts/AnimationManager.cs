@@ -12,9 +12,9 @@ public class AnimationManager : MonoBehaviour
     { return anim; }
     void Start()
     {
-
-        this.anim = GetComponent<Animator>();
-        this.playerControllerScript = GetComponent<PlayerControllerScript>();
+        anim = GetComponent<Animator>();
+        anim.SetFloat("GunTree", 0);
+        playerControllerScript = GetComponent<PlayerControllerScript>();
         anim.SetBool("isWalking", false);
         anim.SetBool("isRunning", false);
         anim.SetBool("isCrouching", false);
