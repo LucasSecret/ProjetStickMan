@@ -160,4 +160,18 @@ public class AnimationManager : MonoBehaviour
         anim.SetBool(animName, false);
     }
 
+    public void armToFire()
+    {
+        anim.SetTrigger("armToFire");
+    }
+    public void fireAnimation()
+    {
+        anim.SetBool("isFiring", true);
+    }
+
+    public void stopFire()
+    {
+        anim.SetBool("isFiring", false);
+    }
+
 }

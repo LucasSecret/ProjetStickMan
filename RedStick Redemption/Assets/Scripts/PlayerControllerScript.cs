@@ -12,19 +12,23 @@ public class PlayerControllerScript : MonoBehaviour
     protected bool isJumping;
     protected bool isOnGround;
     protected bool isAttacking;
-
+    protected bool isCrouching;
+    protected bool isRunning;
+    protected bool isClimbing;
+    protected bool goUp;
+    protected bool hasGun;
+    protected bool gunArmed;
     public bool IsOnGround
     {
         get { return isOnGround; }
         set { isOnGround = value; }
     }
 
-    protected bool isCrouching;
-    protected bool isRunning;
-    
-    protected bool isClimbing;
-    protected bool goUp;
-    protected bool climbingPause;
+    public bool HasGun
+    {
+        get { return hasGun; }
+        set { hasGun = value; }
+    }
 
     /* Notre réference vers notre manager d'animation : BIEN SEPARER LE PLAYER CONTROLLER DE LANIMATION CONTROLLER !*/
     private AnimationManager animationManager;
@@ -302,7 +306,7 @@ public class PlayerControllerScript : MonoBehaviour
     void HandleInput()
     {
 
-        if (Input.GetKeyDown(KeyCode.Space) && (isOnGround||isClimbing))
+        if (Input.GetKeyDown(KeyCode.Space) && (isOnGround || isClimbing))
         {
             animationManager.TriggerTakeOff();
             isJumping = true;
@@ -377,7 +381,7 @@ public class PlayerControllerScript : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.K))
         {
             isAttacking = true;
-            if(isOnGround)
+            if (isOnGround)
                 animationManager.kickAnimation();
 
             else
@@ -399,6 +403,24 @@ public class PlayerControllerScript : MonoBehaviour
             {
                 Debug.Log("j'ai frapper a gauche");
             }
+        }
+
+        if (Input.GetKeyDown(KeyCode.F) && hasGun && !gunArmed)
+        {
+            animationManager.armToFire();
+            animationManager.fireAnimation();
+            gunArmed = true;
+        }
+
+        else if (Input.GetKeyDown(KeyCode.F) && hasGun)
+        {
+            animationManager.fireAnimation();
+        }
+
+        else if(Input.GetKeyUp(KeyCode.F))
+        {
+            animationManager.stopFire();
+            gunArmed = false;
         }
     }
 
