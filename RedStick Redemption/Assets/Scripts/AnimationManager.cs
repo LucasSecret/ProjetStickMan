@@ -10,6 +10,8 @@ public class AnimationManager : MonoBehaviour
 
     public Animator getAnimator()
     { return anim; }
+
+
     void Start()
     {
         anim = GetComponent<Animator>();
@@ -18,11 +20,11 @@ public class AnimationManager : MonoBehaviour
         anim.SetBool("isWalking", false);
         anim.SetBool("isRunning", false);
         anim.SetBool("isCrouching", false);
+        anim.SetBool("idleClimb", false);
     }
 
     void Update()
     {
-
     }
 
     /*
@@ -65,24 +67,25 @@ public class AnimationManager : MonoBehaviour
 
     public void startClimbing()
     {
-        anim.enabled = true;
+        anim.SetBool("idleClimb", false);
         anim.SetBool("isClimbing", true);
+    }
+
+
+    public void pauseClimbing()
+    {
+        anim.SetBool("idleClimb", true);
+        anim.SetBool("isClimbing", false);
+
     }
 
     public void stopClimbing()
     {
+        anim.SetBool("idleClimb", false);
         anim.SetBool("isClimbing", false);
+
     }
 
-    public void pauseClimbing()
-    {
-        anim.SetBool("idleClimbing", true);
-    }
-
-    public void resumeClimbing()
-    {
-        anim.SetBool("idleClimbing", false);
-    }
 
     public void stopWalking()
     {

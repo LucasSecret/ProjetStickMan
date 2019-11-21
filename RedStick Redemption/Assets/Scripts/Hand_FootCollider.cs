@@ -16,9 +16,9 @@ public class Hand_FootCollider : MonoBehaviour
         
     }
 
-    void OnTriggerEnter2D(Collider2D col)
+    void OnCollisionEnter2D(Collision2D col)
     {
-       
+        
         if(col.transform.tag == "Destroyable")
         {
             col.gameObject.GetComponent<DestroyableController>().takeDamage(20);            
