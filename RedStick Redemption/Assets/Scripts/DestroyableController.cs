@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CaisseControler : MonoBehaviour
+public class DestroyableController : MonoBehaviour
 {
 
     public int hitPoint; //The ammount of hp la caisse doit avoir
@@ -24,7 +24,8 @@ public class CaisseControler : MonoBehaviour
 
         if(isDestroyed)
         {
-            Destroy(gameObject);
+            transform.Find("Weapon").GetComponent<WeaponInit>().init();
+            gameObject.SetActive(false);
         }
     }
 
@@ -32,6 +33,8 @@ public class CaisseControler : MonoBehaviour
     {
         this.hitPoint -= ammount;
         GetComponent<AudioSource>().Play();
-        
     }
+
+  
+
 }

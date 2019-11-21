@@ -10,19 +10,21 @@ public class AnimationManager : MonoBehaviour
 
     public Animator getAnimator()
     { return anim; }
+
+
     void Start()
     {
-
-        this.anim = GetComponent<Animator>();
-        this.playerControllerScript = GetComponent<PlayerControllerScript>();
+        anim = GetComponent<Animator>();
+        anim.SetFloat("GunTree", 0);
+        playerControllerScript = GetComponent<PlayerControllerScript>();
         anim.SetBool("isWalking", false);
         anim.SetBool("isRunning", false);
         anim.SetBool("isCrouching", false);
+        anim.SetBool("idleClimb", false);
     }
 
     void Update()
     {
-
     }
 
     /*
@@ -65,26 +67,27 @@ public class AnimationManager : MonoBehaviour
 
     public void startClimbing()
     {
-        anim.enabled = true;
+        anim.SetBool("idleClimb", false);
         anim.SetBool("isClimbing", true);
+    }
+
+
+    public void pauseClimbing()
+    {
+        anim.SetBool("idleClimb", true);
+        anim.SetBool("isClimbing", false);
+
     }
 
     public void stopClimbing()
     {
+        anim.SetBool("idleClimb", false);
         anim.SetBool("isClimbing", false);
+
     }
 
-    public void pauseClimbing()
-    {
-        anim.SetBool("idleClimbing", true);
-    }
 
-    public void resumeClimbing()
-    {
-        anim.SetBool("idleClimbing", false);
-    }
-
-    public void setIdle()
+    public void stopWalking()
     {
         anim.SetBool("isWalking", false);
     }
@@ -155,6 +158,20 @@ public class AnimationManager : MonoBehaviour
     public void setAnimationState(string animName)
     {
         anim.SetBool(animName, false);
+    }
+
+    public void armToFire()
+    {
+        anim.SetTrigger("armToFire");
+    }
+    public void fireAnimation()
+    {
+        anim.SetBool("isFiring", true);
+    }
+
+    public void stopFire()
+    {
+        anim.SetBool("isFiring", false);
     }
 
 }

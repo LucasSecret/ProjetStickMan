@@ -19,13 +19,13 @@ public class PlayerControllerScript : MonoBehaviour
     }
 
     protected bool isOnGround;
-
     public bool IsOnGround
     {
         get { return isOnGround; }
         set { isOnGround = value; }
     }
 
+    
     protected bool isCrouching;
     public bool IsCrouching
     {
@@ -61,11 +61,18 @@ public class PlayerControllerScript : MonoBehaviour
         set { goUp = value; }
     }
 
-    protected bool climbingPause;
-    public bool ClimbingPause
+    protected bool gunArmed;
+    public bool GunArmed
     {
-        get { return climbingPause; }
-        set { climbingPause = value; }
+        get { return gunArmed; }
+        set { gunArmed = value; }
+    }
+    
+    protected bool hasGun;
+    public bool HasGun
+    {
+        get { return hasGun; }
+        set { hasGun = value; }
     }
 
     /* Notre réference vers notre manager d'animation : BIEN SEPARER LE PLAYER CONTROLLER DE LANIMATION CONTROLLER !*/
@@ -142,17 +149,14 @@ public class PlayerControllerScript : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D col)
     {
+
         if (col.gameObject.tag == "floor" || col.gameObject.tag == "crate") //Doit être remplacé par un tag platform 
         {
             isOnGround = true;
             animationManager.getOnGroundAnimation();
-
         }
 
-        else if ((col.gameObject.tag == "climbable"))
-        {
-            isClimbing = true;
-        }
+
 
         //On récupere le collider qui rentre en collision avec un tel objet : Utilisé pour gérer les collider des membres, attributs du joueur.
         innerCollider = col.contacts[0].otherCollider;
@@ -171,16 +175,24 @@ public class PlayerControllerScript : MonoBehaviour
     }
 
 
-    void OnCollisionExit2D(Collision2D col)
+    void OnTriggerEnter2D(Collider2D col)
     {
-        if ((col.gameObject.tag == "climbable"))
+        if (col.tag == "Climbable")
+            isClimbing = true;
+    }
+
+
+
+    void OnTriggerExit2D(Collider2D col)
+    {
+        if (col.tag == "Climbable")
         {
+            Debug.Log("Climb EXIT");
             isClimbing = false;
             rigidbody2D.gravityScale = gravityScale;
-            //animationManager.resumeClimbing(); 
-            animationManager.stopClimbing();
         }
     }
+    
 
     private void handleMoletDroit(Transform childOfRightLeg)
     {
@@ -230,9 +242,9 @@ public class PlayerControllerScript : MonoBehaviour
 
     void Update()
     {
-
-         direction = Input.GetAxis("Horizontal");
+        direction = Input.GetAxis("Horizontal");
         isAttacking = animationManager.getIsAttacking();
+
 
         if (direction > 0)
         {
@@ -264,14 +276,13 @@ public class PlayerControllerScript : MonoBehaviour
         }
 
         
-
         if (direction == 0)
         {
             if (isCrouching)
                 animationManager.stopCrouchWalking();
 
-            else if(!isClimbing) 
-                animationManager.setIdle();
+            else  
+                animationManager.stopWalking();
         }
 
 
@@ -284,20 +295,20 @@ public class PlayerControllerScript : MonoBehaviour
         }
 
         else if (Input.GetAxis("Vertical") > 0)
-        {
+        { 
             goUp = true;
-            animationManager.resumeClimbing();
         }
 
         else
         {
             goUp = false;
-            animationManager.standUp();
-            animationManager.stopCrouchWalking();
-            isCrouching = false;
 
-            if (isClimbing)
-                animationManager.pauseClimbing();
+            if (!isClimbing)
+            {
+                animationManager.standUp();
+                animationManager.stopCrouchWalking();
+                isCrouching = false;
+            }
         }
 
         HandleInput();
@@ -316,14 +327,23 @@ public class PlayerControllerScript : MonoBehaviour
             crouchMultiplier = 1.0f;
 
 
+        Debug.Log("GO UP : " + goUp);
+        Debug.Log("Is Climbing : " + isClimbing);
 
         if (goUp && isClimbing)
         {
             animationManager.startClimbing();
             transform.position = transform.position + new Vector3(0, 1, 0) * climbForce;
             rigidbody2D.gravityScale = 0.0f;
-            Debug.Log("Gravity Scale : " + rigidbody2D.gravityScale);
         }
+
+        else if (isClimbing && !goUp)
+        {
+            animationManager.pauseClimbing();
+        }
+
+        else
+            animationManager.stopClimbing();
     }
 
 
@@ -347,7 +367,7 @@ public class PlayerControllerScript : MonoBehaviour
     void HandleInput()
     {
 
-        if (Input.GetKeyDown(KeyCode.Space) && (isOnGround||isClimbing))
+        if (Input.GetKeyDown(KeyCode.Space) && (isOnGround || isClimbing))
         {
             animationManager.TriggerTakeOff();
             isJumping = true;
@@ -378,6 +398,7 @@ public class PlayerControllerScript : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.P))
         {
+            isAttacking = true;
             if (Input.GetKey(KeyCode.DownArrow))
             {
                 Debug.Log("j'ai frapper au poingts en bas");
@@ -400,6 +421,7 @@ public class PlayerControllerScript : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.P) && !Input.GetKey(KeyCode.DownArrow) && !Input.GetKey(KeyCode.RightArrow) && !Input.GetKey(KeyCode.LeftArrow) && !Input.GetKey(KeyCode.UpArrow))
         {
+            isAttacking = true;
             Debug.Log("j'ai frapper au poingts normal");
             animationManager.punchAnimation();
             playerAttackEnum.PlayerAttackType = PlayerAttackEnum.PlayerAttack.punch;
@@ -422,6 +444,7 @@ public class PlayerControllerScript : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.K))
         {
+
             if(isOnGround)
             {
                 animationManager.kickAnimation();
@@ -451,6 +474,25 @@ public class PlayerControllerScript : MonoBehaviour
             }
         }
 
+        if (Input.GetKeyDown(KeyCode.F) && hasGun && !gunArmed)
+        {
+            animationManager.armToFire();
+            animationManager.fireAnimation();
+            gunArmed = true;
+        }
+
+        else if (Input.GetKeyDown(KeyCode.F) && hasGun)
+        {
+            animationManager.fireAnimation();
+        }
+        
+        else if(Input.GetKeyUp(KeyCode.F))
+        {
+            animationManager.stopFire();
+            gunArmed = false;
+        }
+
+
         if (Input.GetKeyDown(KeyCode.K) && !Input.GetKey(KeyCode.DownArrow) && !Input.GetKey(KeyCode.RightArrow) && !Input.GetKey(KeyCode.LeftArrow) && !Input.GetKey(KeyCode.UpArrow))
         {
             Debug.Log("j'ai frapper normal");
@@ -477,16 +519,9 @@ public class PlayerControllerScript : MonoBehaviour
                 /*TODO changer le sprite de couleur (blanc)*/
                 spritemesh.color = Color.yellow;
             }
-
-
-
         }
-
-        
-
-
-
     }
+
 
     public void takeDamage(PlayerAttackEnum.PlayerAttack npcAttackType, float dir)
     {
@@ -529,7 +564,5 @@ public class PlayerControllerScript : MonoBehaviour
         GUILayout.Label("direction player transform : " + transform.forward.z);
         GUILayout.EndArea();
     }
-
-
 }
 
