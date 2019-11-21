@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using Anima2D;
 
 public class NPCHealthBar : MonoBehaviour
 {
@@ -8,16 +9,26 @@ public class NPCHealthBar : MonoBehaviour
 
     public float healthBarLength;
     private bool isDestroyed;
+    public bool isAttacked;
     Vector2 targetPos;
 
-    public PlayerAttackEnum playerAttackEnum;
+    private PlayerAttackEnum playerAttackEnum;
     private Rigidbody2D rigidbody2D;
+    private Color[] currentColors;
 
     // Use this for initialization
     void Start()
     {
         healthBarLength = Screen.width / 6;
         rigidbody2D = GetComponent<Rigidbody2D>();
+
+        Component[] SpriteMesh = GetComponentsInChildren<Anima2D.SpriteMeshInstance>();
+
+
+        foreach (Anima2D.SpriteMeshInstance spritemesh in SpriteMesh)
+        {
+            
+        }
     }
 
     // Update is called once per frame
@@ -67,6 +78,7 @@ public class NPCHealthBar : MonoBehaviour
     public void takeDamage(PlayerAttackEnum.PlayerAttack playerAttackType, float dir)
     {
         int ammountDamage = 0;
+        isAttacked = true;
 
         if(GetComponent<AudioSource>() != null)
         {

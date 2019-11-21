@@ -1444,6 +1444,7 @@ GameObject:
   - component: {fileID: 6563337831625855949}
   - component: {fileID: 6563337831625855936}
   - component: {fileID: 8726523572008179982}
+  - component: {fileID: 6549975777120885429}
   m_Layer: 0
   m_Name: NPC_DUMMY
   m_TagString: NPC
@@ -1572,6 +1573,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8617cb91a4f9ccb4cb46ec7a3987ce2b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0
+  isMoving: 0
+  isAttacking: 0
+--- !u!114 &6549975777120885429
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6563337831625855946}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e5f1b54715b9c448a5a64e36a4b0c63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &6563337831675272634

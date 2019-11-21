@@ -8,7 +8,9 @@ public class PlayerHealth : MonoBehaviour
 
     public int startingHP = 500; //Le nombre de HitPoint que possède le joueur au début
     private int currentHp;
-    private bool isDamaged; // Quand le joeur recoit un coup
+    private bool isDamaged; // Quand le joeur recoit un cou
+    public float healthBarLength;
+    Vector2 targetPos;
 
 
 
@@ -20,12 +22,24 @@ public class PlayerHealth : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        healthBarLength = Screen.width / 6;
+        currentHp = startingHP;
     }
 
     // Update is called once per frame
     void Update()
     {
+        targetPos = Camera.main.WorldToScreenPoint(transform.position);
+        healthBarLength = (Screen.width / 6) * (currentHp / (float)startingHP);
+    }
+
+    void OnGUI()
+    {
+
+
+
+        GUI.Box(new Rect(targetPos.x - (healthBarLength / 2), (Screen.height - targetPos.y) - 100, healthBarLength, 60), currentHp + "/" + startingHP);
+
     }
 
     public void TakeDamage(int amount)

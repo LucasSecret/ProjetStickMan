@@ -188,6 +188,7 @@ public class PlayerControllerScript : MonoBehaviour
     {
 
          direction = Input.GetAxis("Horizontal");
+        isAttacking = animationManager.getIsAttacking();
 
         if (direction > 0)
         {
@@ -424,11 +425,13 @@ public class PlayerControllerScript : MonoBehaviour
             npc.transform.position = new Vector3(mouseWorld.x, mouseWorld.y, 0);
 
             Component[] SpriteMesh = npc.GetComponentsInChildren<Anima2D.SpriteMeshInstance>();
+            Color randColor = UnityEngine.Random.ColorHSV();
 
-                
+
             foreach (Anima2D.SpriteMeshInstance spritemesh in SpriteMesh)
             {
-                spritemesh.color = Color.red;
+                /*TODO changer le sprite de couleur (blanc)*/
+                spritemesh.color = Color.yellow;
             }
 
 
@@ -439,6 +442,35 @@ public class PlayerControllerScript : MonoBehaviour
 
 
 
+    }
+
+    public void takeDamage(PlayerAttackEnum.PlayerAttack npcAttackType, float dir)
+    {
+        int ammountDamage = 0;
+
+        if (GetComponent<AudioSource>() != null)
+        {
+            GetComponent<AudioSource>().Play();
+        }
+
+        switch (npcAttackType)
+        {
+            case PlayerAttackEnum.PlayerAttack.punch:
+                ammountDamage = 1;
+                break;
+            case PlayerAttackEnum.PlayerAttack.uppercut:
+                rigidbody2D.AddForce(new Vector2(100f * dir, 5000f));
+                ammountDamage = 4;
+                break;
+            case PlayerAttackEnum.PlayerAttack.kick:
+                rigidbody2D.AddForce(new Vector2(500.0f * dir, 2200f));
+                ammountDamage = 5;
+                break;
+            case PlayerAttackEnum.PlayerAttack.lowkick: ammountDamage = 4; break;
+            case PlayerAttackEnum.PlayerAttack.flyingKick: ammountDamage = 10; break;
+        }
+
+        this.playerHealth.TakeDamage(ammountDamage);
     }
 
     private void OnGUI()
@@ -453,5 +485,7 @@ public class PlayerControllerScript : MonoBehaviour
         GUILayout.Label("direction player transform : " + transform.forward.z);
         GUILayout.EndArea();
     }
+
+
 }
 
