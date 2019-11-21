@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using Anima2D;
 
 public class NPCHealthBar : MonoBehaviour
 {
@@ -8,13 +9,26 @@ public class NPCHealthBar : MonoBehaviour
 
     public float healthBarLength;
     private bool isDestroyed;
+    public bool isAttacked;
+    Vector2 targetPos;
 
-    public PlayerAttackEnum playerAttackEnum;
+    private PlayerAttackEnum playerAttackEnum;
+    private Rigidbody2D rigidbody2D;
+    private Color[] currentColors;
 
     // Use this for initialization
     void Start()
     {
         healthBarLength = Screen.width / 6;
+        rigidbody2D = GetComponent<Rigidbody2D>();
+
+        Component[] SpriteMesh = GetComponentsInChildren<Anima2D.SpriteMeshInstance>();
+
+
+        foreach (Anima2D.SpriteMeshInstance spritemesh in SpriteMesh)
+        {
+            
+        }
     }
 
     // Update is called once per frame
@@ -26,15 +40,17 @@ public class NPCHealthBar : MonoBehaviour
         {
             Destroy(gameObject);
         }
+
+        
+        targetPos = Camera.main.WorldToScreenPoint(transform.position);
     }
 
     void OnGUI()
     {
 
-        Vector2 targetPos;
-        targetPos = Camera.main.WorldToScreenPoint(transform.position);
+        
 
-        GUI.Box(new Rect(targetPos.x, targetPos.y + 150, 60, 20), curHealth + "/" + maxHealth);
+        GUI.Box(new Rect(targetPos.x - (healthBarLength / 2), (Screen.height - targetPos.y) - 100, healthBarLength, 60), curHealth + "/" + maxHealth);
 
     }
 
@@ -59,14 +75,33 @@ public class NPCHealthBar : MonoBehaviour
 
     }
 
-    public void takeDamage(int ammount)
+    public void takeDamage(PlayerAttackEnum.PlayerAttack playerAttackType, float dir)
     {
-        this.curHealth -= ammount;
+        int ammountDamage = 0;
+        isAttacked = true;
 
         if(GetComponent<AudioSource>() != null)
         {
         GetComponent<AudioSource>().Play();
         }
 
+        switch(playerAttackType)
+        {
+            case PlayerAttackEnum.PlayerAttack.punch:
+                ammountDamage = 1;
+                break;
+            case PlayerAttackEnum.PlayerAttack.uppercut:
+                rigidbody2D.AddForce(new Vector2(100f * dir, 5000f));
+                ammountDamage = 4;
+                break;
+            case PlayerAttackEnum.PlayerAttack.kick:
+                rigidbody2D.AddForce(new Vector2(3000.0f * dir, 2200f));
+                ammountDamage = 5;
+                break;
+            case PlayerAttackEnum.PlayerAttack.lowkick: ammountDamage = 4; break;
+            case PlayerAttackEnum.PlayerAttack.flyingKick: ammountDamage = 10; break;
+        }
+
+        this.curHealth -= ammountDamage;
     }
 }

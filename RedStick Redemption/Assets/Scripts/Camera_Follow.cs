@@ -4,43 +4,50 @@ using UnityEngine;
 
 public class Camera_Follow : MonoBehaviour
 {
-    public Transform player;
-    public float cameraDistance = 30.0f;
-    public Camera camera;
-    float deltacumul;
+    public Transform target;
+    public Vector3 offset = new Vector3(0, 2.8f, 0);
+    public bool smoothFollow = true;
 
-    private void Awake()
+    Vector2 moveToPos;
+    bool beginMove = false;
+    float distanceTmp = 0f;
+
+    // Update is called once per framed
+    void LateUpdate()
     {
-        camera = GetComponent<UnityEngine.Camera>();
-        camera.orthographicSize = ((Screen.height / 2) / cameraDistance);
+        if (!target)
+            return;
+
+        if (smoothFollow)
+        {
+            distanceTmp = ((target.position + offset) - transform.position).sqrMagnitude;
+            if (beginMove)
+            {
+                moveToPos = Vector3.Lerp(moveToPos, target.position + offset, Time.fixedDeltaTime * 7.75f);
+                transform.position = new Vector3(moveToPos.x, moveToPos.y, -10);
+
+                if (distanceTmp < 0.05f * 0.05f)
+                {
+                    beginMove = false;
+                }
+            }
+            else
+            {
+                if (distanceTmp > 0.5f * 0.5f)
+                {
+                    beginMove = true;
+                }
+            }
+        }
+        else
+        {
+            transform.position = new Vector3(target.position.x, target.position.y, -10);
+        }
+
     }
 
-    private void FixedUpdate()
+    void StopFollowing()
     {
-        HandleCamera();
-
-    }
-
-    private void HandleCamera()
-    {
-
-        float minCameraX = -23.50f;
-        float maxCameraX = 2000 - minCameraX;
-
-        // camera.transform.position = new Vector3(Mathf.Min(maxCameraX, Mathf.Max(transform.position.x, minCameraX)), Mathf.Min(maxCameraY, Mathf.Max(camera.transform.position.y, minCameraY)), transform.position.z);
-
-        deltacumul += Time.deltaTime;
-
-        Vector3 posTemp = camera.transform.position;
-
-        posTemp.x += (player.transform.position.x - camera.transform.position.x) * 10f * Time.deltaTime;
-        posTemp.y += (player.transform.position.y - camera.transform.position.y) * 10f * Time.deltaTime;
-
-
-
-
-        camera.transform.position = new Vector3(Mathf.Min(maxCameraX, Mathf.Max(posTemp.x, minCameraX)),
-            posTemp.y,
-            transform.position.z);
+        beginMove = false;
     }
 }

@@ -8,22 +8,67 @@ public class PlayerControllerScript : MonoBehaviour
     public float jumpForce;
     public float hitStrenghtMultiplier = 1.0f; //Le multiplicateur de force que le joueur possède
     public float climbForce;
+    public GameObject npc_prefab;
+    
 
     protected bool isJumping;
+    public bool IsJumping
+    {
+        get { return isJumping; }
+        set { isJumping = value; }
+    }
+
     protected bool isOnGround;
-    protected bool isAttacking;
-    protected bool isCrouching;
-    protected bool isRunning;
-    protected bool isClimbing;
-    protected bool goUp;
-    protected bool hasGun;
-    protected bool gunArmed;
     public bool IsOnGround
     {
         get { return isOnGround; }
         set { isOnGround = value; }
     }
 
+    
+    protected bool isCrouching;
+    public bool IsCrouching
+    {
+        get { return isCrouching; }
+        set { isCrouching = value; }
+    }
+
+    protected bool isRunning;
+    public bool IsRunning
+    {
+        get { return isRunning; }
+        set { isRunning = value; }
+    }
+
+    protected bool isAttacking;
+    public bool IsAttacking
+    {
+        get { return IsAttacking; }
+        set { isAttacking = value; }
+    }
+
+    protected bool isClimbing;
+    public bool IsClimbing
+    {
+        get { return isClimbing; }
+        set { isClimbing = value; }
+    }
+
+    protected bool goUp;
+    public bool GoUp
+    {
+        get { return goUp; }
+        set { goUp = value; }
+    }
+
+    protected bool gunArmed;
+    public bool GunArmed
+    {
+        get { return gunArmed; }
+        set { gunArmed = value; }
+    }
+    
+    protected bool hasGun;
     public bool HasGun
     {
         get { return hasGun; }
@@ -42,7 +87,9 @@ public class PlayerControllerScript : MonoBehaviour
     private float crouchMultiplier;
     private float gravityScale;
     private PlayerAttackEnum playerAttackEnum;
-
+    private Vector2 mouseWorld;
+    private Vector2 mousePosScreen;
+    private float direction;
 
     public AudioClip[] audioClips;
 
@@ -84,14 +131,26 @@ public class PlayerControllerScript : MonoBehaviour
             this.playerAttackEnum = GetComponent<PlayerAttackEnum>();
         }
 
-        Debug.Log("audiclips lenght : " + audioClips.Length);
+        InitStickManColor();
 
+        
+
+    }
+
+    private void InitStickManColor()
+    {
+        Component[] SpriteMesh = GetComponentsInChildren<Anima2D.SpriteMeshInstance>();
+
+        foreach (Anima2D.SpriteMeshInstance spritemesh in SpriteMesh)
+        {
+            spritemesh.color = Color.red;
+        }
     }
 
     void OnCollisionEnter2D(Collision2D col)
     {
 
-        if (col.gameObject.tag == "floor") //Doit être remplacé par un tag platform 
+        if (col.gameObject.tag == "floor" || col.gameObject.tag == "crate") //Doit être remplacé par un tag platform 
         {
             isOnGround = true;
             animationManager.getOnGroundAnimation();
@@ -107,7 +166,8 @@ public class PlayerControllerScript : MonoBehaviour
           
             if(animationManager.getIsAttacking())
             {
-           //     col.gameObject.GetComponent<NPCHealthBar>().takeDamage(2, PlayerAttackType);
+
+                col.gameObject.GetComponent<NPCHealthBar>().takeDamage(playerAttackEnum.PlayerAttackType, transform.forward.z);
                 audioSource.clip = audioClips[UnityEngine.Random.Range(0, audioClips.Length)];
                 audioSource.Play();
             }
@@ -182,8 +242,9 @@ public class PlayerControllerScript : MonoBehaviour
 
     void Update()
     {
-        
-        float direction = Input.GetAxis("Horizontal");
+        direction = Input.GetAxis("Horizontal");
+        isAttacking = animationManager.getIsAttacking();
+
 
         if (direction > 0)
         {
@@ -346,6 +407,7 @@ public class PlayerControllerScript : MonoBehaviour
             {
                 Debug.Log("j'ai frapper au poingts en haut");
                 animationManager.uppercutAnimation();
+                playerAttackEnum.PlayerAttackType = PlayerAttackEnum.PlayerAttack.uppercut;
             }
             else if (Input.GetKey(KeyCode.RightArrow))
             {
@@ -362,34 +424,41 @@ public class PlayerControllerScript : MonoBehaviour
             isAttacking = true;
             Debug.Log("j'ai frapper au poingts normal");
             animationManager.punchAnimation();
+            playerAttackEnum.PlayerAttackType = PlayerAttackEnum.PlayerAttack.punch;
 
         }
 
 
         if (Input.GetKeyDown(KeyCode.U))
         {
-            isAttacking = true;
             animationManager.uppercutAnimation();
+            playerAttackEnum.PlayerAttackType = PlayerAttackEnum.PlayerAttack.uppercut;
         }
+            
 
         if (Input.GetKeyDown(KeyCode.L))
         {
-            isAttacking = true;
             animationManager.lowKickAnimation();
+            playerAttackEnum.PlayerAttackType = PlayerAttackEnum.PlayerAttack.lowkick;
         }
 
         if (Input.GetKeyDown(KeyCode.K))
         {
-            isAttacking = true;
-            if (isOnGround)
-                animationManager.kickAnimation();
 
+            if(isOnGround)
+            {
+                animationManager.kickAnimation();
+            }
             else
+            {
                 animationManager.startFlyingKick();
+                playerAttackEnum.PlayerAttackType = PlayerAttackEnum.PlayerAttack.flyingKick;
+            }
             if (Input.GetKey(KeyCode.DownArrow))
             {
                 Debug.Log("j'ai frapper en bas");
                 animationManager.lowKickAnimation();
+                playerAttackEnum.PlayerAttackType = PlayerAttackEnum.PlayerAttack.lowkick;
             }
             else if (Input.GetKey(KeyCode.UpArrow))
             {
@@ -416,13 +485,84 @@ public class PlayerControllerScript : MonoBehaviour
         {
             animationManager.fireAnimation();
         }
-
+        
         else if(Input.GetKeyUp(KeyCode.F))
         {
             animationManager.stopFire();
             gunArmed = false;
         }
+
+
+        if (Input.GetKeyDown(KeyCode.K) && !Input.GetKey(KeyCode.DownArrow) && !Input.GetKey(KeyCode.RightArrow) && !Input.GetKey(KeyCode.LeftArrow) && !Input.GetKey(KeyCode.UpArrow))
+        {
+            Debug.Log("j'ai frapper normal");
+            playerAttackEnum.PlayerAttackType = PlayerAttackEnum.PlayerAttack.kick;
+            animationManager.kickAnimation();
+
+        }
+
+
+        if(Input.GetMouseButtonDown(0))
+        {
+             mousePosScreen = Input.mousePosition;
+             mouseWorld = Camera.main.ScreenToWorldPoint(new Vector3(mousePosScreen.x, mousePosScreen.y, 0));
+
+            GameObject npc = Instantiate(npc_prefab) as GameObject;
+            npc.transform.position = new Vector3(mouseWorld.x, mouseWorld.y, 0);
+
+            Component[] SpriteMesh = npc.GetComponentsInChildren<Anima2D.SpriteMeshInstance>();
+            Color randColor = UnityEngine.Random.ColorHSV();
+
+
+            foreach (Anima2D.SpriteMeshInstance spritemesh in SpriteMesh)
+            {
+                /*TODO changer le sprite de couleur (blanc)*/
+                spritemesh.color = Color.yellow;
+            }
+        }
     }
 
+
+    public void takeDamage(PlayerAttackEnum.PlayerAttack npcAttackType, float dir)
+    {
+        int ammountDamage = 0;
+
+        if (GetComponent<AudioSource>() != null)
+        {
+            GetComponent<AudioSource>().Play();
+        }
+
+        switch (npcAttackType)
+        {
+            case PlayerAttackEnum.PlayerAttack.punch:
+                ammountDamage = 1;
+                break;
+            case PlayerAttackEnum.PlayerAttack.uppercut:
+                rigidbody2D.AddForce(new Vector2(100f * dir, 5000f));
+                ammountDamage = 4;
+                break;
+            case PlayerAttackEnum.PlayerAttack.kick:
+                rigidbody2D.AddForce(new Vector2(500.0f * dir, 2200f));
+                ammountDamage = 5;
+                break;
+            case PlayerAttackEnum.PlayerAttack.lowkick: ammountDamage = 4; break;
+            case PlayerAttackEnum.PlayerAttack.flyingKick: ammountDamage = 10; break;
+        }
+
+        this.playerHealth.TakeDamage(ammountDamage);
+    }
+
+    private void OnGUI()
+    {
+
+        GUILayout.BeginArea(new Rect(20, 20, 250, 150));
+        GUILayout.Label("Player world pos : " + transform.position.ToString());
+        GUILayout.Label("Player is climbing : " + isClimbing);
+        GUILayout.Label("Player is jumping : " + isJumping);
+        GUILayout.Label("Player is running : " + isRunning);
+        GUILayout.Label("Player is onGround : " + isOnGround);
+        GUILayout.Label("direction player transform : " + transform.forward.z);
+        GUILayout.EndArea();
+    }
 }
 
