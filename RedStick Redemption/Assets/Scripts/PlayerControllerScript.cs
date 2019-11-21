@@ -9,8 +9,15 @@ public class PlayerControllerScript : MonoBehaviour
     public float hitStrenghtMultiplier = 1.0f; //Le multiplicateur de force que le joueur possède
     public float climbForce;
     public GameObject npc_prefab;
+    
 
     protected bool isJumping;
+    public bool IsJumping
+    {
+        get { return isJumping; }
+        set { isJumping = value; }
+    }
+
     protected bool isOnGround;
     public bool IsOnGround
     {
@@ -19,11 +26,46 @@ public class PlayerControllerScript : MonoBehaviour
     }
 
     protected bool isCrouching;
+    public bool IsCrouching
+    {
+        get { return isCrouching; }
+        set { isCrouching = value; }
+    }
+
     protected bool isRunning;
+    public bool IsRunning
+    {
+        get { return isRunning; }
+        set { isRunning = value; }
+    }
+
     protected bool isAttacking;
+    public bool IsAttacking
+    {
+        get { return IsAttacking; }
+        set { isAttacking = value; }
+    }
+
     protected bool isClimbing;
+    public bool IsClimbing
+    {
+        get { return isClimbing; }
+        set { isClimbing = value; }
+    }
+
     protected bool goUp;
+    public bool GoUp
+    {
+        get { return goUp; }
+        set { goUp = value; }
+    }
+
     protected bool climbingPause;
+    public bool ClimbingPause
+    {
+        get { return climbingPause; }
+        set { climbingPause = value; }
+    }
 
     /* Notre réference vers notre manager d'animation : BIEN SEPARER LE PLAYER CONTROLLER DE LANIMATION CONTROLLER !*/
     private AnimationManager animationManager;
@@ -82,6 +124,8 @@ public class PlayerControllerScript : MonoBehaviour
 
         InitStickManColor();
 
+        
+
     }
 
     private void InitStickManColor()
@@ -96,7 +140,7 @@ public class PlayerControllerScript : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D col)
     {
-        if (col.gameObject.tag == "floor") //Doit être remplacé par un tag platform 
+        if (col.gameObject.tag == "floor" || col.gameObject.tag == "crate") //Doit être remplacé par un tag platform 
         {
             isOnGround = true;
             animationManager.getOnGroundAnimation();
