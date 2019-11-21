@@ -11,6 +11,8 @@ public class PlayerControllerScript : MonoBehaviour
 
     protected bool isJumping;
     protected bool isOnGround;
+    protected bool isAttacking;
+
     public bool IsOnGround
     {
         get { return isOnGround; }
@@ -19,7 +21,7 @@ public class PlayerControllerScript : MonoBehaviour
 
     protected bool isCrouching;
     protected bool isRunning;
-    protected bool isAttacking;
+    
     protected bool isClimbing;
     protected bool goUp;
     protected bool climbingPause;
@@ -331,6 +333,7 @@ public class PlayerControllerScript : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.P))
         {
+            isAttacking = true;
             if (Input.GetKey(KeyCode.DownArrow))
             {
                 Debug.Log("j'ai frapper au poingts en bas");
@@ -352,6 +355,7 @@ public class PlayerControllerScript : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.P) && !Input.GetKey(KeyCode.DownArrow) && !Input.GetKey(KeyCode.RightArrow) && !Input.GetKey(KeyCode.LeftArrow) && !Input.GetKey(KeyCode.UpArrow))
         {
+            isAttacking = true;
             Debug.Log("j'ai frapper au poingts normal");
             animationManager.punchAnimation();
 
@@ -359,13 +363,20 @@ public class PlayerControllerScript : MonoBehaviour
 
 
         if (Input.GetKeyDown(KeyCode.U))
+        {
+            isAttacking = true;
             animationManager.uppercutAnimation();
+        }
 
         if (Input.GetKeyDown(KeyCode.L))
+        {
+            isAttacking = true;
             animationManager.lowKickAnimation();
+        }
 
         if (Input.GetKeyDown(KeyCode.K))
         {
+            isAttacking = true;
             if(isOnGround)
                 animationManager.kickAnimation();
 
