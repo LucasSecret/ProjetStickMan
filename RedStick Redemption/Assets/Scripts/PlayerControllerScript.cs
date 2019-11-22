@@ -10,6 +10,7 @@ public class PlayerControllerScript : MonoBehaviour
     public float climbForce;
     public GameObject npc_prefab;
     
+    
 
     protected bool isJumping;
     public bool IsJumping
@@ -74,6 +75,8 @@ public class PlayerControllerScript : MonoBehaviour
         get { return hasGun; }
         set { hasGun = value; }
     }
+
+    
 
     /* Notre réference vers notre manager d'animation : BIEN SEPARER LE PLAYER CONTROLLER DE LANIMATION CONTROLLER !*/
     private AnimationManager animationManager;
@@ -161,7 +164,7 @@ public class PlayerControllerScript : MonoBehaviour
         //On récupere le collider qui rentre en collision avec un tel objet : Utilisé pour gérer les collider des membres, attributs du joueur.
         innerCollider = col.contacts[0].otherCollider;
 
-        if (col.gameObject.tag != "floor" && col.gameObject.tag == "NPC")
+        if (col.gameObject.tag != "floor" && (col.gameObject.tag == "NPC" || col.gameObject.tag == "Arena"))
         {
           
             if(animationManager.getIsAttacking())
