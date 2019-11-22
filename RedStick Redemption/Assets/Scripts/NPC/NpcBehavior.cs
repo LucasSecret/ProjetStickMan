@@ -96,7 +96,7 @@ public class NpcBehavior : MonoBehaviour
 
             if (direction == 0)
             {
-                animationManager.setIdle();
+                //animationManager.setIdle();
                 isMoving = false;
             }
 

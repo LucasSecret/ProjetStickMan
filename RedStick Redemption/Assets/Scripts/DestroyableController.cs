@@ -24,7 +24,7 @@ public class DestroyableController : MonoBehaviour
 
         if(isDestroyed)
         {
-            transform.Find("Weapon").GetComponent<WeaponInit>().init();
+            transform.Find("Weapon").GetComponent<WeaponManager>().init();
             gameObject.SetActive(false);
         }
     }
