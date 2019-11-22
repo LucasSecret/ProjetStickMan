@@ -15,13 +15,15 @@ public class NPCHealthBar : MonoBehaviour
     private PlayerAttackEnum playerAttackEnum;
     private Rigidbody2D rigidbody2D;
     private Color[] currentColors;
+    private GameObject arena;
+    
 
     // Use this for initialization
     void Start()
     {
         healthBarLength = Screen.width / 6;
         rigidbody2D = GetComponent<Rigidbody2D>();
-
+        arena = GameObject.Find("ArenaWall");
         Component[] SpriteMesh = GetComponentsInChildren<Anima2D.SpriteMeshInstance>();
 
 
@@ -38,7 +40,12 @@ public class NPCHealthBar : MonoBehaviour
 
         if (isDestroyed)
         {
+            if (gameObject.tag == "Arena")
+            {
+                arena.GetComponent<Arena>().EndArena();
+            }
             Destroy(gameObject);
+            
         }
 
         

@@ -62,5 +62,12 @@ public class PlayerHealth : MonoBehaviour
         Application.Quit();
     }
 
-
+    private void OnCollisionEnter2D(Collision2D col)
+    {
+        if (col.gameObject.tag == "DeathZone")
+        {
+            currentHp = 0;
+            setDead();
+        }
+    }
 }
