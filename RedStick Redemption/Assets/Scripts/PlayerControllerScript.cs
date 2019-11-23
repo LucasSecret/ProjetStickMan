@@ -475,7 +475,6 @@ public class PlayerControllerScript : MonoBehaviour
         {
             animationManager.armToFire();
             gunArmed = true;
-            weapon.GetComponent<WeaponManager>().playSound();
         }
         
         else if(Input.GetKeyUp(KeyCode.F))
@@ -483,7 +482,6 @@ public class PlayerControllerScript : MonoBehaviour
             animationManager.stopFire();
             gunArmed = false;
             weapon.GetComponent<WeaponManager>().stopSound();
-
         }
 
 
@@ -557,6 +555,22 @@ public class PlayerControllerScript : MonoBehaviour
         GUILayout.Label("Player is onGround : " + isOnGround);
         GUILayout.Label("direction player transform : " + transform.forward.z);
         GUILayout.EndArea();
+    }
+
+
+    public void playSoundForWeapon()
+    {
+        weapon.GetComponent<WeaponManager>().playSound();
+
+        RaycastHit2D hit = Physics2D.Raycast(weapon.transform.GetChild(0).position, weapon.transform.right);
+
+        if (hit.transform.tag == "Destroyable")
+            hit.transform.GetComponent<DestroyableController>().takeDamage(100);
+    }
+
+    public void playReloadSound()
+    {
+        weapon.GetComponent<WeaponManager>().playReloadSound();
     }
 }
 

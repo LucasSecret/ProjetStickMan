@@ -4,34 +4,52 @@ using UnityEngine;
 
 public class WeaponManager: MonoBehaviour
 {
+    private IEnumerator coroutine;
 
-    public bool haveToFreezeRotation { get; set; }
-
+    private AudioSource audiosource;
+    private Animator animator;
     private Transform gunFireSprite;
 
+    private AudioClip fireSound;
+    public AudioClip reloadSound;
 
     // Start is called before the first frame update
     void Start()
     {
+        gameObject.SetActive(false);
         gunFireSprite = transform.GetChild(0);
         gunFireSprite.gameObject.SetActive(false);
+
+        audiosource = GetComponent<AudioSource>();
+
+        fireSound = audiosource.clip;
+        audiosource.clip = reloadSound;
+
+        if (tag == "LightWeapon")
+            audiosource.loop = false;
+
+        else
+            audiosource.loop = true;
+        
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        resetRotation();
-        
-        Color c = gunFireSprite.GetComponent<SpriteRenderer>().color;
+        if (tag == "LoudWeapon")
+        {
+            resetRotation();
 
-        c.a = (int) (Mathf.Abs(Mathf.Cos(Time.frameCount)) + 0.5f);
-
-        Debug.Log(c.a);
-        gunFireSprite.GetComponent<SpriteRenderer>().color = c;
+            Color c = gunFireSprite.GetComponent<SpriteRenderer>().color;
+            c.a = (int)(Mathf.Abs(Mathf.Cos(Time.frameCount)) + 0.5f);
+            gunFireSprite.GetComponent<SpriteRenderer>().color = c;
+        }
     }
 
     public void init()
     {
+        gameObject.SetActive(true);
         transform.SetParent(null);     
     }
 
@@ -39,7 +57,7 @@ public class WeaponManager: MonoBehaviour
     {
         if(col.tag == "Player")
         {
-            GetComponent<Animator>().enabled = false;
+            animator.enabled = false;
             transform.SetParent(GameObject.Find("MainDroite").transform);
             
             transform.localPosition = new Vector2(0, 0);
@@ -55,6 +73,9 @@ public class WeaponManager: MonoBehaviour
 
             if (tag == "LoudWeapon")
                 stickman.GetComponent<Animator>().SetFloat("LoudWeapon", 1);
+
+            else if (tag == "ShotGun")
+                stickman.GetComponent<Animator>().SetFloat("LoudWeapon", 2);
         }
     }
 
@@ -65,13 +86,50 @@ public class WeaponManager: MonoBehaviour
 
     public void playSound()
     {
-        GetComponent<AudioSource>().Play();
-        transform.GetChild(0).gameObject.SetActive(true);
+        audiosource.Play();
+        gunFireSprite.gameObject.SetActive(true);
+
+        if(tag == "LightWeapon" || tag == "ShotGun")
+        {
+            coroutine = displayGunFireSpriteFor(0.05f);
+            StartCoroutine(coroutine);
+        }
     }
+
+
+    private IEnumerator displayGunFireSpriteFor(float duration)
+    {
+        yield return new WaitForSeconds(duration);
+        gunFireSprite.gameObject.SetActive(false);
+    }
+
+    private IEnumerator resetAudioClipAfter(float duration)
+    {
+        yield return new WaitForSeconds(duration);
+        audiosource.clip = fireSound;
+    }
+
+
 
     public void stopSound()
     {
-        GetComponent<AudioSource>().Stop();
-        transform.GetChild(0).gameObject.SetActive(false);
+        if(tag == "LightWeapon" || tag == "ShotGun")
+            audiosource.loop = false;
+        
+        //audiosource.Stop();
+        
+        if(tag == "LoudWeapon")
+            gunFireSprite.gameObject.SetActive(false);
     }
+
+    public void playReloadSound()
+    {
+        audiosource.loop = false;
+        audiosource.clip = reloadSound;
+        audiosource.Play();
+        coroutine = resetAudioClipAfter(reloadSound.length);
+        StartCoroutine(coroutine);
+    }
+
+
 }

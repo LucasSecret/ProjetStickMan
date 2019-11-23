@@ -22,10 +22,13 @@ public class DestroyableController : MonoBehaviour
             isDestroyed = true;
         }
 
-        if(isDestroyed)
+        if (isDestroyed)
         {
-            transform.Find("Weapon").GetComponent<WeaponManager>().init();
+            if (transform.childCount != 0)
+                transform.Find("Weapon").GetComponent<WeaponManager>().init();
+
             gameObject.SetActive(false);
+
         }
     }
 
