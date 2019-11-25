@@ -591,6 +591,13 @@ public class PlayerControllerScript : MonoBehaviour
         weapon.transform.localPosition = new Vector2(0, 0);
     }
 
+    public void placeLoudWeaponInBack()
+    {
+        GunInPocket = true;
+        weapon.transform.SetParent(GameObject.Find("LoudWeaponBack").transform);
+        weapon.transform.localPosition = new Vector2(0, 0);
+    }
+
     private void replaceWeaponInHand()
     {
         weapon.transform.SetParent(GameObject.Find("MainDroite").transform);
