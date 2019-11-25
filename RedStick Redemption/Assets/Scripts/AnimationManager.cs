@@ -16,11 +16,13 @@ public class AnimationManager : MonoBehaviour
     {
         anim = GetComponent<Animator>();
         anim.SetFloat("GunTree", 0);
-        playerControllerScript = GetComponent<PlayerControllerScript>();
+        anim.SetFloat("LoudWeapon", 0);
         anim.SetBool("isWalking", false);
         anim.SetBool("isRunning", false);
         anim.SetBool("isCrouching", false);
         anim.SetBool("idleClimb", false);
+
+        playerControllerScript = GetComponent<PlayerControllerScript>();
     }
 
     void Update()
@@ -163,6 +165,7 @@ public class AnimationManager : MonoBehaviour
     public void armToFire()
     {
         anim.SetTrigger("armToFire");
+        anim.SetBool("isFiring", true);
     }
     public void fireAnimation()
     {

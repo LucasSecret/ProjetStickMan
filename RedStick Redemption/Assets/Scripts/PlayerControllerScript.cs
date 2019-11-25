@@ -93,9 +93,10 @@ public class PlayerControllerScript : MonoBehaviour
     private Vector2 mouseWorld;
     private Vector2 mousePosScreen;
     private float direction;
+    
 
     public AudioClip[] audioClips;
-
+    public GameObject weapon { get; set; }
 
 
 
@@ -190,7 +191,6 @@ public class PlayerControllerScript : MonoBehaviour
     {
         if (col.tag == "Climbable")
         {
-            Debug.Log("Climb EXIT");
             isClimbing = false;
             rigidbody2D.gravityScale = gravityScale;
         }
@@ -249,7 +249,7 @@ public class PlayerControllerScript : MonoBehaviour
         isAttacking = animationManager.getIsAttacking();
 
 
-        if (direction > 0)
+        if (direction > 0 && !gunArmed)
         {
             transform.eulerAngles = new Vector3(0, 0, 0);
 
@@ -264,7 +264,7 @@ public class PlayerControllerScript : MonoBehaviour
             GetComponent<Transform>().Translate(GetComponent<Transform>().right * 10.05f * Time.deltaTime * sprintMultiplier * crouchMultiplier);
         }
 
-        else if (direction < 0 )
+        else if (direction < 0 && !gunArmed)
         {
             transform.eulerAngles = new Vector3(0, 180, 0);
 
@@ -329,9 +329,6 @@ public class PlayerControllerScript : MonoBehaviour
         else
             crouchMultiplier = 1.0f;
 
-
-        Debug.Log("GO UP : " + goUp);
-        Debug.Log("Is Climbing : " + isClimbing);
 
         if (goUp && isClimbing)
         {
@@ -480,26 +477,21 @@ public class PlayerControllerScript : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.F) && hasGun && !gunArmed)
         {
             animationManager.armToFire();
-            animationManager.fireAnimation();
             gunArmed = true;
-        }
-
-        else if (Input.GetKeyDown(KeyCode.F) && hasGun)
-        {
-            animationManager.fireAnimation();
         }
         
         else if(Input.GetKeyUp(KeyCode.F))
         {
             animationManager.stopFire();
             gunArmed = false;
+            weapon.GetComponent<WeaponManager>().stopSound();
         }
 
 
         if (Input.GetKeyDown(KeyCode.K) && !Input.GetKey(KeyCode.DownArrow) && !Input.GetKey(KeyCode.RightArrow) && !Input.GetKey(KeyCode.LeftArrow) && !Input.GetKey(KeyCode.UpArrow))
         {
             Debug.Log("j'ai frapper normal");
-            playerAttackEnum.PlayerAttackType = PlayerAttackEnum.PlayerAttack.kick;
+            //playerAttackEnum.PlayerAttackType = PlayerAttackEnum.PlayerAttack.kick;
             animationManager.kickAnimation();
 
         }
@@ -525,7 +517,7 @@ public class PlayerControllerScript : MonoBehaviour
         }
     }
 
-
+   
     public void takeDamage(PlayerAttackEnum.PlayerAttack npcAttackType, float dir)
     {
         int ammountDamage = 0;
@@ -566,6 +558,22 @@ public class PlayerControllerScript : MonoBehaviour
         GUILayout.Label("Player is onGround : " + isOnGround);
         GUILayout.Label("direction player transform : " + transform.forward.z);
         GUILayout.EndArea();
+    }
+
+
+    public void playSoundForWeapon()
+    {
+        weapon.GetComponent<WeaponManager>().playSound();
+
+        RaycastHit2D hit = Physics2D.Raycast(weapon.transform.GetChild(0).position, weapon.transform.right);
+
+        if (hit.transform.tag == "Destroyable")
+            hit.transform.GetComponent<DestroyableController>().takeDamage(100);
+    }
+
+    public void playReloadSound()
+    {
+        weapon.GetComponent<WeaponManager>().playReloadSound();
     }
 }
 
