@@ -178,6 +178,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   reloadSound: {fileID: 0}
+  bulletPrefab: {fileID: 5664747062385182492, guid: 0276ba951e89a814cbfa1f6a5ea5ab72,
+    type: 3}
 --- !u!61 &1752480571
 BoxCollider2D:
   m_ObjectHideFlags: 0
