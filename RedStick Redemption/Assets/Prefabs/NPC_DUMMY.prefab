@@ -1563,6 +1563,7 @@ MonoBehaviour:
   isMoving: 0
   isAttacking: 0
   npcAttackType: {fileID: 0}
+  color: {r: 0, g: 0, b: 0, a: 1}
 --- !u!114 &6549975777120885429
 MonoBehaviour:
   m_ObjectHideFlags: 0

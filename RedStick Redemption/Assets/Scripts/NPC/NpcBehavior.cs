@@ -10,6 +10,7 @@ public class NpcBehavior : MonoBehaviour
     public bool isMoving;
     public bool isAttacking;
     public PlayerAttackEnum npcAttackType;
+    public Color color;
 
     private AnimationManager animationManager;
     private NPCHealthBar npcHealth;
@@ -27,10 +28,23 @@ public class NpcBehavior : MonoBehaviour
 
         isMoving = true;
 
-        
+        InitStickManColor();
 
 
 
+
+
+    }
+
+    private void InitStickManColor()
+    {
+        Component[] SpriteMesh = GetComponentsInChildren<Anima2D.SpriteMeshInstance>();
+
+        foreach (Anima2D.SpriteMeshInstance spritemesh in SpriteMesh)
+        {
+            Debug.Log(color.ToString());
+            spritemesh.color = color;
+        }
     }
 
     void attackPlayer()
