@@ -4,20 +4,20 @@ using UnityEngine;
 
 public class DestroyableController : MonoBehaviour
 {
-
+    // Start is called before the first frame update
     public int hitPoint; //The ammount of hp la caisse doit avoir
     public bool isDestroyed;
 
     // Start is called before the first frame update
     void Start()
-    { 
-        
+    {
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(hitPoint <= 0)
+        if (hitPoint <= 0)
         {
             isDestroyed = true;
         }
@@ -37,7 +37,4 @@ public class DestroyableController : MonoBehaviour
         this.hitPoint -= ammount;
         GetComponent<AudioSource>().Play();
     }
-
-  
-
 }

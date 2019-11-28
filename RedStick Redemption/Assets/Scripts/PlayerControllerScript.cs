@@ -9,6 +9,8 @@ public class PlayerControllerScript : MonoBehaviour
     public float hitStrenghtMultiplier = 1.0f; //Le multiplicateur de force que le joueur possède
     public float climbForce;
     public GameObject npc_prefab;
+
+    public Rigidbody2D bulletPrefab;
     
     private bool GunInPocket { get; set; }
     
@@ -572,11 +574,25 @@ public class PlayerControllerScript : MonoBehaviour
     public void playSoundForWeapon()
     {
         weapon.GetComponent<WeaponManager>().playSound();
+        shotRaycast();
+    }
 
+    private void shotRaycast()
+    {
+        
+        
         RaycastHit2D hit = Physics2D.Raycast(weapon.transform.GetChild(0).position, weapon.transform.right);
+
+        Rigidbody2D bullet = Instantiate(bulletPrefab, weapon.transform.GetChild(0));
+        bullet.transform.localPosition = new Vector2(0, 0);
+        bullet.transform.SetParent(null);
+
+        bullet.velocity = weapon.transform.right * 100.0f;
 
         if (hit.transform.tag == "Destroyable")
             hit.transform.GetComponent<DestroyableController>().takeDamage(100);
+
+
     }
 
     public void playReloadSound()

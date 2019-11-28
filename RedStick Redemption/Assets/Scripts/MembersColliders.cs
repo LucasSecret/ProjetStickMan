@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Hand_FootCollider : MonoBehaviour
+public class MembersColliders : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -26,5 +26,4 @@ public class Hand_FootCollider : MonoBehaviour
         }
 
     }
-
 }
