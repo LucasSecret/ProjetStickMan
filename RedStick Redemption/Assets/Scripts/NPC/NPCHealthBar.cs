@@ -65,7 +65,7 @@ public class NPCHealthBar : MonoBehaviour
     {
         curHealth += adj;
 
-        if (curHealth < 0)
+        if (curHealth <= 0)
         {
             curHealth = 0;
             isDestroyed = true;
@@ -110,5 +110,14 @@ public class NPCHealthBar : MonoBehaviour
         }
 
         this.curHealth -= ammountDamage;
+    }
+
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "DeathZone")
+        {
+            curHealth = 0;
+        }
     }
 }
