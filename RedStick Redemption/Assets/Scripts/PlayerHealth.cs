@@ -8,6 +8,11 @@ public class PlayerHealth : MonoBehaviour
 
     public int startingHP = 500; //Le nombre de HitPoint que possède le joueur au début
     private int currentHp;
+    public int CurrentHp
+    {
+        get { return currentHp; }
+        set { currentHp = value; }
+    }
     private bool isDamaged; // Quand le joeur recoit un cou
     public float healthBarLength;
     Vector2 targetPos;
@@ -57,17 +62,19 @@ public class PlayerHealth : MonoBehaviour
 
     }
 
-    void setDead()
+    public void setDead()
     {
         Application.Quit();
     }
 
-    private void OnCollisionEnter2D(Collision2D col)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (col.gameObject.tag == "DeathZone")
+        if (collision.gameObject.tag == "DeathZone")
         {
             currentHp = 0;
             setDead();
         }
     }
+
+
 }
