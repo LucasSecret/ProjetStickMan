@@ -10,6 +10,7 @@ public class PlayerControllerScript : MonoBehaviour
     public float climbForce;
     public GameObject npc_prefab;
     
+    private bool GunInPocket { get; set; }
     
 
     protected bool isJumping;
@@ -255,7 +256,7 @@ public class PlayerControllerScript : MonoBehaviour
 
             if (!isCrouching)
                 animationManager.startWalking();
-            
+
 
             else
                 animationManager.startCrouchWalking();
@@ -273,18 +274,18 @@ public class PlayerControllerScript : MonoBehaviour
 
             else
                 animationManager.startCrouchWalking();
-            
+
 
             GetComponent<Transform>().Translate(GetComponent<Transform>().right * (-10.05f) * Time.deltaTime * sprintMultiplier * crouchMultiplier);
         }
 
-        
+
         if (direction == 0)
         {
             if (isCrouching)
                 animationManager.stopCrouchWalking();
 
-            else  
+            else
                 animationManager.stopWalking();
         }
 
@@ -298,7 +299,7 @@ public class PlayerControllerScript : MonoBehaviour
         }
 
         else if (Input.GetAxis("Vertical") > 0)
-        { 
+        {
             goUp = true;
         }
 
@@ -318,14 +319,14 @@ public class PlayerControllerScript : MonoBehaviour
 
         if (isRunning)
             sprintMultiplier = 2.0f;
-        
+
         else
             sprintMultiplier = 1.0f;
-       
+
 
         if (isCrouching)
             crouchMultiplier = 0.5f;
-        
+
         else
             crouchMultiplier = 1.0f;
 
@@ -333,8 +334,12 @@ public class PlayerControllerScript : MonoBehaviour
         if (goUp && isClimbing)
         {
             animationManager.startClimbing();
-            transform.position = transform.position + new Vector3(0, 1, 0) * climbForce;
-            rigidbody2D.gravityScale = 0.0f;
+
+            if ((GunInPocket && hasGun) || !hasGun)
+            {
+                transform.position = transform.position + new Vector3(0, 1, 0) * climbForce;
+                rigidbody2D.gravityScale = 0.0f;
+            }
         }
 
         else if (isClimbing && !goUp)
@@ -343,7 +348,10 @@ public class PlayerControllerScript : MonoBehaviour
         }
 
         else
+        {
             animationManager.stopClimbing();
+            replaceWeaponInHand();
+        }
     }
 
 
@@ -574,6 +582,28 @@ public class PlayerControllerScript : MonoBehaviour
     public void playReloadSound()
     {
         weapon.GetComponent<WeaponManager>().playReloadSound();
+    }
+
+    public void placeHandGunInPocket()
+    {
+        GunInPocket = true;
+        weapon.transform.SetParent(GameObject.Find("HandGunPocket").transform);
+        weapon.transform.localPosition = new Vector2(0, 0);
+    }
+
+    public void placeLoudWeaponInBack()
+    {
+        GunInPocket = true;
+        weapon.transform.SetParent(GameObject.Find("LoudWeaponBack").transform);
+        weapon.transform.localPosition = new Vector2(0, 0);
+    }
+
+    private void replaceWeaponInHand()
+    {
+        weapon.transform.SetParent(GameObject.Find("MainDroite").transform);
+        weapon.transform.localPosition = new Vector2(0, 0);
+        weapon.transform.localRotation = Quaternion.Euler(0, 0, 0);
+        GunInPocket = false;
     }
 }
 
