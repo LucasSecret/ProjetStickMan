@@ -9,6 +9,8 @@ public class PlayerControllerScript : MonoBehaviour
     public float hitStrenghtMultiplier = 1.0f; //Le multiplicateur de force que le joueur possède
     public float climbForce;
     public GameObject npc_prefab;
+
+    public Rigidbody2D bulletPrefab;
     
     private bool GunInPocket { get; set; }
     
@@ -486,6 +488,7 @@ public class PlayerControllerScript : MonoBehaviour
         {
             animationManager.armToFire();
             gunArmed = true;
+            weapon.GetComponent<WeaponManager>().haveToLaunchBullets = true;
         }
         
         else if(Input.GetKeyUp(KeyCode.F))
@@ -493,6 +496,7 @@ public class PlayerControllerScript : MonoBehaviour
             animationManager.stopFire();
             gunArmed = false;
             weapon.GetComponent<WeaponManager>().stopSound();
+            weapon.GetComponent<WeaponManager>().haveToLaunchBullets = false;
         }
 
 
@@ -572,7 +576,11 @@ public class PlayerControllerScript : MonoBehaviour
     public void playSoundForWeapon()
     {
         weapon.GetComponent<WeaponManager>().playSound();
+        shotRaycast();
+    }
 
+    private void shotRaycast()
+    {        
         RaycastHit2D hit = Physics2D.Raycast(weapon.transform.GetChild(0).position, weapon.transform.right);
 
         if (hit.transform.tag == "Destroyable")

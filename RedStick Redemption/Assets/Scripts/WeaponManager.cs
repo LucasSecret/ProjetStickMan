@@ -13,6 +13,10 @@ public class WeaponManager: MonoBehaviour
     private AudioClip fireSound;
     public AudioClip reloadSound;
 
+    public Rigidbody2D bulletPrefab;
+
+    public bool haveToLaunchBullets { get; set; }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -44,6 +48,10 @@ public class WeaponManager: MonoBehaviour
             Color c = gunFireSprite.GetComponent<SpriteRenderer>().color;
             c.a = (int)(Mathf.Abs(Mathf.Cos(Time.frameCount)) + 0.5f);
             gunFireSprite.GetComponent<SpriteRenderer>().color = c;
+
+            if (haveToLaunchBullets)
+                launchBullets();
+            
         }
     }
 
@@ -93,6 +101,7 @@ public class WeaponManager: MonoBehaviour
         {
             coroutine = displayGunFireSpriteFor(0.05f);
             StartCoroutine(coroutine);
+            launchBullets();
         }
     }
 
@@ -131,5 +140,12 @@ public class WeaponManager: MonoBehaviour
         StartCoroutine(coroutine);
     }
 
+    public void launchBullets()
+    {
+        Rigidbody2D bullet = Instantiate(bulletPrefab, transform.GetChild(0));
+        bullet.transform.localPosition = new Vector2(0, 0);
+        bullet.transform.SetParent(null);
 
+        bullet.velocity = GameObject.Find("Stickman").transform.right * 100.0f;
+    }
 }
