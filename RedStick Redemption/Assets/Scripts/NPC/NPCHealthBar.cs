@@ -69,6 +69,9 @@ public class NPCHealthBar : MonoBehaviour
         {
             curHealth = 0;
             isDestroyed = true;
+            transform.Find("DeathSound").GetComponent<AudioSource>().clip = transform.Find("DeathSound").GetComponent<AudioSource>().clip;
+            transform.Find("DeathSound").GetComponent<AudioSource>().volume = 1.0f;
+            transform.Find("DeathSound").GetComponent<AudioSource>().Play();
         }
 
         if (curHealth > maxHealth)
@@ -102,7 +105,7 @@ public class NPCHealthBar : MonoBehaviour
                 ammountDamage = 4;
                 break;
             case PlayerAttackEnum.PlayerAttack.kick:
-                rigidbody2D.AddForce(new Vector2(3000.0f * dir, 2200f));
+                rigidbody2D.AddForce(new Vector2(1000.0f * dir, 2200f));
                 ammountDamage = 5;
                 break;
             case PlayerAttackEnum.PlayerAttack.lowkick: ammountDamage = 4; break;
