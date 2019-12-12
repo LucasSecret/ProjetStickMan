@@ -6,7 +6,7 @@ using UnityEngine;
 public class PlayerControllerScript : MonoBehaviour
 {
     public float jumpForce;
-    public float hitStrenghtMultiplier = 1.0f; //Le multiplicateur de force que le joueur possède
+    public float hitStrenghtMultiplier = 2.0f; //Le multiplicateur de force que le joueur possède
     public float climbForce;
     public GameObject npc_prefab;
 
