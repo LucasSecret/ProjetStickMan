@@ -218,12 +218,6 @@
  <Reference Include="Unity.Rider.Editor">
  <HintPath>C:/Repositories/ProjetStickMan/RedStick Redemption/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
- <Reference Include="Unity.2D.Sprite.Editor">
- <HintPath>C:/Repositories/ProjetStickMan/RedStick Redemption/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.2D.Tilemap.Editor">
- <HintPath>C:/Repositories/ProjetStickMan/RedStick Redemption/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
- </Reference>
  <Reference Include="Unity.TextMeshPro">
  <HintPath>C:/Repositories/ProjetStickMan/RedStick Redemption/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
