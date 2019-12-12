@@ -9,6 +9,7 @@ public class Arena : MonoBehaviour
 
     void Start()
     {
+        wall = GetComponent<Rigidbody2D>();
         wall.gravityScale = 0;
     }
 

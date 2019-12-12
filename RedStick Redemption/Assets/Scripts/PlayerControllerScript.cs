@@ -6,7 +6,7 @@ using UnityEngine;
 public class PlayerControllerScript : MonoBehaviour
 {
     public float jumpForce;
-    public float hitStrenghtMultiplier = 1.0f; //Le multiplicateur de force que le joueur possède
+    public float hitStrenghtMultiplier = 2.0f; //Le multiplicateur de force que le joueur possède
     public float climbForce;
     public GameObject npc_prefab;
 
@@ -163,29 +163,33 @@ public class PlayerControllerScript : MonoBehaviour
             animationManager.getOnGroundAnimation();
         }
 
-
-
-        //On récupere le collider qui rentre en collision avec un tel objet : Utilisé pour gérer les collider des membres, attributs du joueur.
-        innerCollider = col.contacts[0].otherCollider;
-
-        if (col.gameObject.tag != "floor" && (col.gameObject.tag == "NPC" || col.gameObject.tag == "Arena"))
-        {
-          
-            if(animationManager.getIsAttacking())
-            {
-
-                col.gameObject.GetComponent<NPCHealthBar>().takeDamage(playerAttackEnum.PlayerAttackType, transform.forward.z);
-                audioSource.clip = audioClips[UnityEngine.Random.Range(0, audioClips.Length)];
-                audioSource.Play();
-            }
-        }
     }
+
 
 
     void OnTriggerEnter2D(Collider2D col)
     {
         if (col.tag == "Climbable")
             isClimbing = true;
+
+        //On récupere le collider qui rentre en collision avec un tel objet : Utilisé pour gérer les collider des membres, attributs du joueur.
+        innerCollider = col;
+
+        
+
+        if (col.gameObject.tag != "floor" && (col.gameObject.tag == "NPC" || col.gameObject.tag == "Arena"))
+        {
+            
+
+            if (animationManager.getIsAttacking())
+            {
+
+                col.gameObject.GetComponent<NPCHealthBar>().takeDamage(playerAttackEnum.PlayerAttackType, transform.forward.z);
+                audioSource.clip = audioClips[UnityEngine.Random.Range(0, audioClips.Length)];
+                audioSource.Play();
+                Debug.Log("col : " + innerCollider.ToString());
+            }
+        }
     }
 
 
@@ -536,7 +540,8 @@ public class PlayerControllerScript : MonoBehaviour
 
         if (GetComponent<AudioSource>() != null)
         {
-            GetComponent<AudioSource>().Play();
+            audioSource.clip = audioClips[UnityEngine.Random.Range(0, audioClips.Length)];
+            audioSource.Play();
         }
 
         switch (npcAttackType)
@@ -549,7 +554,7 @@ public class PlayerControllerScript : MonoBehaviour
                 ammountDamage = 4;
                 break;
             case PlayerAttackEnum.PlayerAttack.kick:
-                rigidbody2D.AddForce(new Vector2(500.0f * dir, 2200f));
+                rigidbody2D.AddForce(new Vector2(1000.0f * dir, 2200f));
                 ammountDamage = 5;
                 break;
             case PlayerAttackEnum.PlayerAttack.lowkick: ammountDamage = 4; break;

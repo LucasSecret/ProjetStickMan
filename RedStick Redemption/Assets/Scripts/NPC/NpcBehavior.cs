@@ -7,9 +7,11 @@ public class NpcBehavior : MonoBehaviour
     private float direction;
     public float speed;
     private Collider2D innerCollider;
+    private Rigidbody2D rigidbody;
     public bool isMoving;
     public bool isAttacking;
     public PlayerAttackEnum npcAttackType;
+    public Color color;
 
     private AnimationManager animationManager;
     private NPCHealthBar npcHealth;
@@ -20,6 +22,7 @@ public class NpcBehavior : MonoBehaviour
         animationManager = GetComponent<AnimationManager>();
         npcHealth = GetComponent<NPCHealthBar>();
         npcAttackType = GetComponent<PlayerAttackEnum>();
+        rigidbody = GetComponent<Rigidbody2D>();
 
         direction = Random.Range(-1.0f, 1.0f);
 
@@ -27,10 +30,23 @@ public class NpcBehavior : MonoBehaviour
 
         isMoving = true;
 
-        
+        InitStickManColor();
 
 
 
+
+
+    }
+
+    private void InitStickManColor()
+    {
+        Component[] SpriteMesh = GetComponentsInChildren<Anima2D.SpriteMeshInstance>();
+
+        foreach (Anima2D.SpriteMeshInstance spritemesh in SpriteMesh)
+        {
+            Debug.Log(color.ToString());
+            spritemesh.color = color;
+        }
     }
 
     void attackPlayer()
@@ -40,12 +56,11 @@ public class NpcBehavior : MonoBehaviour
         animationManager.kickAnimation();
     }
 
-    void OnCollisionEnter2D(Collision2D col)
+    void OnTriggerEnter2D(Collider2D col)
     {
-        
 
         //On récupere le collider qui rentre en collision avec un tel objet : Utilisé pour gérer les collider des membres, attributs du joueur.
-        innerCollider = col.contacts[0].otherCollider;
+        innerCollider = col;
 
         if (col.gameObject.tag != "floor")
         {
@@ -54,15 +69,33 @@ public class NpcBehavior : MonoBehaviour
             {
                 if(col.gameObject.tag == "Player")
                 {
-                col.gameObject.GetComponent<PlayerControllerScript>().takeDamage(npcAttackType.PlayerAttackType, 10f);
+                col.gameObject.GetComponent<PlayerControllerScript>().takeDamage(npcAttackType.PlayerAttackType, transform.forward.z);
                 }
                 else if (col.gameObject.tag == "NPC")
                 {
-                    col.gameObject.GetComponent<NPCHealthBar>().takeDamage(npcAttackType.PlayerAttackType, 10f);
+                    col.gameObject.GetComponent<NPCHealthBar>().takeDamage(npcAttackType.PlayerAttackType, transform.forward.z);
                 }
             }
         }
+        else
+        {
+            
+        }
     }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if(collision.gameObject.tag == "Arena")
+        {
+            if(Mathf.Abs(rigidbody.velocity.x) >= 4)
+            {
+                Debug.LogWarning("le npc s'est pris le mur !");
+            }
+        }
+    }
+
+
+
 
     // Update is called once per frame
     void Update()

@@ -13,26 +13,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2019-12-12T10:18:17.635+01:00
-  initializedAtString: 2019-12-12T10:18:17.635+01:00
+  lastUpdatedAtString: 2019-12-12T09:46:54.283+01:00
+  initializedAtString: 2019-12-12T09:46:54.283+01:00
   currentGitRemote:
     name: origin
-    url: https://github.com/LucasSecret/ProjetStickMan.git
+    url: git@github.com:LucasSecret/ProjetStickMan.git
     login: 
     user: 
     host: 
     function: 0
     token: 
   currentGitBranch:
-    name: Lucas_28/11
-    tracking: origin/Lucas_28/11
+    name: master
+    tracking: origin/master
   currentConfigBranch:
-    name: Lucas_28/11
+    name: master
     remote:
       name: origin
-      url: https://github.com/LucasSecret/ProjetStickMan.git
-    trackingBranch: Lucas_28/11
+      url: git@github.com:LucasSecret/ProjetStickMan.git
+    trackingBranch: master
   currentConfigRemote:
     name: origin
-    url: https://github.com/LucasSecret/ProjetStickMan.git
+    url: git@github.com:LucasSecret/ProjetStickMan.git
   currentHead: 
