@@ -613,10 +613,13 @@ public class PlayerControllerScript : MonoBehaviour
 
     private void replaceWeaponInHand()
     {
-        weapon.transform.SetParent(GameObject.Find("MainDroite").transform);
-        weapon.transform.localPosition = new Vector2(0, 0);
-        weapon.transform.localRotation = Quaternion.Euler(0, 0, 0);
-        GunInPocket = false;
+        if (weapon)
+        {
+            weapon.transform.SetParent(GameObject.Find("MainDroite").transform);
+            weapon.transform.localPosition = new Vector2(0, 0);
+            weapon.transform.localRotation = Quaternion.Euler(0, 0, 0);
+            GunInPocket = false;
+        }
     }
 }
 
