@@ -58,7 +58,8 @@ public class WeaponManager: MonoBehaviour
     public void init()
     {
         gameObject.SetActive(true);
-        transform.SetParent(null);     
+        transform.SetParent(null);
+        transform.localPosition = new Vector2(0, 0);
     }
 
     public void OnTriggerEnter2D(Collider2D col)

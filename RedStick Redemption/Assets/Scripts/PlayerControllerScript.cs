@@ -564,7 +564,7 @@ public class PlayerControllerScript : MonoBehaviour
         this.playerHealth.TakeDamage(ammountDamage);
     }
 
-    private void OnGUI()
+    /*private void OnGUI()
     {
 
         GUILayout.BeginArea(new Rect(20, 20, 250, 150));
@@ -575,7 +575,7 @@ public class PlayerControllerScript : MonoBehaviour
         GUILayout.Label("Player is onGround : " + isOnGround);
         GUILayout.Label("direction player transform : " + transform.forward.z);
         GUILayout.EndArea();
-    }
+    }*/
 
 
     public void playSoundForWeapon()
