@@ -16,6 +16,8 @@ public class NPCHealthBar : MonoBehaviour
     private Rigidbody2D rigidbody2D;
     private Color[] currentColors;
     private GameObject arena;
+
+    private float timerToStopAttack;
     
 
     // Use this for initialization
@@ -50,6 +52,19 @@ public class NPCHealthBar : MonoBehaviour
 
         
         targetPos = Camera.main.WorldToScreenPoint(transform.position);
+
+        if(isAttacked)
+        {
+            timerToStopAttack += Time.deltaTime;
+
+            if(timerToStopAttack >= 2)
+            {
+                isAttacked = false;
+                Debug.LogWarning("j'arrete d'attaquer");
+                timerToStopAttack = 0;
+            }
+        }
+
     }
 
     void OnGUI()
