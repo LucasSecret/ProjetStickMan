@@ -7,15 +7,16 @@ public class WeaponManager: MonoBehaviour
     private IEnumerator coroutine;
 
     private AudioSource audiosource;
-    private Animator animator;
+
     private Transform gunFireSprite;
 
-    private AudioClip fireSound;
+    public AudioClip fireSound;
     public AudioClip reloadSound;
 
     public Rigidbody2D bulletPrefab;
 
     public bool haveToLaunchBullets { get; set; }
+    private bool isPicked = false;
 
     // Start is called before the first frame update
     void Start()
@@ -26,16 +27,12 @@ public class WeaponManager: MonoBehaviour
 
         audiosource = GetComponent<AudioSource>();
 
-        fireSound = audiosource.clip;
-        audiosource.clip = reloadSound;
-
         if (tag == "LightWeapon")
             audiosource.loop = false;
 
         else
             audiosource.loop = true;
         
-        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -51,22 +48,24 @@ public class WeaponManager: MonoBehaviour
 
             if (haveToLaunchBullets)
                 launchBullets();
-            
         }
+
+        if(!isPicked)
+            gameObject.transform.position += new Vector3(0, Mathf.Cos(Time.frameCount * 0.1f) * 0.01f, 0);
     }
 
     public void init()
     {
         gameObject.SetActive(true);
+        Vector2 parentPos = transform.parent.position;
         transform.SetParent(null);
-        transform.localPosition = new Vector2(0, 0);
+        transform.position = parentPos;
     }
 
     public void OnTriggerEnter2D(Collider2D col)
     {
         if(col.tag == "Player")
         {
-            animator.enabled = false;
             transform.SetParent(GameObject.Find("MainDroite").transform);
             
             transform.localPosition = new Vector2(0, 0);
@@ -85,6 +84,8 @@ public class WeaponManager: MonoBehaviour
 
             else if (tag == "ShotGun")
                 stickman.GetComponent<Animator>().SetFloat("LoudWeapon", 2);
+
+            isPicked = true;
         }
     }
 
@@ -125,9 +126,7 @@ public class WeaponManager: MonoBehaviour
     {
         if(tag == "LightWeapon" || tag == "ShotGun")
             audiosource.loop = false;
-        
-        //audiosource.Stop();
-        
+                
         if(tag == "LoudWeapon")
             gunFireSprite.gameObject.SetActive(false);
     }
@@ -147,6 +146,6 @@ public class WeaponManager: MonoBehaviour
         bullet.transform.localPosition = new Vector2(0, 0);
         bullet.transform.SetParent(null);
 
-        bullet.velocity = GameObject.Find("Stickman").transform.right * 100.0f;
+        bullet.velocity = GameObject.Find("Stickman").transform.right * 400.0f;
     }
 }

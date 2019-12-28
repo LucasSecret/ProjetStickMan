@@ -585,11 +585,14 @@ public class PlayerControllerScript : MonoBehaviour
     }
 
     private void shotRaycast()
-    {        
+    {
         RaycastHit2D hit = Physics2D.Raycast(weapon.transform.GetChild(0).position, weapon.transform.right);
 
-        if (hit.transform.tag == "Destroyable")
-            hit.transform.GetComponent<DestroyableController>().takeDamage(100);
+        if (hit)
+        {
+            if (hit.transform.tag == "Destroyable")
+                hit.transform.GetComponent<DestroyableController>().takeDamage(100);
+        }
     }
 
     public void playReloadSound()

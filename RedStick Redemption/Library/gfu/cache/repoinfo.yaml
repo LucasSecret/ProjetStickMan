@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2019-12-26T15:34:35.606+01:00
-  initializedAtString: 2019-12-26T15:34:35.606+01:00
+  lastUpdatedAtString: 2019-12-28T11:29:28.921+01:00
+  initializedAtString: 2019-12-28T11:29:28.921+01:00
   currentGitRemote:
     name: origin
     url: https://github.com/LucasSecret/ProjetStickMan.git
@@ -24,14 +24,14 @@ MonoBehaviour:
     function: 0
     token: 
   currentGitBranch:
-    name: FixAnimBugsMainScene
-    tracking: 
+    name: TutoScene
+    tracking: origin/TutoScene
   currentConfigBranch:
-    name: FixAnimBugsMainScene
+    name: TutoScene
     remote:
-      name: 
-      url: 
-    trackingBranch: 
+      name: origin
+      url: https://github.com/LucasSecret/ProjetStickMan.git
+    trackingBranch: FixAnimBugsMainScene
   currentConfigRemote:
     name: origin
     url: https://github.com/LucasSecret/ProjetStickMan.git

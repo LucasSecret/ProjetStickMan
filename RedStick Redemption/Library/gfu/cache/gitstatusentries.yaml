@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2019-12-27T15:13:43.210+01:00
-  initializedAtString: 2019-12-26T15:34:37.768+01:00
+  lastUpdatedAtString: 2019-12-28T12:32:05.180+01:00
+  initializedAtString: 2019-12-28T11:29:35.741+01:00
   entries:
   - path: RedStick Redemption\.vs\RedStick Redemption\v16\Server\sqlite3\storage.ide
     fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\.vs\RedStick Redemption\v16\Server\sqlite3\storage.ide
@@ -52,51 +52,21 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: RedStick Redemption\Assets\Animation\AnimationIK\FlyingKick.anim
-    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Animation\AnimationIK\FlyingKick.anim
-    projectPath: Assets\Animation\AnimationIK\FlyingKick.anim
+  - path: RedStick Redemption\Assets\Animation\AnimationIK\Stickman.controller
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Animation\AnimationIK\Stickman.controller
+    projectPath: Assets\Animation\AnimationIK\Stickman.controller
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: RedStick Redemption\Assets\Prefabs\Boxes\IMGBIN_crate-png_4BfQtXbT.png
-    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Prefabs\Boxes\IMGBIN_crate-png_4BfQtXbT.png
-    projectPath: Assets\Prefabs\Boxes\IMGBIN_crate-png_4BfQtXbT.png
+  - path: RedStick Redemption\Assets\Prefabs\bullet.prefab
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Prefabs\bullet.prefab
+    projectPath: Assets\Prefabs\bullet.prefab
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: RedStick Redemption\Assets\Prefabs\Boxes\IMGBIN_crate-png_4BfQtXbT.png.meta
-    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Prefabs\Boxes\IMGBIN_crate-png_4BfQtXbT.png.meta
-    projectPath: Assets\Prefabs\Boxes\IMGBIN_crate-png_4BfQtXbT.png.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: RedStick Redemption\Assets\Prefabs\Boxes\Materials.meta
-    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Prefabs\Boxes\Materials.meta
-    projectPath: Assets\Prefabs\Boxes\Materials.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: RedStick Redemption\Assets\Prefabs\Boxes\Materials\IMGBIN_crate-png_4BfQtXbT.mat
-    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Prefabs\Boxes\Materials\IMGBIN_crate-png_4BfQtXbT.mat
-    projectPath: Assets\Prefabs\Boxes\Materials\IMGBIN_crate-png_4BfQtXbT.mat
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: RedStick Redemption\Assets\Prefabs\Boxes\Materials\IMGBIN_crate-png_4BfQtXbT.mat.meta
-    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Prefabs\Boxes\Materials\IMGBIN_crate-png_4BfQtXbT.mat.meta
-    projectPath: Assets\Prefabs\Boxes\Materials\IMGBIN_crate-png_4BfQtXbT.mat.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: RedStick Redemption\Assets\Scenes\Tuto.unity
     fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Scenes\Tuto.unity
     projectPath: Assets\Scenes\Tuto.unity
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: RedStick Redemption\Assets\Scenes\Tuto.unity.meta
-    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Scenes\Tuto.unity.meta
-    projectPath: Assets\Scenes\Tuto.unity.meta
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -106,33 +76,27 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: RedStick Redemption\Assets\Scripts\PlayerHealth.cs
-    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Scripts\PlayerHealth.cs
-    projectPath: Assets\Scripts\PlayerHealth.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: RedStick Redemption\Assets\Scripts\WeaponManager.cs
     fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Scripts\WeaponManager.cs
     projectPath: Assets\Scripts\WeaponManager.cs
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: RedStick Redemption\Assets\Sprite\5dd916b8dc81a.png.meta
-    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Sprite\5dd916b8dc81a.png.meta
-    projectPath: Assets\Sprite\5dd916b8dc81a.png.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: RedStick Redemption\Assets\Sprite\muzzle-flash-clipart-bullet-1.png.meta
-    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Sprite\muzzle-flash-clipart-bullet-1.png.meta
-    projectPath: Assets\Sprite\muzzle-flash-clipart-bullet-1.png.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: RedStick Redemption\Library\assetDatabase3
     fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Library\assetDatabase3
     projectPath: Library\assetDatabase3
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\CurrentLayout-default.dwlt
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Library\CurrentLayout-default.dwlt
+    projectPath: Library\CurrentLayout-default.dwlt
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\expandedItems
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Library\expandedItems
+    projectPath: Library\expandedItems
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -148,6 +112,24 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: RedStick Redemption\Library\gfu\cache\gittrackingstatus.yaml
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Library\gfu\cache\gittrackingstatus.yaml
+    projectPath: Library\gfu\cache\gittrackingstatus.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\gfu\cache\repoinfo.yaml
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Library\gfu\cache\repoinfo.yaml
+    projectPath: Library\gfu\cache\repoinfo.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\LastSceneManagerSetup.txt
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Library\LastSceneManagerSetup.txt
+    projectPath: Library\LastSceneManagerSetup.txt
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: RedStick Redemption\Library\metadata\11\11134e6d37519a7439c7192e3fcdcdec
     fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Library\metadata\11\11134e6d37519a7439c7192e3fcdcdec
     projectPath: Library\metadata\11\11134e6d37519a7439c7192e3fcdcdec
@@ -160,21 +142,15 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: RedStick Redemption\Library\metadata\2a\2ad43522aeb9cce4ba40e3c060bcdd78
-    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Library\metadata\2a\2ad43522aeb9cce4ba40e3c060bcdd78
-    projectPath: Library\metadata\2a\2ad43522aeb9cce4ba40e3c060bcdd78
+  - path: RedStick Redemption\Library\metadata\27\2767834133efb8048ad2da60a18f6b0e
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Library\metadata\27\2767834133efb8048ad2da60a18f6b0e
+    projectPath: Library\metadata\27\2767834133efb8048ad2da60a18f6b0e
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: RedStick Redemption\Library\metadata\2d\2d2f1af3b5eab584784c60d048af1a94
-    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Library\metadata\2d\2d2f1af3b5eab584784c60d048af1a94
-    projectPath: Library\metadata\2d\2d2f1af3b5eab584784c60d048af1a94
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: RedStick Redemption\Library\metadata\9e\9e617370bf0a6df489a7e9a8b5e1006f
-    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Library\metadata\9e\9e617370bf0a6df489a7e9a8b5e1006f
-    projectPath: Library\metadata\9e\9e617370bf0a6df489a7e9a8b5e1006f
+  - path: RedStick Redemption\Library\metadata\27\2767834133efb8048ad2da60a18f6b0e.info
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Library\metadata\27\2767834133efb8048ad2da60a18f6b0e.info
+    projectPath: Library\metadata\27\2767834133efb8048ad2da60a18f6b0e.info
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -202,75 +178,9 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: RedStick Redemption\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
-    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
-    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: RedStick Redemption\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-    projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: RedStick Redemption\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-    projectPath: Library\ScriptAssemblies\Unity.Rider.Editor.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: RedStick Redemption\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: RedStick Redemption\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: RedStick Redemption\Library\ScriptAssemblies\Unity.Timeline.dll
-    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Library\ScriptAssemblies\Unity.Timeline.dll
-    projectPath: Library\ScriptAssemblies\Unity.Timeline.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: RedStick Redemption\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-    projectPath: Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: RedStick Redemption\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-    projectPath: Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: RedStick Redemption\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-    projectPath: Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: RedStick Redemption\Library\ScriptAssemblies\UnityEditor.UI.dll
-    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Library\ScriptAssemblies\UnityEditor.UI.dll
-    projectPath: Library\ScriptAssemblies\UnityEditor.UI.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: RedStick Redemption\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-    projectPath: Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: RedStick Redemption\Library\ScriptAssemblies\UnityEngine.UI.dll
-    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Library\ScriptAssemblies\UnityEngine.UI.dll
-    projectPath: Library\ScriptAssemblies\UnityEngine.UI.dll
+  - path: RedStick Redemption\Library\shadercompiler-UnityShaderCompiler.exe0.log
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Library\shadercompiler-UnityShaderCompiler.exe0.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -286,9 +196,9 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: RedStick Redemption\Packages\manifest.json
-    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Packages\manifest.json
-    projectPath: Packages\manifest.json
+  - path: RedStick Redemption\ProjectSettings\TagManager.asset
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\ProjectSettings\TagManager.asset
+    projectPath: ProjectSettings\TagManager.asset
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
