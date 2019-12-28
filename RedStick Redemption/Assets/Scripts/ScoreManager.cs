@@ -8,8 +8,6 @@ public class ScoreManager : MonoBehaviour
     public int score;
     public Text GemText;
 
-    
-
     // Start is called before the first frame update
     void Start()
     {
@@ -19,8 +17,7 @@ public class ScoreManager : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {
-        
+    {  
     }
 
     public void AddGem(int Gem)

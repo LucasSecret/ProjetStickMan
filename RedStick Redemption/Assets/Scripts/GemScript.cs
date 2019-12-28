@@ -13,15 +13,12 @@ public class GemScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
-        
         scoreManager = GameObject.Find("Score").GetComponent<ScoreManager>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        
         transform.position = transform.position + new Vector3 (0,1,0) * Mathf.Cos(0.05f*Time.frameCount + rand)* 0.015f;
     }
     void OnTriggerEnter2D(Collider2D col)

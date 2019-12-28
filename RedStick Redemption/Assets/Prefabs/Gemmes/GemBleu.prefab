@@ -91,10 +91,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 8630314284595080733}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 58baf7be3557f9b43a0922e0bb4c5a1e, type: 3}
+  m_Script: {fileID: 11500000, guid: 92d6dfce06397c94285b45a234eb8167, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   GemValue: 10
+  rand: 0
 --- !u!61 &7915572677297610468
 BoxCollider2D:
   m_ObjectHideFlags: 0
