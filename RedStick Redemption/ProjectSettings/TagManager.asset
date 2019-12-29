@@ -7,6 +7,12 @@ TagManager:
   - floor
   - crate
   - climbable
+  - Destroyable
+  - Climbable
+  - NPC
+  - LightWeapon
+  - LoudWeapon
+  - ShotGun
   layers:
   - Default
   - TransparentFX
