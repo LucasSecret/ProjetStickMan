@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2019-12-28T12:32:05.180+01:00
+  lastUpdatedAtString: 2019-12-28T22:12:07.589+01:00
   initializedAtString: 2019-12-28T11:29:35.741+01:00
   entries:
   - path: RedStick Redemption\.vs\RedStick Redemption\v16\Server\sqlite3\storage.ide
@@ -52,18 +52,30 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: RedStick Redemption\Assets\Animation\AnimationIK\Stickman.controller
-    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Animation\AnimationIK\Stickman.controller
-    projectPath: Assets\Animation\AnimationIK\Stickman.controller
+  - path: RedStick Redemption\Assets\Animation\AnimationIK\Climb.anim
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Animation\AnimationIK\Climb.anim
+    projectPath: Assets\Animation\AnimationIK\Climb.anim
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: RedStick Redemption\Assets\Prefabs\bullet.prefab
-    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Prefabs\bullet.prefab
-    projectPath: Assets\Prefabs\bullet.prefab
+  - path: RedStick Redemption\Assets\Prefabs\TutoPanel.meta
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Prefabs\TutoPanel.meta
+    projectPath: Assets\Prefabs\TutoPanel.meta
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Prefabs\TutoPanel\WalkTuto.prefab
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Prefabs\TutoPanel\WalkTuto.prefab
+    projectPath: Assets\Prefabs\TutoPanel\WalkTuto.prefab
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Prefabs\TutoPanel\WalkTuto.prefab.meta
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Prefabs\TutoPanel\WalkTuto.prefab.meta
+    projectPath: Assets\Prefabs\TutoPanel\WalkTuto.prefab.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: RedStick Redemption\Assets\Scenes\Tuto.unity
     fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Scenes\Tuto.unity
     projectPath: Assets\Scenes\Tuto.unity
@@ -76,27 +88,324 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: RedStick Redemption\Assets\Scripts\WeaponManager.cs
-    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Scripts\WeaponManager.cs
-    projectPath: Assets\Scripts\WeaponManager.cs
+  - path: RedStick Redemption\Assets\Sprite\Video Tuto.meta
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Sprite\Video
+      Tuto.meta
+    projectPath: Assets\Sprite\Video Tuto.meta
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Sprite\Video Tuto\circle+close+cross+delete+exit+remove+icon-1320085939591374353_256.png
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Sprite\Video
+      Tuto\circle+close+cross+delete+exit+remove+icon-1320085939591374353_256.png
+    projectPath: Assets\Sprite\Video Tuto\circle+close+cross+delete+exit+remove+icon-1320085939591374353_256.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Sprite\Video Tuto\circle+close+cross+delete+exit+remove+icon-1320085939591374353_256.png.meta
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Sprite\Video
+      Tuto\circle+close+cross+delete+exit+remove+icon-1320085939591374353_256.png.meta
+    projectPath: Assets\Sprite\Video Tuto\circle+close+cross+delete+exit+remove+icon-1320085939591374353_256.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Sprite\Video Tuto\keyboard.png
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Sprite\Video
+      Tuto\keyboard.png
+    projectPath: Assets\Sprite\Video Tuto\keyboard.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Sprite\Video Tuto\keyboard.png.meta
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Sprite\Video
+      Tuto\keyboard.png.meta
+    projectPath: Assets\Sprite\Video Tuto\keyboard.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Sprite\Video Tuto\kisspng-computer-keyboard-arrow-keys-button-5ae45eb02deb50.6629177915249158881881.png
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Sprite\Video
+      Tuto\kisspng-computer-keyboard-arrow-keys-button-5ae45eb02deb50.6629177915249158881881.png
+    projectPath: Assets\Sprite\Video Tuto\kisspng-computer-keyboard-arrow-keys-button-5ae45eb02deb50.6629177915249158881881.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Sprite\Video Tuto\kisspng-computer-keyboard-arrow-keys-button-5ae45eb02deb50.6629177915249158881881.png.meta
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Sprite\Video
+      Tuto\kisspng-computer-keyboard-arrow-keys-button-5ae45eb02deb50.6629177915249158881881.png.meta
+    projectPath: Assets\Sprite\Video Tuto\kisspng-computer-keyboard-arrow-keys-button-5ae45eb02deb50.6629177915249158881881.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Sprite\Video Tuto\Materials.meta
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Sprite\Video
+      Tuto\Materials.meta
+    projectPath: Assets\Sprite\Video Tuto\Materials.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Sprite\Video Tuto\Materials\VideoRenderTexture.mat
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Sprite\Video
+      Tuto\Materials\VideoRenderTexture.mat
+    projectPath: Assets\Sprite\Video Tuto\Materials\VideoRenderTexture.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Sprite\Video Tuto\Materials\VideoRenderTexture.mat.meta
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Sprite\Video
+      Tuto\Materials\VideoRenderTexture.mat.meta
+    projectPath: Assets\Sprite\Video Tuto\Materials\VideoRenderTexture.mat.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Sprite\Video Tuto\PinClipart.com_clipart-rahmen-freeware_4034784.png
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Sprite\Video
+      Tuto\PinClipart.com_clipart-rahmen-freeware_4034784.png
+    projectPath: Assets\Sprite\Video Tuto\PinClipart.com_clipart-rahmen-freeware_4034784.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Sprite\Video Tuto\PinClipart.com_clipart-rahmen-freeware_4034784.png.meta
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Sprite\Video
+      Tuto\PinClipart.com_clipart-rahmen-freeware_4034784.png.meta
+    projectPath: Assets\Sprite\Video Tuto\PinClipart.com_clipart-rahmen-freeware_4034784.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Sprite\Video Tuto\PinClipart.com_clipart-rahmen-freeware_4034785.png
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Sprite\Video
+      Tuto\PinClipart.com_clipart-rahmen-freeware_4034785.png
+    projectPath: Assets\Sprite\Video Tuto\PinClipart.com_clipart-rahmen-freeware_4034785.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Sprite\Video Tuto\PinClipart.com_clipart-rahmen-freeware_4034785.png.meta
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Sprite\Video
+      Tuto\PinClipart.com_clipart-rahmen-freeware_4034785.png.meta
+    projectPath: Assets\Sprite\Video Tuto\PinClipart.com_clipart-rahmen-freeware_4034785.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Sprite\Video Tuto\shift-keyboard-key-white.png
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Sprite\Video
+      Tuto\shift-keyboard-key-white.png
+    projectPath: Assets\Sprite\Video Tuto\shift-keyboard-key-white.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Sprite\Video Tuto\shift-keyboard-key-white.png.meta
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Sprite\Video
+      Tuto\shift-keyboard-key-white.png.meta
+    projectPath: Assets\Sprite\Video Tuto\shift-keyboard-key-white.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Sprite\Video Tuto\VideoRendererMaterial.mat
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Sprite\Video
+      Tuto\VideoRendererMaterial.mat
+    projectPath: Assets\Sprite\Video Tuto\VideoRendererMaterial.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Sprite\Video Tuto\VideoRendererMaterial.mat.meta
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Sprite\Video
+      Tuto\VideoRendererMaterial.mat.meta
+    projectPath: Assets\Sprite\Video Tuto\VideoRendererMaterial.mat.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Sprite\Video Tuto\VideoRenderTexture.renderTexture
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Sprite\Video
+      Tuto\VideoRenderTexture.renderTexture
+    projectPath: Assets\Sprite\Video Tuto\VideoRenderTexture.renderTexture
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Sprite\Video Tuto\VideoRenderTexture.renderTexture.meta
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Sprite\Video
+      Tuto\VideoRenderTexture.renderTexture.meta
+    projectPath: Assets\Sprite\Video Tuto\VideoRenderTexture.renderTexture.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Sprite\Video Tuto\Videos.meta
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Sprite\Video
+      Tuto\Videos.meta
+    projectPath: Assets\Sprite\Video Tuto\Videos.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Sprite\Video Tuto\Videos\Climb.wmv
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Sprite\Video
+      Tuto\Videos\Climb.wmv
+    projectPath: Assets\Sprite\Video Tuto\Videos\Climb.wmv
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Sprite\Video Tuto\Videos\Climb.wmv.meta
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Sprite\Video
+      Tuto\Videos\Climb.wmv.meta
+    projectPath: Assets\Sprite\Video Tuto\Videos\Climb.wmv.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Sprite\Video Tuto\Videos\Crouch.wmv
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Sprite\Video
+      Tuto\Videos\Crouch.wmv
+    projectPath: Assets\Sprite\Video Tuto\Videos\Crouch.wmv
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Sprite\Video Tuto\Videos\Crouch.wmv.meta
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Sprite\Video
+      Tuto\Videos\Crouch.wmv.meta
+    projectPath: Assets\Sprite\Video Tuto\Videos\Crouch.wmv.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Sprite\Video Tuto\Videos\CrouchWalking.wmv
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Sprite\Video
+      Tuto\Videos\CrouchWalking.wmv
+    projectPath: Assets\Sprite\Video Tuto\Videos\CrouchWalking.wmv
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Sprite\Video Tuto\Videos\CrouchWalking.wmv.meta
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Sprite\Video
+      Tuto\Videos\CrouchWalking.wmv.meta
+    projectPath: Assets\Sprite\Video Tuto\Videos\CrouchWalking.wmv.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Sprite\Video Tuto\Videos\Fire.wmv
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Sprite\Video
+      Tuto\Videos\Fire.wmv
+    projectPath: Assets\Sprite\Video Tuto\Videos\Fire.wmv
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Sprite\Video Tuto\Videos\Fire.wmv.meta
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Sprite\Video
+      Tuto\Videos\Fire.wmv.meta
+    projectPath: Assets\Sprite\Video Tuto\Videos\Fire.wmv.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Sprite\Video Tuto\Videos\FlyingKick.wmv
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Sprite\Video
+      Tuto\Videos\FlyingKick.wmv
+    projectPath: Assets\Sprite\Video Tuto\Videos\FlyingKick.wmv
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Sprite\Video Tuto\Videos\FlyingKick.wmv.meta
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Sprite\Video
+      Tuto\Videos\FlyingKick.wmv.meta
+    projectPath: Assets\Sprite\Video Tuto\Videos\FlyingKick.wmv.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Sprite\Video Tuto\Videos\Jump.wmv
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Sprite\Video
+      Tuto\Videos\Jump.wmv
+    projectPath: Assets\Sprite\Video Tuto\Videos\Jump.wmv
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Sprite\Video Tuto\Videos\Jump.wmv.meta
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Sprite\Video
+      Tuto\Videos\Jump.wmv.meta
+    projectPath: Assets\Sprite\Video Tuto\Videos\Jump.wmv.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Sprite\Video Tuto\Videos\Kick.wmv
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Sprite\Video
+      Tuto\Videos\Kick.wmv
+    projectPath: Assets\Sprite\Video Tuto\Videos\Kick.wmv
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Sprite\Video Tuto\Videos\Kick.wmv.meta
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Sprite\Video
+      Tuto\Videos\Kick.wmv.meta
+    projectPath: Assets\Sprite\Video Tuto\Videos\Kick.wmv.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Sprite\Video Tuto\Videos\LowKick.wmv
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Sprite\Video
+      Tuto\Videos\LowKick.wmv
+    projectPath: Assets\Sprite\Video Tuto\Videos\LowKick.wmv
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Sprite\Video Tuto\Videos\LowKick.wmv.meta
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Sprite\Video
+      Tuto\Videos\LowKick.wmv.meta
+    projectPath: Assets\Sprite\Video Tuto\Videos\LowKick.wmv.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Sprite\Video Tuto\Videos\Punch.wmv
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Sprite\Video
+      Tuto\Videos\Punch.wmv
+    projectPath: Assets\Sprite\Video Tuto\Videos\Punch.wmv
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Sprite\Video Tuto\Videos\Punch.wmv.meta
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Sprite\Video
+      Tuto\Videos\Punch.wmv.meta
+    projectPath: Assets\Sprite\Video Tuto\Videos\Punch.wmv.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Sprite\Video Tuto\Videos\Run.wmv
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Sprite\Video
+      Tuto\Videos\Run.wmv
+    projectPath: Assets\Sprite\Video Tuto\Videos\Run.wmv
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Sprite\Video Tuto\Videos\Run.wmv.meta
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Sprite\Video
+      Tuto\Videos\Run.wmv.meta
+    projectPath: Assets\Sprite\Video Tuto\Videos\Run.wmv.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Sprite\Video Tuto\Videos\Uppercut.wmv
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Sprite\Video
+      Tuto\Videos\Uppercut.wmv
+    projectPath: Assets\Sprite\Video Tuto\Videos\Uppercut.wmv
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Sprite\Video Tuto\Videos\Uppercut.wmv.meta
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Sprite\Video
+      Tuto\Videos\Uppercut.wmv.meta
+    projectPath: Assets\Sprite\Video Tuto\Videos\Uppercut.wmv.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Sprite\Video Tuto\Videos\Walk.wmv
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Sprite\Video
+      Tuto\Videos\Walk.wmv
+    projectPath: Assets\Sprite\Video Tuto\Videos\Walk.wmv
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Sprite\Video Tuto\Videos\Walk.wmv.meta
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Sprite\Video
+      Tuto\Videos\Walk.wmv.meta
+    projectPath: Assets\Sprite\Video Tuto\Videos\Walk.wmv.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: RedStick Redemption\Library\assetDatabase3
     fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Library\assetDatabase3
     projectPath: Library\assetDatabase3
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: RedStick Redemption\Library\CurrentLayout-default.dwlt
-    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Library\CurrentLayout-default.dwlt
-    projectPath: Library\CurrentLayout-default.dwlt
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: RedStick Redemption\Library\expandedItems
-    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Library\expandedItems
-    projectPath: Library\expandedItems
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -118,39 +427,21 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: RedStick Redemption\Library\gfu\cache\repoinfo.yaml
-    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Library\gfu\cache\repoinfo.yaml
-    projectPath: Library\gfu\cache\repoinfo.yaml
+  - path: RedStick Redemption\Library\GridBrush\UnityEditor.Tilemaps.GridBrush.asset
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Library\GridBrush\UnityEditor.Tilemaps.GridBrush.asset
+    projectPath: Library\GridBrush\UnityEditor.Tilemaps.GridBrush.asset
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: RedStick Redemption\Library\LastSceneManagerSetup.txt
-    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Library\LastSceneManagerSetup.txt
-    projectPath: Library\LastSceneManagerSetup.txt
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: RedStick Redemption\Library\metadata\11\11134e6d37519a7439c7192e3fcdcdec
-    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Library\metadata\11\11134e6d37519a7439c7192e3fcdcdec
-    projectPath: Library\metadata\11\11134e6d37519a7439c7192e3fcdcdec
+  - path: RedStick Redemption\Library\InspectorExpandedItems.asset
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Library\InspectorExpandedItems.asset
+    projectPath: Library\InspectorExpandedItems.asset
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: RedStick Redemption\Library\metadata\19\194a6ba4b89d96e4ebaf72808a0791ce
     fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Library\metadata\19\194a6ba4b89d96e4ebaf72808a0791ce
     projectPath: Library\metadata\19\194a6ba4b89d96e4ebaf72808a0791ce
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: RedStick Redemption\Library\metadata\27\2767834133efb8048ad2da60a18f6b0e
-    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Library\metadata\27\2767834133efb8048ad2da60a18f6b0e
-    projectPath: Library\metadata\27\2767834133efb8048ad2da60a18f6b0e
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: RedStick Redemption\Library\metadata\27\2767834133efb8048ad2da60a18f6b0e.info
-    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Library\metadata\27\2767834133efb8048ad2da60a18f6b0e.info
-    projectPath: Library\metadata\27\2767834133efb8048ad2da60a18f6b0e.info
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -178,6 +469,84 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: RedStick Redemption\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.Rider.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\ScriptAssemblies\Unity.Timeline.dll
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Library\ScriptAssemblies\Unity.Timeline.dll
+    projectPath: Library\ScriptAssemblies\Unity.Timeline.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+    projectPath: Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\ScriptAssemblies\UnityEditor.UI.dll
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Library\ScriptAssemblies\UnityEditor.UI.dll
+    projectPath: Library\ScriptAssemblies\UnityEditor.UI.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+    projectPath: Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\ScriptAssemblies\UnityEngine.UI.dll
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Library\ScriptAssemblies\UnityEngine.UI.dll
+    projectPath: Library\ScriptAssemblies\UnityEngine.UI.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\ShaderCache\EditorEncounteredVariants
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Library\ShaderCache\EditorEncounteredVariants
+    projectPath: Library\ShaderCache\EditorEncounteredVariants
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: RedStick Redemption\Library\shadercompiler-UnityShaderCompiler.exe0.log
     fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Library\shadercompiler-UnityShaderCompiler.exe0.log
     projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
@@ -196,9 +565,9 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: RedStick Redemption\ProjectSettings\TagManager.asset
-    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\ProjectSettings\TagManager.asset
-    projectPath: ProjectSettings\TagManager.asset
+  - path: RedStick Redemption\Packages\manifest.json
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Packages\manifest.json
+    projectPath: Packages\manifest.json
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3

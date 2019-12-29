@@ -96,7 +96,8 @@ public class PlayerControllerScript : MonoBehaviour
     private Vector2 mouseWorld;
     private Vector2 mousePosScreen;
     private float direction;
-    
+
+    private Vector2 positionBeforeClimb;
 
     public AudioClip[] audioClips;
     public GameObject weapon { get; set; }
@@ -343,7 +344,8 @@ public class PlayerControllerScript : MonoBehaviour
 
             if ((GunInPocket && hasGun) || !hasGun)
             {
-                transform.position = transform.position + new Vector3(0, 1, 0) * climbForce;
+                transform.position = new Vector3(positionBeforeClimb.x, transform.position.y + climbForce, 0);
+                
                 rigidbody2D.gravityScale = 0.0f;
             }
         }
@@ -351,6 +353,7 @@ public class PlayerControllerScript : MonoBehaviour
         else if (isClimbing && !goUp)
         {
             animationManager.pauseClimbing();
+            positionBeforeClimb = transform.position;
         }
 
         else
