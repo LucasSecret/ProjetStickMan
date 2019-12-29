@@ -79,10 +79,12 @@
      <Compile Include="Assets\Anima2D\Scripts\SpriteMesh.cs" />
      <Compile Include="Assets\Anima2D\Scripts\SpriteMeshAnimation.cs" />
      <Compile Include="Assets\Anima2D\Scripts\SpriteMeshInstance.cs" />
-     <Compile Include="Assets\BulletDestroyer.cs" />
      <Compile Include="Assets\Scripts\AnimationManager.cs" />
      <Compile Include="Assets\Scripts\Arena.cs" />
      <Compile Include="Assets\Scripts\ArenaTrigger.cs" />
+     <Compile Include="Assets\Scripts\ArrowClickHandler.cs" />
+     <Compile Include="Assets\Scripts\BackToMenu.cs" />
+     <Compile Include="Assets\Scripts\BulletDestroyer.cs" />
      <Compile Include="Assets\Scripts\Camera_Follow.cs" />
      <Compile Include="Assets\Scripts\climbable.cs" />
      <Compile Include="Assets\Scripts\DebugerUiScript.cs" />
@@ -100,6 +102,7 @@
      <Compile Include="Assets\Scripts\PlayerHealth.cs" />
      <Compile Include="Assets\Scripts\ScoreManager.cs" />
      <Compile Include="Assets\Scripts\Traversable.cs" />
+     <Compile Include="Assets\Scripts\TutoPanelHandler.cs" />
      <Compile Include="Assets\Scripts\WeaponManager.cs" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
