@@ -610,7 +610,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 876570471128648211}
-  m_LocalRotation: {x: 0, y: 0, z: 0.99512285, w: 0.09864327}
+  m_LocalRotation: {x: 0, y: 0, z: 0.99512285, w: 0.09864363}
   m_LocalPosition: {x: -0.086411394, y: 0.03495326, z: 0}
   m_LocalScale: {x: 1.247201, y: 1, z: 1}
   m_Children:
@@ -631,7 +631,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Length: 1.0562229
+  m_Length: 1.0562233
   m_ChildTransform: {fileID: 876570473225272260}
   m_AttachedIK: {fileID: 876570473164687491}
 --- !u!1 &876570471269176586
@@ -748,7 +748,7 @@ GameObject:
   - component: {fileID: 876570471289796418}
   - component: {fileID: 876570471289796421}
   - component: {fileID: 876570471289796420}
-  - component: {fileID: 562274103381483931}
+  - component: {fileID: 1186711011}
   m_Layer: 0
   m_Name: RightArm IK
   m_TagString: Player
@@ -802,7 +802,7 @@ MonoBehaviour:
       defaultLocalRotation: {x: 0, y: 0, z: 0.33298418, w: -0.9429324}
     m_Weight: 1
     m_RestoreDefaultPose: 1
-    targetPosition: {x: -36.43, y: -3.7600002, z: 0}
+    targetPosition: {x: 28.8, y: 18.13, z: 0}
     flip: 0
 --- !u!58 &876570471289796420
 CircleCollider2D:
@@ -819,8 +819,8 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
---- !u!114 &562274103381483931
+  m_Radius: 0.15
+--- !u!114 &1186711011
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1109,7 +1109,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 876570471773683464}
-  m_LocalRotation: {x: 0, y: 0, z: -0.9920795, w: 0.12561177}
+  m_LocalRotation: {x: 0, y: 0, z: -0.99207944, w: 0.12561187}
   m_LocalPosition: {x: -0.099606305, y: -0.08890422, z: 0}
   m_LocalScale: {x: 1.2720997, y: 1, z: 1}
   m_Children:
@@ -1130,7 +1130,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Length: 1.0000007
+  m_Length: 1
   m_ChildTransform: {fileID: 876570472418228380}
   m_AttachedIK: {fileID: 876570472021503267}
 --- !u!1 &876570471822300201
@@ -1205,7 +1205,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 876570471922535905}
-  m_LocalRotation: {x: 0, y: 0, z: -0.88858, w: 0.45872164}
+  m_LocalRotation: {x: 0, y: 0, z: -0.88857967, w: 0.4587223}
   m_LocalPosition: {x: 1.6514534, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -1226,7 +1226,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Length: 1.1958872
+  m_Length: 1.1958866
   m_ChildTransform: {fileID: 876570472038647369}
   m_AttachedIK: {fileID: 876570472729129960}
 --- !u!1 &876570472021503265
@@ -1240,9 +1240,7 @@ GameObject:
   - component: {fileID: 876570472021503264}
   - component: {fileID: 876570472021503267}
   - component: {fileID: 876570472021503266}
-  - component: {fileID: 562274103186652153}
-  - component: {fileID: 4423257376480981996}
-  - component: {fileID: 4642200249109747497}
+  - component: {fileID: 1065694197}
   m_Layer: 0
   m_Name: RightLeg IK
   m_TagString: Player
@@ -1288,7 +1286,7 @@ MonoBehaviour:
     m_SolverPoses:
     - m_BoneTransform: {fileID: 876570471773683467}
       solverPosition: {x: 0, y: 0, z: 0}
-      solverRotation: {x: 0, y: 0, z: -0.9920795, w: 0.12561177}
+      solverRotation: {x: 0, y: 0, z: -0.99207944, w: 0.12561187}
       defaultLocalRotation: {x: 0, y: 0, z: -0.56817883, w: 0.8229051}
     - m_BoneTransform: {fileID: 876570472418228380}
       solverPosition: {x: 0, y: 0, z: 0}
@@ -1296,7 +1294,7 @@ MonoBehaviour:
       defaultLocalRotation: {x: 0.019225264, y: -0.00397598, z: -0.10850123, w: 0.99390244}
     m_Weight: 1
     m_RestoreDefaultPose: 0
-    targetPosition: {x: -36.8, y: -8.36, z: 0}
+    targetPosition: {x: 28.43, y: 13.530001, z: 0}
     flip: 1
 --- !u!58 &876570472021503266
 CircleCollider2D:
@@ -1313,8 +1311,8 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: -0.049503803, y: 0.107788086}
   serializedVersion: 2
-  m_Radius: 0.3086071
---- !u!114 &562274103186652153
+  m_Radius: 0.15
+--- !u!114 &1065694197
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1449,7 +1447,7 @@ GameObject:
   - component: {fileID: 876570472026801817}
   m_Layer: 0
   m_Name: IK
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1496,7 +1494,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 876570472038647366}
-  m_LocalRotation: {x: 0, y: 0, z: 0.6786867, w: 0.7344279}
+  m_LocalRotation: {x: 0, y: 0, z: 0.6786865, w: 0.73442817}
   m_LocalPosition: {x: 1.1958873, y: 0.00000035762787, z: 0.00048828125}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -1537,7 +1535,8 @@ GameObject:
   - component: {fileID: 966758360}
   - component: {fileID: 966758359}
   - component: {fileID: 3207374215876521904}
-  - component: {fileID: 402360068}
+  - component: {fileID: 337316056}
+  - component: {fileID: 337316057}
   m_Layer: 0
   m_Name: Stickman 1
   m_TagString: Player
@@ -1784,7 +1783,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &402360068
+--- !u!114 &337316056
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1798,6 +1797,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startingHP: 500
   healthBarLength: 0
+--- !u!114 &337316057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 876570472079629814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e5f1b54715b9c448a5a64e36a4b0c63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &876570472124490839
 GameObject:
   m_ObjectHideFlags: 0
@@ -2025,7 +2036,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Length: 1.2099462
+  m_Length: 1.2099459
   m_ChildTransform: {fileID: 876570471822300200}
   m_AttachedIK: {fileID: 876570471289796421}
 --- !u!1 &876570472729129958
@@ -2039,7 +2050,7 @@ GameObject:
   - component: {fileID: 876570472729129961}
   - component: {fileID: 876570472729129960}
   - component: {fileID: 876570472729129963}
-  - component: {fileID: 562274102471746870}
+  - component: {fileID: 404093529}
   m_Layer: 0
   m_Name: LeftArm IK
   m_TagString: Player
@@ -2085,15 +2096,15 @@ MonoBehaviour:
     m_SolverPoses:
     - m_BoneTransform: {fileID: 876570471922535904}
       solverPosition: {x: 0, y: 0, z: 0}
-      solverRotation: {x: 0, y: 0, z: -0.88858, w: 0.45872164}
+      solverRotation: {x: 0, y: 0, z: -0.88857967, w: 0.4587223}
       defaultLocalRotation: {x: 0, y: 0, z: 0.7023715, w: 0.7118106}
     - m_BoneTransform: {fileID: 876570472038647369}
       solverPosition: {x: 0, y: 0, z: 0}
-      solverRotation: {x: 0, y: 0, z: 0.6786867, w: 0.7344279}
+      solverRotation: {x: 0, y: 0, z: 0.67868644, w: 0.7344281}
       defaultLocalRotation: {x: -0, y: -0, z: -0.95138526, w: -0.3080034}
     m_Weight: 1
     m_RestoreDefaultPose: 1
-    targetPosition: {x: -35.94, y: -3.9, z: 0}
+    targetPosition: {x: 29.29, y: 17.99, z: 0}
     flip: 0
 --- !u!58 &876570472729129963
 CircleCollider2D:
@@ -2110,8 +2121,8 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
---- !u!114 &562274102471746870
+  m_Radius: 0.15
+--- !u!114 &404093529
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2172,7 +2183,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Length: 1.6514536
+  m_Length: 1.6514529
   m_ChildTransform: {fileID: 876570471922535904}
   m_AttachedIK: {fileID: 0}
 --- !u!1 &876570473048139407
@@ -2392,7 +2403,7 @@ GameObject:
   - component: {fileID: 876570473104253875}
   m_Layer: 0
   m_Name: Body
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2425,7 +2436,7 @@ GameObject:
   - component: {fileID: 876570473139645743}
   m_Layer: 0
   m_Name: Bones
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2456,9 +2467,7 @@ GameObject:
   - component: {fileID: 876570473164687488}
   - component: {fileID: 876570473164687491}
   - component: {fileID: 876570473164687490}
-  - component: {fileID: 562274102035127897}
-  - component: {fileID: 7949087129252924040}
-  - component: {fileID: 4206586595427869474}
+  - component: {fileID: 1095751819}
   m_Layer: 0
   m_Name: LeftLeg IK
   m_TagString: Player
@@ -2504,7 +2513,7 @@ MonoBehaviour:
     m_SolverPoses:
     - m_BoneTransform: {fileID: 876570471128648210}
       solverPosition: {x: 0, y: 0, z: 0}
-      solverRotation: {x: 0, y: 0, z: 0.99512285, w: 0.09864327}
+      solverRotation: {x: 0, y: 0, z: 0.99512285, w: 0.09864363}
       defaultLocalRotation: {x: 0, y: 0, z: -0.75878745, w: 0.6513384}
     - m_BoneTransform: {fileID: 876570473225272260}
       solverPosition: {x: 0, y: 0, z: 0}
@@ -2512,7 +2521,7 @@ MonoBehaviour:
       defaultLocalRotation: {x: 0, y: 0, z: -0.009926125, w: 0.99995077}
     m_Weight: 1
     m_RestoreDefaultPose: 0
-    targetPosition: {x: -38.1, y: -8.440001, z: 0}
+    targetPosition: {x: 27.13, y: 13.45, z: 0}
     flip: 1
 --- !u!58 &876570473164687490
 CircleCollider2D:
@@ -2529,8 +2538,8 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0.068771124, y: 0.12734663}
   serializedVersion: 2
-  m_Radius: 0.29711878
---- !u!114 &562274102035127897
+  m_Radius: 0.15
+--- !u!114 &1095751819
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

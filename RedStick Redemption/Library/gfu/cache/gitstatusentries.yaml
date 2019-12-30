@@ -13,60 +13,814 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2019-12-12T10:51:15.202+01:00
-  initializedAtString: 2019-12-12T10:51:15.202+01:00
+  lastUpdatedAtString: 2019-12-29T22:01:33.382+01:00
+  initializedAtString: 2019-12-28T11:29:35.741+01:00
   entries:
+  - path: RedStick Redemption\.vs\RedStick Redemption\v16\Server\sqlite3\storage.ide
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\.vs\RedStick Redemption\v16\Server\sqlite3\storage.ide
+    projectPath: .vs\RedStick Redemption\v16\Server\sqlite3\storage.ide
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\.vs\RedStick Redemption\v16\Server\sqlite3\storage.ide-wal
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\.vs\RedStick Redemption\v16\Server\sqlite3\storage.ide-wal
+    projectPath: .vs\RedStick Redemption\v16\Server\sqlite3\storage.ide-wal
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: RedStick Redemption\Assembly-CSharp.csproj
-    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assembly-CSharp.csproj
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assembly-CSharp.csproj
     projectPath: Assembly-CSharp.csproj
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: RedStick Redemption\Assembly-CSharp-Editor.csproj
-    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assembly-CSharp-Editor.csproj
-    projectPath: Assembly-CSharp-Editor.csproj
+  - path: RedStick Redemption\Assets\BulletDestroyer.cs
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\BulletDestroyer.cs
+    projectPath: Assets\BulletDestroyer.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: RedStick Redemption\Assets\BulletDestroyer.cs.meta
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\BulletDestroyer.cs.meta
+    projectPath: Assets\BulletDestroyer.cs.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: RedStick Redemption\Assets\Prefabs\TutoPanel.meta
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Prefabs\TutoPanel.meta
+    projectPath: Assets\Prefabs\TutoPanel.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: RedStick Redemption\Assets\Prefabs\TutoPanel\Climb.prefab
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Prefabs\TutoPanel\Climb.prefab
+    projectPath: Assets\Prefabs\TutoPanel\Climb.prefab
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: RedStick Redemption\Assets\Prefabs\TutoPanel\Climb.prefab.meta
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Prefabs\TutoPanel\Climb.prefab.meta
+    projectPath: Assets\Prefabs\TutoPanel\Climb.prefab.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: RedStick Redemption\Assets\Prefabs\TutoPanel\Crouch.prefab
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Prefabs\TutoPanel\Crouch.prefab
+    projectPath: Assets\Prefabs\TutoPanel\Crouch.prefab
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: RedStick Redemption\Assets\Prefabs\TutoPanel\Crouch.prefab.meta
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Prefabs\TutoPanel\Crouch.prefab.meta
+    projectPath: Assets\Prefabs\TutoPanel\Crouch.prefab.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: RedStick Redemption\Assets\Prefabs\TutoPanel\CrouchWalking.prefab
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Prefabs\TutoPanel\CrouchWalking.prefab
+    projectPath: Assets\Prefabs\TutoPanel\CrouchWalking.prefab
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: RedStick Redemption\Assets\Prefabs\TutoPanel\CrouchWalking.prefab.meta
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Prefabs\TutoPanel\CrouchWalking.prefab.meta
+    projectPath: Assets\Prefabs\TutoPanel\CrouchWalking.prefab.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: RedStick Redemption\Assets\Prefabs\TutoPanel\Fire.prefab
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Prefabs\TutoPanel\Fire.prefab
+    projectPath: Assets\Prefabs\TutoPanel\Fire.prefab
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: RedStick Redemption\Assets\Prefabs\TutoPanel\Fire.prefab.meta
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Prefabs\TutoPanel\Fire.prefab.meta
+    projectPath: Assets\Prefabs\TutoPanel\Fire.prefab.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: RedStick Redemption\Assets\Prefabs\TutoPanel\Flying Kick.prefab
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Prefabs\TutoPanel\Flying
+      Kick.prefab
+    projectPath: Assets\Prefabs\TutoPanel\Flying Kick.prefab
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: RedStick Redemption\Assets\Prefabs\TutoPanel\Flying Kick.prefab.meta
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Prefabs\TutoPanel\Flying
+      Kick.prefab.meta
+    projectPath: Assets\Prefabs\TutoPanel\Flying Kick.prefab.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: RedStick Redemption\Assets\Prefabs\TutoPanel\Jump.prefab
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Prefabs\TutoPanel\Jump.prefab
+    projectPath: Assets\Prefabs\TutoPanel\Jump.prefab
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: RedStick Redemption\Assets\Prefabs\TutoPanel\Jump.prefab.meta
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Prefabs\TutoPanel\Jump.prefab.meta
+    projectPath: Assets\Prefabs\TutoPanel\Jump.prefab.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: RedStick Redemption\Assets\Prefabs\TutoPanel\Kick.prefab
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Prefabs\TutoPanel\Kick.prefab
+    projectPath: Assets\Prefabs\TutoPanel\Kick.prefab
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: RedStick Redemption\Assets\Prefabs\TutoPanel\Kick.prefab.meta
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Prefabs\TutoPanel\Kick.prefab.meta
+    projectPath: Assets\Prefabs\TutoPanel\Kick.prefab.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: RedStick Redemption\Assets\Prefabs\TutoPanel\LowKick.prefab
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Prefabs\TutoPanel\LowKick.prefab
+    projectPath: Assets\Prefabs\TutoPanel\LowKick.prefab
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: RedStick Redemption\Assets\Prefabs\TutoPanel\LowKick.prefab.meta
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Prefabs\TutoPanel\LowKick.prefab.meta
+    projectPath: Assets\Prefabs\TutoPanel\LowKick.prefab.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: RedStick Redemption\Assets\Prefabs\TutoPanel\Punch.prefab
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Prefabs\TutoPanel\Punch.prefab
+    projectPath: Assets\Prefabs\TutoPanel\Punch.prefab
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: RedStick Redemption\Assets\Prefabs\TutoPanel\Punch.prefab.meta
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Prefabs\TutoPanel\Punch.prefab.meta
+    projectPath: Assets\Prefabs\TutoPanel\Punch.prefab.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: RedStick Redemption\Assets\Prefabs\TutoPanel\Run.prefab
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Prefabs\TutoPanel\Run.prefab
+    projectPath: Assets\Prefabs\TutoPanel\Run.prefab
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: RedStick Redemption\Assets\Prefabs\TutoPanel\Run.prefab.meta
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Prefabs\TutoPanel\Run.prefab.meta
+    projectPath: Assets\Prefabs\TutoPanel\Run.prefab.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: RedStick Redemption\Assets\Prefabs\TutoPanel\Uppercut.prefab
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Prefabs\TutoPanel\Uppercut.prefab
+    projectPath: Assets\Prefabs\TutoPanel\Uppercut.prefab
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: RedStick Redemption\Assets\Prefabs\TutoPanel\Uppercut.prefab.meta
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Prefabs\TutoPanel\Uppercut.prefab.meta
+    projectPath: Assets\Prefabs\TutoPanel\Uppercut.prefab.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: RedStick Redemption\Assets\Prefabs\TutoPanel\WalkTuto.prefab
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Prefabs\TutoPanel\WalkTuto.prefab
+    projectPath: Assets\Prefabs\TutoPanel\WalkTuto.prefab
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: RedStick Redemption\Assets\Prefabs\TutoPanel\WalkTuto.prefab.meta
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Prefabs\TutoPanel\WalkTuto.prefab.meta
+    projectPath: Assets\Prefabs\TutoPanel\WalkTuto.prefab.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: RedStick Redemption\Assets\Resources.meta
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Resources.meta
+    projectPath: Assets\Resources.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Resources\TutoPanel.meta
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Resources\TutoPanel.meta
+    projectPath: Assets\Resources\TutoPanel.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Resources\TutoPanel\1WalkTuto.prefab
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Resources\TutoPanel\1WalkTuto.prefab
+    projectPath: Assets\Resources\TutoPanel\1WalkTuto.prefab
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Resources\TutoPanel\1WalkTuto.prefab.meta
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Resources\TutoPanel\1WalkTuto.prefab.meta
+    projectPath: Assets\Resources\TutoPanel\1WalkTuto.prefab.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Resources\TutoPanel\2Run.prefab
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Resources\TutoPanel\2Run.prefab
+    projectPath: Assets\Resources\TutoPanel\2Run.prefab
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Resources\TutoPanel\2Run.prefab.meta
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Resources\TutoPanel\2Run.prefab.meta
+    projectPath: Assets\Resources\TutoPanel\2Run.prefab.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Resources\TutoPanel\3Crouch.prefab
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Resources\TutoPanel\3Crouch.prefab
+    projectPath: Assets\Resources\TutoPanel\3Crouch.prefab
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Resources\TutoPanel\3Crouch.prefab.meta
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Resources\TutoPanel\3Crouch.prefab.meta
+    projectPath: Assets\Resources\TutoPanel\3Crouch.prefab.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Resources\TutoPanel\4CrouchWalking.prefab
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Resources\TutoPanel\4CrouchWalking.prefab
+    projectPath: Assets\Resources\TutoPanel\4CrouchWalking.prefab
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Resources\TutoPanel\4CrouchWalking.prefab.meta
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Resources\TutoPanel\4CrouchWalking.prefab.meta
+    projectPath: Assets\Resources\TutoPanel\4CrouchWalking.prefab.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Resources\TutoPanel\5Jump.prefab
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Resources\TutoPanel\5Jump.prefab
+    projectPath: Assets\Resources\TutoPanel\5Jump.prefab
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Resources\TutoPanel\5Jump.prefab.meta
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Resources\TutoPanel\5Jump.prefab.meta
+    projectPath: Assets\Resources\TutoPanel\5Jump.prefab.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Resources\TutoPanel\6Kick.prefab
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Resources\TutoPanel\6Kick.prefab
+    projectPath: Assets\Resources\TutoPanel\6Kick.prefab
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Resources\TutoPanel\6Kick.prefab.meta
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Resources\TutoPanel\6Kick.prefab.meta
+    projectPath: Assets\Resources\TutoPanel\6Kick.prefab.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Resources\TutoPanel\7LowKick.prefab
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Resources\TutoPanel\7LowKick.prefab
+    projectPath: Assets\Resources\TutoPanel\7LowKick.prefab
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Resources\TutoPanel\7LowKick.prefab.meta
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Resources\TutoPanel\7LowKick.prefab.meta
+    projectPath: Assets\Resources\TutoPanel\7LowKick.prefab.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Resources\TutoPanel\8Flying Kick.prefab
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Resources\TutoPanel\8Flying
+      Kick.prefab
+    projectPath: Assets\Resources\TutoPanel\8Flying Kick.prefab
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Resources\TutoPanel\8Flying Kick.prefab.meta
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Resources\TutoPanel\8Flying
+      Kick.prefab.meta
+    projectPath: Assets\Resources\TutoPanel\8Flying Kick.prefab.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Resources\TutoPanel\90Uppercut.prefab
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Resources\TutoPanel\90Uppercut.prefab
+    projectPath: Assets\Resources\TutoPanel\90Uppercut.prefab
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Resources\TutoPanel\90Uppercut.prefab.meta
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Resources\TutoPanel\90Uppercut.prefab.meta
+    projectPath: Assets\Resources\TutoPanel\90Uppercut.prefab.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Resources\TutoPanel\91Punch.prefab
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Resources\TutoPanel\91Punch.prefab
+    projectPath: Assets\Resources\TutoPanel\91Punch.prefab
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Resources\TutoPanel\91Punch.prefab.meta
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Resources\TutoPanel\91Punch.prefab.meta
+    projectPath: Assets\Resources\TutoPanel\91Punch.prefab.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Resources\TutoPanel\92Climb.prefab
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Resources\TutoPanel\92Climb.prefab
+    projectPath: Assets\Resources\TutoPanel\92Climb.prefab
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Resources\TutoPanel\92Climb.prefab.meta
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Resources\TutoPanel\92Climb.prefab.meta
+    projectPath: Assets\Resources\TutoPanel\92Climb.prefab.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Resources\TutoPanel\93Fire.prefab
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Resources\TutoPanel\93Fire.prefab
+    projectPath: Assets\Resources\TutoPanel\93Fire.prefab
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Resources\TutoPanel\93Fire.prefab.meta
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Resources\TutoPanel\93Fire.prefab.meta
+    projectPath: Assets\Resources\TutoPanel\93Fire.prefab.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Scenes\Tuto.unity
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Scenes\Tuto.unity
+    projectPath: Assets\Scenes\Tuto.unity
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: RedStick Redemption\Assembly-CSharp-Editor-firstpass.csproj
-    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Assembly-CSharp-Editor-firstpass.csproj
-    projectPath: Assembly-CSharp-Editor-firstpass.csproj
+  - path: RedStick Redemption\Assets\Scripts\ArrowClickHandler.cs
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Scripts\ArrowClickHandler.cs
+    projectPath: Assets\Scripts\ArrowClickHandler.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Scripts\ArrowClickHandler.cs.meta
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Scripts\ArrowClickHandler.cs.meta
+    projectPath: Assets\Scripts\ArrowClickHandler.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Scripts\BackToMenu.cs
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Scripts\BackToMenu.cs
+    projectPath: Assets\Scripts\BackToMenu.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Scripts\BackToMenu.cs.meta
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Scripts\BackToMenu.cs.meta
+    projectPath: Assets\Scripts\BackToMenu.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Scripts\BulletDestroyer.cs
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Scripts\BulletDestroyer.cs
+    projectPath: Assets\Scripts\BulletDestroyer.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Scripts\BulletDestroyer.cs.meta
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Scripts\BulletDestroyer.cs.meta
+    projectPath: Assets\Scripts\BulletDestroyer.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Scripts\TutoPanelHandler.cs
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Scripts\TutoPanelHandler.cs
+    projectPath: Assets\Scripts\TutoPanelHandler.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Scripts\TutoPanelHandler.cs.meta
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Scripts\TutoPanelHandler.cs.meta
+    projectPath: Assets\Scripts\TutoPanelHandler.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Sprite\menu-interface-symbol-of-four-horizontal-lines-with-dots.png
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Sprite\menu-interface-symbol-of-four-horizontal-lines-with-dots.png
+    projectPath: Assets\Sprite\menu-interface-symbol-of-four-horizontal-lines-with-dots.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Sprite\menu-interface-symbol-of-four-horizontal-lines-with-dots.png.meta
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Sprite\menu-interface-symbol-of-four-horizontal-lines-with-dots.png.meta
+    projectPath: Assets\Sprite\menu-interface-symbol-of-four-horizontal-lines-with-dots.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Sprite\Video Tuto\VideoRendererMaterial.mat
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Sprite\Video
+      Tuto\VideoRendererMaterial.mat
+    projectPath: Assets\Sprite\Video Tuto\VideoRendererMaterial.mat
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 3
+    workTreeStatus: 5
+  - path: RedStick Redemption\Assets\Sprite\Video Tuto\VideoRendererMaterial.mat.meta
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Sprite\Video
+      Tuto\VideoRendererMaterial.mat.meta
+    projectPath: Assets\Sprite\Video Tuto\VideoRendererMaterial.mat.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: RedStick Redemption\Assets\Sprite\Video Tuto\VideoRenderTexture 1.renderTexture
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Sprite\Video
+      Tuto\VideoRenderTexture 1.renderTexture
+    projectPath: Assets\Sprite\Video Tuto\VideoRenderTexture 1.renderTexture
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Sprite\Video Tuto\VideoRenderTexture 1.renderTexture.meta
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Sprite\Video
+      Tuto\VideoRenderTexture 1.renderTexture.meta
+    projectPath: Assets\Sprite\Video Tuto\VideoRenderTexture 1.renderTexture.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Sprite\Video Tuto\Videos\Climb.mp4
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Sprite\Video
+      Tuto\Videos\Climb.mp4
+    projectPath: Assets\Sprite\Video Tuto\Videos\Climb.mp4
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Sprite\Video Tuto\Videos\Climb.mp4.meta
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Sprite\Video
+      Tuto\Videos\Climb.mp4.meta
+    projectPath: Assets\Sprite\Video Tuto\Videos\Climb.mp4.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Sprite\Video Tuto\Videos\Climb.wmv
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Sprite\Video
+      Tuto\Videos\Climb.wmv
+    projectPath: Assets\Sprite\Video Tuto\Videos\Climb.wmv
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: RedStick Redemption\Assets\Sprite\Video Tuto\Videos\Climb.wmv.meta
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Sprite\Video
+      Tuto\Videos\Climb.wmv.meta
+    projectPath: Assets\Sprite\Video Tuto\Videos\Climb.wmv.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: RedStick Redemption\Assets\Sprite\Video Tuto\Videos\Crouch.mp4
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Sprite\Video
+      Tuto\Videos\Crouch.mp4
+    projectPath: Assets\Sprite\Video Tuto\Videos\Crouch.mp4
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Sprite\Video Tuto\Videos\Crouch.mp4.meta
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Sprite\Video
+      Tuto\Videos\Crouch.mp4.meta
+    projectPath: Assets\Sprite\Video Tuto\Videos\Crouch.mp4.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Sprite\Video Tuto\Videos\Crouch.wmv
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Sprite\Video
+      Tuto\Videos\Crouch.wmv
+    projectPath: Assets\Sprite\Video Tuto\Videos\Crouch.wmv
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: RedStick Redemption\Assets\Sprite\Video Tuto\Videos\Crouch.wmv.meta
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Sprite\Video
+      Tuto\Videos\Crouch.wmv.meta
+    projectPath: Assets\Sprite\Video Tuto\Videos\Crouch.wmv.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: RedStick Redemption\Assets\Sprite\Video Tuto\Videos\CrouchWalking.mp4
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Sprite\Video
+      Tuto\Videos\CrouchWalking.mp4
+    projectPath: Assets\Sprite\Video Tuto\Videos\CrouchWalking.mp4
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Sprite\Video Tuto\Videos\CrouchWalking.mp4.meta
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Sprite\Video
+      Tuto\Videos\CrouchWalking.mp4.meta
+    projectPath: Assets\Sprite\Video Tuto\Videos\CrouchWalking.mp4.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Sprite\Video Tuto\Videos\CrouchWalking.wmv
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Sprite\Video
+      Tuto\Videos\CrouchWalking.wmv
+    projectPath: Assets\Sprite\Video Tuto\Videos\CrouchWalking.wmv
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: RedStick Redemption\Assets\Sprite\Video Tuto\Videos\CrouchWalking.wmv.meta
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Sprite\Video
+      Tuto\Videos\CrouchWalking.wmv.meta
+    projectPath: Assets\Sprite\Video Tuto\Videos\CrouchWalking.wmv.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: RedStick Redemption\Assets\Sprite\Video Tuto\Videos\Fire.mp4
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Sprite\Video
+      Tuto\Videos\Fire.mp4
+    projectPath: Assets\Sprite\Video Tuto\Videos\Fire.mp4
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Sprite\Video Tuto\Videos\Fire.mp4.meta
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Sprite\Video
+      Tuto\Videos\Fire.mp4.meta
+    projectPath: Assets\Sprite\Video Tuto\Videos\Fire.mp4.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Sprite\Video Tuto\Videos\Fire.wmv
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Sprite\Video
+      Tuto\Videos\Fire.wmv
+    projectPath: Assets\Sprite\Video Tuto\Videos\Fire.wmv
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: RedStick Redemption\Assets\Sprite\Video Tuto\Videos\Fire.wmv.meta
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Sprite\Video
+      Tuto\Videos\Fire.wmv.meta
+    projectPath: Assets\Sprite\Video Tuto\Videos\Fire.wmv.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: RedStick Redemption\Assets\Sprite\Video Tuto\Videos\FlyingKick.mp4
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Sprite\Video
+      Tuto\Videos\FlyingKick.mp4
+    projectPath: Assets\Sprite\Video Tuto\Videos\FlyingKick.mp4
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Sprite\Video Tuto\Videos\FlyingKick.mp4.meta
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Sprite\Video
+      Tuto\Videos\FlyingKick.mp4.meta
+    projectPath: Assets\Sprite\Video Tuto\Videos\FlyingKick.mp4.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Sprite\Video Tuto\Videos\FlyingKick.wmv
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Sprite\Video
+      Tuto\Videos\FlyingKick.wmv
+    projectPath: Assets\Sprite\Video Tuto\Videos\FlyingKick.wmv
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: RedStick Redemption\Assets\Sprite\Video Tuto\Videos\FlyingKick.wmv.meta
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Sprite\Video
+      Tuto\Videos\FlyingKick.wmv.meta
+    projectPath: Assets\Sprite\Video Tuto\Videos\FlyingKick.wmv.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: RedStick Redemption\Assets\Sprite\Video Tuto\Videos\Jump.mp4
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Sprite\Video
+      Tuto\Videos\Jump.mp4
+    projectPath: Assets\Sprite\Video Tuto\Videos\Jump.mp4
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Sprite\Video Tuto\Videos\Jump.mp4.meta
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Sprite\Video
+      Tuto\Videos\Jump.mp4.meta
+    projectPath: Assets\Sprite\Video Tuto\Videos\Jump.mp4.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Sprite\Video Tuto\Videos\Jump.wmv
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Sprite\Video
+      Tuto\Videos\Jump.wmv
+    projectPath: Assets\Sprite\Video Tuto\Videos\Jump.wmv
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: RedStick Redemption\Assets\Sprite\Video Tuto\Videos\Jump.wmv.meta
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Sprite\Video
+      Tuto\Videos\Jump.wmv.meta
+    projectPath: Assets\Sprite\Video Tuto\Videos\Jump.wmv.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: RedStick Redemption\Assets\Sprite\Video Tuto\Videos\Kick.mp4
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Sprite\Video
+      Tuto\Videos\Kick.mp4
+    projectPath: Assets\Sprite\Video Tuto\Videos\Kick.mp4
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Sprite\Video Tuto\Videos\Kick.mp4.meta
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Sprite\Video
+      Tuto\Videos\Kick.mp4.meta
+    projectPath: Assets\Sprite\Video Tuto\Videos\Kick.mp4.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Sprite\Video Tuto\Videos\Kick.wmv
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Sprite\Video
+      Tuto\Videos\Kick.wmv
+    projectPath: Assets\Sprite\Video Tuto\Videos\Kick.wmv
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: RedStick Redemption\Assets\Sprite\Video Tuto\Videos\Kick.wmv.meta
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Sprite\Video
+      Tuto\Videos\Kick.wmv.meta
+    projectPath: Assets\Sprite\Video Tuto\Videos\Kick.wmv.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: RedStick Redemption\Assets\Sprite\Video Tuto\Videos\LowKick.mp4
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Sprite\Video
+      Tuto\Videos\LowKick.mp4
+    projectPath: Assets\Sprite\Video Tuto\Videos\LowKick.mp4
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Sprite\Video Tuto\Videos\LowKick.mp4.meta
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Sprite\Video
+      Tuto\Videos\LowKick.mp4.meta
+    projectPath: Assets\Sprite\Video Tuto\Videos\LowKick.mp4.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Sprite\Video Tuto\Videos\LowKick.wmv
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Sprite\Video
+      Tuto\Videos\LowKick.wmv
+    projectPath: Assets\Sprite\Video Tuto\Videos\LowKick.wmv
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: RedStick Redemption\Assets\Sprite\Video Tuto\Videos\LowKick.wmv.meta
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Sprite\Video
+      Tuto\Videos\LowKick.wmv.meta
+    projectPath: Assets\Sprite\Video Tuto\Videos\LowKick.wmv.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: RedStick Redemption\Assets\Sprite\Video Tuto\Videos\Punch.mp4
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Sprite\Video
+      Tuto\Videos\Punch.mp4
+    projectPath: Assets\Sprite\Video Tuto\Videos\Punch.mp4
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Sprite\Video Tuto\Videos\Punch.mp4.meta
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Sprite\Video
+      Tuto\Videos\Punch.mp4.meta
+    projectPath: Assets\Sprite\Video Tuto\Videos\Punch.mp4.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Sprite\Video Tuto\Videos\Punch.wmv
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Sprite\Video
+      Tuto\Videos\Punch.wmv
+    projectPath: Assets\Sprite\Video Tuto\Videos\Punch.wmv
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: RedStick Redemption\Assets\Sprite\Video Tuto\Videos\Punch.wmv.meta
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Sprite\Video
+      Tuto\Videos\Punch.wmv.meta
+    projectPath: Assets\Sprite\Video Tuto\Videos\Punch.wmv.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: RedStick Redemption\Assets\Sprite\Video Tuto\Videos\Run.wmv
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Sprite\Video
+      Tuto\Videos\Run.wmv
+    projectPath: Assets\Sprite\Video Tuto\Videos\Run.wmv
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: RedStick Redemption\Assets\Sprite\Video Tuto\Videos\Run.wmv.meta
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Sprite\Video
+      Tuto\Videos\Run.wmv.meta
+    projectPath: Assets\Sprite\Video Tuto\Videos\Run.wmv.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: RedStick Redemption\Assets\Sprite\Video Tuto\Videos\Sprint_StickMove.mp4
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Sprite\Video
+      Tuto\Videos\Sprint_StickMove.mp4
+    projectPath: Assets\Sprite\Video Tuto\Videos\Sprint_StickMove.mp4
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Sprite\Video Tuto\Videos\Sprint_StickMove.mp4.meta
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Sprite\Video
+      Tuto\Videos\Sprint_StickMove.mp4.meta
+    projectPath: Assets\Sprite\Video Tuto\Videos\Sprint_StickMove.mp4.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Sprite\Video Tuto\Videos\Uppercut.mp4
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Sprite\Video
+      Tuto\Videos\Uppercut.mp4
+    projectPath: Assets\Sprite\Video Tuto\Videos\Uppercut.mp4
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Sprite\Video Tuto\Videos\Uppercut.mp4.meta
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Sprite\Video
+      Tuto\Videos\Uppercut.mp4.meta
+    projectPath: Assets\Sprite\Video Tuto\Videos\Uppercut.mp4.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: RedStick Redemption\Assets\Sprite\Video Tuto\Videos\Uppercut.wmv
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Sprite\Video
+      Tuto\Videos\Uppercut.wmv
+    projectPath: Assets\Sprite\Video Tuto\Videos\Uppercut.wmv
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: RedStick Redemption\Assets\Sprite\Video Tuto\Videos\Uppercut.wmv.meta
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Assets\Sprite\Video
+      Tuto\Videos\Uppercut.wmv.meta
+    projectPath: Assets\Sprite\Video Tuto\Videos\Uppercut.wmv.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
   - path: RedStick Redemption\Library\assetDatabase3
-    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\assetDatabase3
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Library\assetDatabase3
     projectPath: Library\assetDatabase3
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: RedStick Redemption\Library\EditorInstance.json
-    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\EditorInstance.json
-    projectPath: Library\EditorInstance.json
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: RedStick Redemption\Library\metadata\7e\7e129e5cececacd4bba75f45cb1828a8
-    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\7e\7e129e5cececacd4bba75f45cb1828a8
-    projectPath: Library\metadata\7e\7e129e5cececacd4bba75f45cb1828a8
+  - path: RedStick Redemption\Library\gfu\cache\gitlocks.yaml
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Library\gfu\cache\gitlocks.yaml
+    projectPath: Library\gfu\cache\gitlocks.yaml
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: RedStick Redemption\Library\metadata\c4\c4ed4123f10661149965367d5497462c
-    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\c4\c4ed4123f10661149965367d5497462c
-    projectPath: Library\metadata\c4\c4ed4123f10661149965367d5497462c
+  - path: RedStick Redemption\Library\gfu\cache\gitstatusentries.yaml
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Library\gfu\cache\gitstatusentries.yaml
+    projectPath: Library\gfu\cache\gitstatusentries.yaml
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: RedStick Redemption\Library\metadata\f5\f591cbd83e065c541a5d7a957b83923a
-    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\metadata\f5\f591cbd83e065c541a5d7a957b83923a
-    projectPath: Library\metadata\f5\f591cbd83e065c541a5d7a957b83923a
+  - path: RedStick Redemption\Library\gfu\cache\gittrackingstatus.yaml
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Library\gfu\cache\gittrackingstatus.yaml
+    projectPath: Library\gfu\cache\gittrackingstatus.yaml
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: RedStick Redemption\Library\shadercompiler-UnityShaderCompiler.exe0.log
-    fullPath: D:\GIT\ProjetStickMan\RedStick Redemption\Library\shadercompiler-UnityShaderCompiler.exe0.log
-    projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+  - path: RedStick Redemption\Library\gfu\cache\repoinfo.yaml
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Library\gfu\cache\repoinfo.yaml
+    projectPath: Library\gfu\cache\repoinfo.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\metadata\32\32afb8662fedb344d860f261c3e16be1
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Library\metadata\32\32afb8662fedb344d860f261c3e16be1
+    projectPath: Library\metadata\32\32afb8662fedb344d860f261c3e16be1
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\ScriptAssemblies\Assembly-CSharp.dll
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Library\ScriptAssemblies\Assembly-CSharp.dll
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\ScriptAssemblies\Assembly-CSharp.pdb
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Library\ScriptAssemblies\Assembly-CSharp.pdb
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\StateCache\Hierarchy\1d1d69-mainStage.json
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Library\StateCache\Hierarchy\1d1d69-mainStage.json
+    projectPath: Library\StateCache\Hierarchy\1d1d69-mainStage.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: RedStick Redemption\Library\StateCache\SceneView\a06a0f-mainStage.json
+    fullPath: C:\Repositories\ProjetStickMan\RedStick Redemption\Library\StateCache\SceneView\a06a0f-mainStage.json
+    projectPath: Library\StateCache\SceneView\a06a0f-mainStage.json
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3

@@ -102,6 +102,8 @@ public class PlayerControllerScript : MonoBehaviour
     }
 
 
+    private Vector2 positionBeforeClimb;
+
     public AudioClip[] audioClips;
 
     public GameObject weapon { get; set; }
@@ -348,7 +350,8 @@ public class PlayerControllerScript : MonoBehaviour
 
             if ((GunInPocket && hasGun) || !hasGun)
             {
-                transform.position = transform.position + new Vector3(0, 1, 0) * climbForce;
+                transform.position = new Vector3(positionBeforeClimb.x, transform.position.y + climbForce, 0);
+                
                 rigidbody2D.gravityScale = 0.0f;
             }
         }
@@ -356,6 +359,7 @@ public class PlayerControllerScript : MonoBehaviour
         else if (isClimbing && !goUp)
         {
             animationManager.pauseClimbing();
+            positionBeforeClimb = transform.position;
         }
 
         else
@@ -569,7 +573,7 @@ public class PlayerControllerScript : MonoBehaviour
         this.playerHealth.TakeDamage(ammountDamage);
     }
 
-    private void OnGUI()
+    /*private void OnGUI()
     {
 
         GUILayout.BeginArea(new Rect(20, 20, 250, 150));
@@ -580,7 +584,7 @@ public class PlayerControllerScript : MonoBehaviour
         GUILayout.Label("Player is onGround : " + isOnGround);
         GUILayout.Label("direction player transform : " + transform.forward.z);
         GUILayout.EndArea();
-    }
+    }*/
 
 
     public void playSoundForWeapon()
@@ -590,11 +594,14 @@ public class PlayerControllerScript : MonoBehaviour
     }
 
     private void shotRaycast()
-    {        
+    {
         RaycastHit2D hit = Physics2D.Raycast(weapon.transform.GetChild(0).position, weapon.transform.right);
 
-        if (hit.transform.tag == "Destroyable")
-            hit.transform.GetComponent<DestroyableController>().takeDamage(100);
+        if (hit)
+        {
+            if (hit.transform.tag == "Destroyable")
+                hit.transform.GetComponent<DestroyableController>().takeDamage(100);
+        }
     }
 
     public void playReloadSound()
@@ -618,10 +625,13 @@ public class PlayerControllerScript : MonoBehaviour
 
     private void replaceWeaponInHand()
     {
-        weapon.transform.SetParent(GameObject.Find("MainDroite").transform);
-        weapon.transform.localPosition = new Vector2(0, 0);
-        weapon.transform.localRotation = Quaternion.Euler(0, 0, 0);
-        GunInPocket = false;
+        if (weapon)
+        {
+            weapon.transform.SetParent(GameObject.Find("MainDroite").transform);
+            weapon.transform.localPosition = new Vector2(0, 0);
+            weapon.transform.localRotation = Quaternion.Euler(0, 0, 0);
+            GunInPocket = false;
+        }
     }
 }
 

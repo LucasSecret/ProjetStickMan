@@ -38,15 +38,12 @@ public class PlayerHealth : MonoBehaviour
         healthBarLength = (Screen.width / 6) * (currentHp / (float)startingHP);
     }
 
+    /*
     void OnGUI()
     {
-
-
-
         GUI.Box(new Rect(targetPos.x - (healthBarLength / 2), (Screen.height - targetPos.y) - 100, healthBarLength, 60), currentHp + "/" + startingHP);
-
     }
-
+    */
     public void TakeDamage(int amount)
     {
         isDamaged = true;
