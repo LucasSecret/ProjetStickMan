@@ -96,9 +96,14 @@ public class PlayerControllerScript : MonoBehaviour
     private Vector2 mouseWorld;
     private Vector2 mousePosScreen;
     private float direction;
-    
+    public float Direction
+    {
+        get { return direction; }
+    }
+
 
     public AudioClip[] audioClips;
+
     public GameObject weapon { get; set; }
 
 

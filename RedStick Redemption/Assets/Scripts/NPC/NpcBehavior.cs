@@ -11,6 +11,7 @@ public class NpcBehavior : MonoBehaviour
     private Rigidbody2D rigidbody;
     public bool isMoving;
     public bool isAttacking;
+    public bool isAttacked;
 
     private bool triggerAttackPlayer;
 
@@ -23,6 +24,9 @@ public class NpcBehavior : MonoBehaviour
 
     private AnimationManager animationManager;
     private NPCHealthBar npcHealth;
+    private PlayerControllerScript player;
+
+    private Vector2 directionPlayer;
 
     // Start is called before the first frame update
     void Start()
@@ -31,6 +35,7 @@ public class NpcBehavior : MonoBehaviour
         npcHealth = GetComponent<NPCHealthBar>();
         npcAttackType = GetComponent<PlayerAttackEnum>();
         rigidbody = GetComponent<Rigidbody2D>();
+        player = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerControllerScript>();
 
         direction = UnityEngine.Random.Range(-1.0f, 1.0f);
 
@@ -71,9 +76,24 @@ public class NpcBehavior : MonoBehaviour
 
             Debug.LogWarning("npc attack type : " + randomAttack.ToString());
             
+            
+
+            switch (npcAttackType.PlayerAttackType)
+            {
+                case PlayerAttackEnum.PlayerAttack.kick: animationManager.kickAnimation(); break;
+                case PlayerAttackEnum.PlayerAttack.flyingKick: animationManager.startFlyingKick(); break;
+                case PlayerAttackEnum.PlayerAttack.lowkick: animationManager.lowKickAnimation(); break;
+                case PlayerAttackEnum.PlayerAttack.punch: animationManager.punchAnimation(); break;
+                case PlayerAttackEnum.PlayerAttack.uppercut: animationManager.uppercutAnimation(); break;
+
+
+            }
+
             triggerAttackPlayer = true;
+
         }
-        animationManager.kickAnimation();
+
+
 
 
     }
@@ -129,7 +149,7 @@ public class NpcBehavior : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        directionPlayer = new Vector2(player.transform.position.x - transform.position.x, player.transform.position.y - transform.position.y);
 
         //PAR LA DROITE
         if(direction > 0)
@@ -146,7 +166,7 @@ public class NpcBehavior : MonoBehaviour
                     if(hitRight.distance <= 0.05f)
                     {
                         animationManager.stopRunning();
-                        attackPlayer();
+                       
                     }
 
                 }
@@ -169,7 +189,7 @@ public class NpcBehavior : MonoBehaviour
                     if (hitLeft.distance <= 0.05f)
                     {
                         animationManager.stopRunning();
-                        attackPlayer();
+                        
                     }
 
                 }
@@ -186,11 +206,22 @@ public class NpcBehavior : MonoBehaviour
             {
                 if (playerSpotted)
                 {
-                    transform.eulerAngles = new Vector3(0, 0, 0);
+                   
 
-                    animationManager.startRunning();
+                    if(directionPlayer.normalized.x > 0)
+                    {
+                        transform.eulerAngles = new Vector3(0, 0, 0);
 
-                    GetComponent<Transform>().Translate(GetComponent<Transform>().right * speed * 8.0f * Time.deltaTime * 1.0f * 1.0f);
+                        animationManager.startRunning();
+
+                        GetComponent<Transform>().Translate(GetComponent<Transform>().right * speed * 8.0f * Time.deltaTime * 1.0f * 1.0f * directionPlayer.normalized);
+                    }
+                    else
+                    {
+                        direction = -direction;
+                    }
+
+                    
                 }
                 else
                 {
@@ -209,11 +240,19 @@ public class NpcBehavior : MonoBehaviour
             {
                 if (playerSpotted)
                 {
-                    transform.eulerAngles = new Vector3(0, 180, 0);
+                    if (directionPlayer.normalized.x < 0)
+                    {
+                        transform.eulerAngles = new Vector3(0, 180, 0);
 
-                    animationManager.startRunning();
+                        animationManager.startRunning();
 
-                    GetComponent<Transform>().Translate(GetComponent<Transform>().right * -speed * 8.0f * Time.deltaTime * 1.0f * 1.0f);
+                        GetComponent<Transform>().Translate(GetComponent<Transform>().right * speed * 8.0f * Time.deltaTime * 1.0f * 1.0f * directionPlayer.normalized);
+                    }
+                    else
+                    {
+                        direction = -direction;
+                    }
+                   
                 }
                 else
                 {
@@ -237,13 +276,9 @@ public class NpcBehavior : MonoBehaviour
             
         }
 
-        if (npcHealth.isAttacked)
+        if (isAttacked)
         {
-            attackPlayer();
-        }
-        else
-        {
-            setBackToWandering();
+           
         }
 
     }

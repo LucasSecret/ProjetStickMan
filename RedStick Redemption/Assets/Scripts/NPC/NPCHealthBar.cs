@@ -9,7 +9,6 @@ public class NPCHealthBar : MonoBehaviour
 
     public float healthBarLength;
     private bool isDestroyed;
-    public bool isAttacked;
     Vector2 targetPos;
 
     private PlayerAttackEnum playerAttackEnum;
@@ -18,7 +17,8 @@ public class NPCHealthBar : MonoBehaviour
     private GameObject arena;
 
     private float timerToStopAttack;
-    
+    private NpcBehavior npcBehavior;
+
 
     // Use this for initialization
     void Start()
@@ -26,14 +26,9 @@ public class NPCHealthBar : MonoBehaviour
         healthBarLength = Screen.width / 6;
         rigidbody2D = GetComponent<Rigidbody2D>();
         arena = GameObject.Find("ArenaWall");
-        Component[] SpriteMesh = GetComponentsInChildren<Anima2D.SpriteMeshInstance>();
-
-
-        foreach (Anima2D.SpriteMeshInstance spritemesh in SpriteMesh)
-        {
-            
-        }
+        npcBehavior = GetComponent<NpcBehavior>();
     }
+
 
     // Update is called once per frame
     void Update()
@@ -53,13 +48,13 @@ public class NPCHealthBar : MonoBehaviour
         
         targetPos = Camera.main.WorldToScreenPoint(transform.position);
 
-        if(isAttacked)
+        if(npcBehavior.isAttacked)
         {
             timerToStopAttack += Time.deltaTime;
 
-            if(timerToStopAttack >= 2)
+            if(timerToStopAttack >= 3)
             {
-                isAttacked = false;
+                npcBehavior.isAttacked = false;
                 Debug.LogWarning("j'arrete d'attaquer");
                 timerToStopAttack = 0;
             }
@@ -103,7 +98,7 @@ public class NPCHealthBar : MonoBehaviour
     public void takeDamage(PlayerAttackEnum.PlayerAttack playerAttackType, float dir)
     {
         int ammountDamage = 0;
-        isAttacked = true;
+        npcBehavior.isAttacked = true;
 
         if(GetComponent<AudioSource>() != null)
         {
