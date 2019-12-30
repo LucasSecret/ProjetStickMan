@@ -146,6 +146,6 @@ public class WeaponManager: MonoBehaviour
         bullet.transform.localPosition = new Vector2(0, 0);
         bullet.transform.SetParent(null);
 
-        bullet.velocity = GameObject.Find("Stickman").transform.right * 400.0f;
+        bullet.velocity = GameObject.Find("Stickman").transform.right * 90f;
     }
 }
