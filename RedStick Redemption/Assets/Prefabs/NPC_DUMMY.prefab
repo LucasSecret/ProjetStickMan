@@ -1717,7 +1717,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 100
-  curHealth: 92
+  curHealth: 100
   healthBarLength: 0
   isAttacked: 0
 --- !u!1 &6563337831675272634

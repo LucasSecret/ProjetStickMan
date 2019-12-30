@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -10,11 +11,22 @@ public class NpcBehavior : MonoBehaviour
     private Rigidbody2D rigidbody;
     public bool isMoving;
     public bool isAttacking;
+    public bool isAttacked;
+
+    private bool triggerAttackPlayer;
+
+    
+    private bool playerSpotted;
+    private bool triggerPlayerSpotted;
+
     public PlayerAttackEnum npcAttackType;
     public Color color;
 
     private AnimationManager animationManager;
     private NPCHealthBar npcHealth;
+    private PlayerControllerScript player;
+
+    private Vector2 directionPlayer;
 
     // Start is called before the first frame update
     void Start()
@@ -23,8 +35,9 @@ public class NpcBehavior : MonoBehaviour
         npcHealth = GetComponent<NPCHealthBar>();
         npcAttackType = GetComponent<PlayerAttackEnum>();
         rigidbody = GetComponent<Rigidbody2D>();
+        player = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerControllerScript>();
 
-        direction = Random.Range(-1.0f, 1.0f);
+        direction = UnityEngine.Random.Range(-1.0f, 1.0f);
 
         speed = 2.0f;
 
@@ -51,9 +64,45 @@ public class NpcBehavior : MonoBehaviour
 
     void attackPlayer()
     {
-        npcAttackType.PlayerAttackType = PlayerAttackEnum.PlayerAttack.kick;
-        isMoving = false;
-        animationManager.kickAnimation();
+        if(!triggerAttackPlayer)
+        {
+            Array values = System.Enum.GetValues(typeof(PlayerAttackEnum.PlayerAttack));
+
+
+            PlayerAttackEnum.PlayerAttack randomAttack = (PlayerAttackEnum.PlayerAttack)values.GetValue(UnityEngine.Random.Range(0, values.Length));
+
+            npcAttackType.PlayerAttackType = randomAttack;
+            isMoving = false;
+
+            Debug.LogWarning("npc attack type : " + randomAttack.ToString());
+            
+            
+
+            switch (npcAttackType.PlayerAttackType)
+            {
+                case PlayerAttackEnum.PlayerAttack.kick: animationManager.kickAnimation(); break;
+                case PlayerAttackEnum.PlayerAttack.flyingKick: animationManager.startFlyingKick(); break;
+                case PlayerAttackEnum.PlayerAttack.lowkick: animationManager.lowKickAnimation(); break;
+                case PlayerAttackEnum.PlayerAttack.punch: animationManager.punchAnimation(); break;
+                case PlayerAttackEnum.PlayerAttack.uppercut: animationManager.uppercutAnimation(); break;
+
+
+            }
+
+            triggerAttackPlayer = true;
+
+        }
+
+
+
+
+    }
+
+    void setBackToWandering()
+    {
+        triggerAttackPlayer = false;
+        animationManager.startWalking();
+        isMoving = true;
     }
 
     void OnTriggerEnter2D(Collider2D col)
@@ -100,29 +149,119 @@ public class NpcBehavior : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        directionPlayer = new Vector2(player.transform.position.x - transform.position.x, player.transform.position.y - transform.position.y);
+
+        //PAR LA DROITE
+        if(direction > 0)
+        {
+            RaycastHit2D hitRight = Physics2D.Raycast(new Vector2(transform.position.x + 5, transform.position.y), new Vector2(direction, 0), 17f);
+
+            if (hitRight.collider != null)
+            {
+                if (hitRight.transform.tag == "Player")
+                {
+
+                    playerSpotted = true;
+
+                    if(hitRight.distance <= 0.05f)
+                    {
+                        animationManager.stopRunning();
+                       
+                    }
+
+                }
+            }
+
+
+        }
+        //PAR LA GAUCHE
+        else if(direction < 0)
+        {
+             RaycastHit2D hitLeft = Physics2D.Raycast(new Vector2(transform.position.x - 5, transform.position.y), new Vector2(direction, 0), 17f);
+
+            if (hitLeft.collider != null)
+            {
+                if (hitLeft.transform.tag == "Player")
+                {
+
+                    playerSpotted = true;
+
+                    if (hitLeft.distance <= 0.05f)
+                    {
+                        animationManager.stopRunning();
+                        
+                    }
+
+                }
+            }
+
+        }
+
 
         isAttacking = animationManager.getIsAttacking();
+
         if(isMoving)
         {
             if (direction > 0)
             {
-                transform.eulerAngles = new Vector3(0, 0, 0);
+                if (playerSpotted)
+                {
+                   
+
+                    if(directionPlayer.normalized.x > 0)
+                    {
+                        transform.eulerAngles = new Vector3(0, 0, 0);
+
+                        animationManager.startRunning();
+
+                        GetComponent<Transform>().Translate(GetComponent<Transform>().right * speed * 8.0f * Time.deltaTime * 1.0f * 1.0f * directionPlayer.normalized);
+                    }
+                    else
+                    {
+                        direction = -direction;
+                    }
+
+                    
+                }
+                else
+                {
+                    transform.eulerAngles = new Vector3(0, 0, 0);
+
+                    animationManager.startWalking();
+
+                    GetComponent<Transform>().Translate(GetComponent<Transform>().right * speed * Time.deltaTime * 1.0f * 1.0f);
+                }
 
 
-                animationManager.startWalking();
 
-
-                GetComponent<Transform>().Translate(GetComponent<Transform>().right * speed * Time.deltaTime * 1.0f * 1.0f);
             }
 
             else if (direction < 0)
             {
-                transform.eulerAngles = new Vector3(0, 180, 0);
+                if (playerSpotted)
+                {
+                    if (directionPlayer.normalized.x < 0)
+                    {
+                        transform.eulerAngles = new Vector3(0, 180, 0);
 
+                        animationManager.startRunning();
 
-                animationManager.startWalking();
+                        GetComponent<Transform>().Translate(GetComponent<Transform>().right * speed * 8.0f * Time.deltaTime * 1.0f * 1.0f * directionPlayer.normalized);
+                    }
+                    else
+                    {
+                        direction = -direction;
+                    }
+                   
+                }
+                else
+                {
+                    transform.eulerAngles = new Vector3(0, 180, 0);
 
-                GetComponent<Transform>().Translate(GetComponent<Transform>().right * -speed * Time.deltaTime * 1.0f * 1.0f);
+                    animationManager.startWalking();
+
+                    GetComponent<Transform>().Translate(GetComponent<Transform>().right * -speed * Time.deltaTime * 1.0f * 1.0f);
+                }
             }
 
 
@@ -137,9 +276,9 @@ public class NpcBehavior : MonoBehaviour
             
         }
 
-        if (npcHealth.isAttacked)
+        if (isAttacked)
         {
-            attackPlayer();
+           
         }
 
     }
