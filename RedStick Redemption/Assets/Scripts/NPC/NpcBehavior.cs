@@ -72,7 +72,6 @@ public class NpcBehavior : MonoBehaviour
             PlayerAttackEnum.PlayerAttack randomAttack = (PlayerAttackEnum.PlayerAttack)values.GetValue(UnityEngine.Random.Range(0, values.Length));
 
             npcAttackType.PlayerAttackType = randomAttack;
-            isMoving = false;
 
             Debug.LogWarning("npc attack type : " + randomAttack.ToString());
             
@@ -90,6 +89,11 @@ public class NpcBehavior : MonoBehaviour
             }
 
             triggerAttackPlayer = true;
+
+
+
+
+            
 
         }
 
@@ -163,11 +167,6 @@ public class NpcBehavior : MonoBehaviour
 
                     playerSpotted = true;
 
-                    if(hitRight.distance <= 0.05f)
-                    {
-                        animationManager.stopRunning();
-                       
-                    }
 
                 }
             }
@@ -186,11 +185,6 @@ public class NpcBehavior : MonoBehaviour
 
                     playerSpotted = true;
 
-                    if (hitLeft.distance <= 0.05f)
-                    {
-                        animationManager.stopRunning();
-                        
-                    }
 
                 }
             }
@@ -200,6 +194,7 @@ public class NpcBehavior : MonoBehaviour
 
         isAttacking = animationManager.getIsAttacking();
 
+
         if(isMoving)
         {
             if (direction > 0)
@@ -207,21 +202,41 @@ public class NpcBehavior : MonoBehaviour
                 if (playerSpotted)
                 {
                    
-
-                    if(directionPlayer.normalized.x > 0)
+                    if(distanceToPlayer() >= 5)
                     {
-                        transform.eulerAngles = new Vector3(0, 0, 0);
+                        if (directionPlayer.normalized.x > 0)
+                        {
+                            animationManager.startRunning();
+                            speed = 14.0f;
 
-                        animationManager.startRunning();
-
-                        GetComponent<Transform>().Translate(GetComponent<Transform>().right * speed * 8.0f * Time.deltaTime * 1.0f * 1.0f * directionPlayer.normalized);
+                            
+                        }
+                        else
+                        {
+                            direction = -direction;
+                        }
                     }
                     else
                     {
-                        direction = -direction;
+                       
+                        animationManager.stopRunning();
+                        animationManager.stopWalking();
+                        speed = 0.0f;
+                        attackPlayer();
+
+                        if (!isAttacking)
+                        {
+                            Debug.Log("j'ai fini d'attaquer : ");
+                            triggerAttackPlayer = false;
+                        }
+
                     }
 
-                    
+                    transform.eulerAngles = new Vector3(0, 0, 0);
+                    GetComponent<Transform>().Translate(GetComponent<Transform>().right * speed * Time.deltaTime * 1.0f * 1.0f * directionPlayer.normalized);
+
+
+
                 }
                 else
                 {
@@ -240,19 +255,38 @@ public class NpcBehavior : MonoBehaviour
             {
                 if (playerSpotted)
                 {
-                    if (directionPlayer.normalized.x < 0)
+                    if(distanceToPlayer() >= 5)
                     {
-                        transform.eulerAngles = new Vector3(0, 180, 0);
+                        if (directionPlayer.normalized.x < 0)
+                        {
 
-                        animationManager.startRunning();
+                            animationManager.startRunning();
+                            speed = 14.0f;
 
-                        GetComponent<Transform>().Translate(GetComponent<Transform>().right * speed * 8.0f * Time.deltaTime * 1.0f * 1.0f * directionPlayer.normalized);
+                            
+                        }
+                        else
+                        {
+                            direction = -direction;
+                        }
                     }
                     else
                     {
-                        direction = -direction;
+                        animationManager.stopRunning();
+                        animationManager.stopWalking();
+                        speed = 0.0f;
+                        attackPlayer();
+
+                        if (!isAttacking)
+                        {
+                            Debug.Log("j'ai fini d'attaquer : ");
+                            triggerAttackPlayer = false;
+                        }
                     }
-                   
+                    transform.eulerAngles = new Vector3(0, 180, 0);
+                    GetComponent<Transform>().Translate(GetComponent<Transform>().right * speed * Time.deltaTime * 1.0f * 1.0f * directionPlayer.normalized);
+
+
                 }
                 else
                 {
@@ -281,5 +315,15 @@ public class NpcBehavior : MonoBehaviour
            
         }
 
+    }
+
+    public void spotPlayer()
+    {
+        this.playerSpotted = true;
+    }
+
+    public float distanceToPlayer()
+    {
+        return Vector3.Distance(GameObject.FindGameObjectWithTag("Player").transform.position, transform.position);
     }
 }

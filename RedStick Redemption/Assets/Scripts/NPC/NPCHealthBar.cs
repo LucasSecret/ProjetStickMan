@@ -129,6 +129,7 @@ public class NPCHealthBar : MonoBehaviour
     {
         int ammountDamage = 0;
         npcBehavior.isAttacked = true;
+        npcBehavior.spotPlayer();
 
         transform.Find("HitByBulletSound").GetComponent<AudioSource>().Play();
 
