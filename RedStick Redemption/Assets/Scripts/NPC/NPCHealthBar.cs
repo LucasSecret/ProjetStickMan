@@ -125,6 +125,24 @@ public class NPCHealthBar : MonoBehaviour
         this.curHealth -= ammountDamage;
     }
 
+    public void takeDamageByBullet(int bulletType)
+    {
+        int ammountDamage = 0;
+        npcBehavior.isAttacked = true;
+        npcBehavior.spotPlayer();
+
+        transform.Find("HitByBulletSound").GetComponent<AudioSource>().Play();
+
+        switch (bulletType)
+        {
+            case 1:
+                ammountDamage = 30;
+                break;
+        }
+
+        this.curHealth -= ammountDamage;
+    }
+
 
     private void OnCollisionEnter2D(Collision2D collision)
     {

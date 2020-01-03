@@ -327,8 +327,11 @@ public class PlayerControllerScript : MonoBehaviour
                 isCrouching = false;
             }
         }
-
-        HandleInput();
+        
+        if(!TutoPanelHandler.isInTutorial)
+        {
+            HandleInput();
+        }
 
         if (isRunning)
             sprintMultiplier = 2.0f;
@@ -522,7 +525,7 @@ public class PlayerControllerScript : MonoBehaviour
         }
 
 
-        if(Input.GetMouseButtonDown(0))
+        if(Input.GetMouseButtonDown(0) && !TutoPanelHandler.isInTutorial)
         {
              mousePosScreen = Input.mousePosition;
              mouseWorld = Camera.main.ScreenToWorldPoint(new Vector3(mousePosScreen.x, mousePosScreen.y, 0));

@@ -13,9 +13,13 @@ public class TutoPanelHandler : MonoBehaviour
     private Object[] panelList;
     private GameObject currentPanel;
 
+    public static bool isInTutorial;
+
     // Start is called before the first frame update
     void Start()
     {
+        isInTutorial = true;
+
         panelList = Resources.LoadAll("TutoPanel", typeof(GameObject));
         numberOfPanel = panelList.Length - 1;
         counter = 0;
@@ -74,6 +78,7 @@ public class TutoPanelHandler : MonoBehaviour
     public void CloseClicked()
     {
         GameObject.Find("Main Camera").AddComponent<Camera_Follow>().target = GameObject.Find("Stickman").transform;
+        isInTutorial = false;
 
         Destroy(gameObject);
     }
