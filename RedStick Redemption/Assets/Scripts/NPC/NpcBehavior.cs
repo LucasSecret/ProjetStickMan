@@ -80,7 +80,7 @@ public class NpcBehavior : MonoBehaviour
             switch (npcAttackType.PlayerAttackType)
             {
                 case PlayerAttackEnum.PlayerAttack.kick: animationManager.kickAnimation(); break;
-                case PlayerAttackEnum.PlayerAttack.flyingKick: animationManager.startFlyingKick(); break;
+                case PlayerAttackEnum.PlayerAttack.flyingKick: animationManager.kickAnimation(); break;
                 case PlayerAttackEnum.PlayerAttack.lowkick: animationManager.lowKickAnimation(); break;
                 case PlayerAttackEnum.PlayerAttack.punch: animationManager.punchAnimation(); break;
                 case PlayerAttackEnum.PlayerAttack.uppercut: animationManager.uppercutAnimation(); break;
@@ -105,6 +105,7 @@ public class NpcBehavior : MonoBehaviour
     void setBackToWandering()
     {
         triggerAttackPlayer = false;
+        playerSpotted = false;
         animationManager.startWalking();
         isMoving = true;
     }
@@ -207,7 +208,7 @@ public class NpcBehavior : MonoBehaviour
                         if (directionPlayer.normalized.x > 0)
                         {
                             animationManager.startRunning();
-                            speed = 14.0f;
+                            speed = 12.0f;
 
                             
                         }
@@ -215,7 +216,9 @@ public class NpcBehavior : MonoBehaviour
                         {
                             direction = -direction;
                         }
-                    }
+
+                        
+                    }                 
                     else
                     {
                        
@@ -261,7 +264,7 @@ public class NpcBehavior : MonoBehaviour
                         {
 
                             animationManager.startRunning();
-                            speed = 14.0f;
+                            speed = 12.0f;
 
                             
                         }
@@ -303,18 +306,14 @@ public class NpcBehavior : MonoBehaviour
             if (direction == 0)
             {
                // animationManager.setIdle();//
-                isMoving = false;
+                ///isMoving = false;
             }
 
 
             
         }
 
-        if (isAttacked)
-        {
-           
-        }
-
+        
     }
 
     public void spotPlayer()

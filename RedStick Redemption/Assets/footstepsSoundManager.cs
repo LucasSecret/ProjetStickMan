@@ -26,7 +26,7 @@ public class footstepsSoundManager : MonoBehaviour
     void OnCollisionEnter2D(Collision2D col)
     {
 
-        if (col.gameObject.tag == "floor" || col.gameObject.tag == "crate") //Doit être remplacé par un tag platform 
+        if (col.gameObject.tag == "floor" || col.gameObject.tag == "crate")
         {
             audioSource.clip = footStepClips[UnityEngine.Random.Range(0, footStepClips.Length)];
             audioSource.Play();
