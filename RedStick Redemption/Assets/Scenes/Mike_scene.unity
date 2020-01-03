@@ -947,6 +947,35 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 966758359, guid: 3c8297cc5dc05db47b20fdc2cf5d2a7b, type: 3}
+      propertyPath: healthBarLength
+      value: 2.26
+      objectReference: {fileID: 0}
+    - target: {fileID: 876570471922535904, guid: 3c8297cc5dc05db47b20fdc2cf5d2a7b,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.88858
+      objectReference: {fileID: 0}
+    - target: {fileID: 876570471922535904, guid: 3c8297cc5dc05db47b20fdc2cf5d2a7b,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.45872164
+      objectReference: {fileID: 0}
+    - target: {fileID: 876570471128648210, guid: 3c8297cc5dc05db47b20fdc2cf5d2a7b,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.09864327
+      objectReference: {fileID: 0}
+    - target: {fileID: 876570472038647369, guid: 3c8297cc5dc05db47b20fdc2cf5d2a7b,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.67868674
+      objectReference: {fileID: 0}
+    - target: {fileID: 876570472038647369, guid: 3c8297cc5dc05db47b20fdc2cf5d2a7b,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.73442787
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3c8297cc5dc05db47b20fdc2cf5d2a7b, type: 3}
 --- !u!1 &736502292
