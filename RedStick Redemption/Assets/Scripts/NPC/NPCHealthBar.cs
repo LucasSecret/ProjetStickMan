@@ -79,9 +79,9 @@ public class NPCHealthBar : MonoBehaviour
         {
             curHealth = 0;
             isDestroyed = true;
-            transform.Find("DeathSound").GetComponent<AudioSource>().clip = transform.Find("DeathSound").GetComponent<AudioSource>().clip;
+            /* transform.Find("DeathSound").GetComponent<AudioSource>().clip = transform.Find("DeathSound").GetComponent<AudioSource>().clip;
             transform.Find("DeathSound").GetComponent<AudioSource>().volume = 1.0f;
-            transform.Find("DeathSound").GetComponent<AudioSource>().Play();
+            transform.Find("DeathSound").GetComponent<AudioSource>().Play(); */
         }
 
         if (curHealth > maxHealth)
