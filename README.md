@@ -78,7 +78,7 @@ Dans un ordre logique, il faut d'abord executer la scene MainMenu qui à son tou
 D'autres scènes sont présentes, dont une pour chaque membre du projet.
 Les principales fonctionnalitées sont présentes dans la scène premier Niveau.
 
--> Pour accèder a une scène, dans unity, il faut faire : fichier -> ouvrir une scene et parcourirs le dossier Assets/Scenes1
+-> Pour accèder a une scène, dans unity, il faut faire : fichier -> ouvrir une scene et parcourirs le dossier Assets/Scenes
 
 * L'intéret de la multiplicité des scènes réside dans le fait de pouvoir implémenter des fonctionnalités chacun sans interférer les travail des autres.
 On peut ainsi travailler dans notre propre espace.
