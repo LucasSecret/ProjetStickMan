@@ -81,9 +81,9 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Michel Drevet - [@twitter_handle](https://twitter.com/twitter_handle) - michel.drevet@etu.univ-lyon1.fr
 <br />
-Lucas Drevet - [@twitter_handle](https://twitter.com/twitter_handle) - email
+Lucas Secret - [@twitter_handle](https://twitter.com/twitter_handle) - lucas.secret@etu.univ-lyon1.fr
 <br />
-Liam Drevet - [@twitter_handle](https://twitter.com/twitter_handle) - email
+Liam Burk - [@twitter_handle](https://twitter.com/twitter_handle) - liam.burk@etu.univ-lyon1.fr
 
 Project Link: [https://github.com/LucasSecret/ProjetStickMan](https://github.com/LucasSecret/ProjetStickMan)
 
