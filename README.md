@@ -47,23 +47,25 @@ La contrainte fixée était de réalisé une cinématique et une animation compl
 
 ### Construit avec
 
-* Unity
-* Anima2D
-* Gitkraken
+* <a href="https://unity3d.com/get-unity/download"><strong>Unity</strong></a>
+* <a href="https://assetstore.unity.com/packages/essentials/unity-anima2d-79840"><strong>Anima2D</strong></a>
+* <a href="https://www.gitkraken.com/"><strong>GitKraken</strong></a>
 
 
 
 ### Comment compiler et tester le code
 
-1. Afin de pouvoir tester et compiler ce projet, vous devez avant tout possèdez la version d'unity minimal  2019212
+1. Afin de pouvoir tester et compiler ce projet, vous devez avant tout possèdez la version d'unity minimal : <a href="https://unity3d.com/get-unity/download"><strong>2019.2.12</strong></a>
 <br />
 <br />
-2. Cloner le repo git 
-```console
+
+2. Cloner le repo git :
+```bash
 git clone https://github.com/LucasSecret/ProjetStickMan.git
 ```
 <br />
 <br />
+
 3. Ouvrir Unity Hub et vous pourrez importer le projet comme suit :
 <br />
 
