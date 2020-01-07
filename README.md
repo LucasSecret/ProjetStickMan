@@ -45,12 +45,6 @@ La contrainte fixée était de réalisé une cinématique et une animation compl
 
 
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`github_username`, `repo`, `twitter_handle`, `email`
-
-
 ### Construit avec
 
 * Unity
