@@ -38,7 +38,7 @@
 
 Ce projet se base sur un style de jeu vidéo relativement populaire dit des "stickmans".
 <br />
-Ce sont de petits personnages dont les particularitées sont, la simplification graphique d'une part, la gestion squeletique "bones" précise de l'autre.
+Ce sont de petits personnages dont les particularitées sont, la simplification graphique d'une part, la gestion d'un squelette "bones" précise de l'autre.
 <br />
 La contrainte fixée était de réalisé une cinématique et une animation complète de notre joueur sans avoir recours a la facilité de colision classique ni à l'animation réalisé uniquement par sprite.
 <br />
