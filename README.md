@@ -40,7 +40,7 @@ Ce projet se base sur un style de jeu vidéo relativement populaire dit des "sti
 <br />
 Ce sont de petits personnages dont les particularitées sont, la simplification graphique d'une part, la gestion d'un squelette "bones" précise de l'autre.
 <br />
-La contrainte fixée était de réalisé une cinématique et une animation complète de notre joueur sans avoir recours a la facilité de colision classique ni à l'animation réalisé uniquement par sprite.
+La contrainte fixée était de réaliser une cinématique et une animation complète de notre joueur sans avoir recours a la facilité de collision classique ni à l'animation réalisée uniquement par sprite.
 <br />
 
 
@@ -56,18 +56,18 @@ La contrainte fixée était de réalisé une cinématique et une animation compl
 
 ### Comment compiler et tester le code
 
-1. Afin de pouvoir tester et compiler ce projet, vous devez avant tout possèdez la version d'unity minimal : <a href="https://unity3d.com/get-unity/download"><strong>2019.2.12</strong></a>
+1. Afin de pouvoir tester et compiler ce projet, vous devez avant tout possèder la version d'unity minimal : <a href="https://unity3d.com/get-unity/download"><strong>2019.2.12</strong></a>
 <br />
 <br />
 
-2. Cloner le repo git :
+2. Cloner le repo git ( <a href="http://rogerdudler.github.io/git-guide/index.fr.html"><strong>tutoriel ici</strong></a> ):
 ```bash
 git clone https://github.com/LucasSecret/ProjetStickMan.git
 ```
 <br />
 <br />
 
-3. Ouvrir Unity Hub et vous pourrez importer le projet comme suit :
+3. Ouvrir Unity Hub et importer le projet comme suit :
 ![Image de l'importation](Capture.JPG)
 <br />
 
@@ -78,7 +78,10 @@ Dans un ordre logique, il faut d'abord executer la scene MainMenu qui à son tou
 D'autres scènes sont présentes, dont une pour chaque membre du projet.
 Les principales fonctionnalitées sont présentes dans la scène premier Niveau.
 
--> Pour accèder a une scène, dans unity, il faut faire : fichier -> ouvrir une scene et parcourirs le dossier Assets/Scenes
+-> Pour accèder a une scène, dans unity, il faut faire : fichier -> ouvrir une scene et parcourirs le dossier Assets/Scenes1
+
+* L'intéret de la multiplicité des scènes réside dans le fait de pouvoir implémenter des fonctionnalités chacun sans interférer les travail des autres.
+On peut ainsi travailler dans notre propre espace.
 
 
 <!-- LICENSE -->
