@@ -59,9 +59,8 @@ La contrainte fixée était de réalisé une cinématique et une animation compl
 <br />
 <br />
 2. Cloner le repo git 
-```sh
+<br />
 git clone https://github.com/LucasSecret/ProjetStickMan.git
-```
 <br />
 <br />
 3. Ouvrir Unity Hub et vous pourrez importer le projet comme suit :
@@ -78,8 +77,10 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ## Contact
 
 Michel Drevet - [@twitter_handle](https://twitter.com/twitter_handle) - email
-Liam Beurk
-Lucas Secret 
+<br />
+Lucas Drevet - [@twitter_handle](https://twitter.com/twitter_handle) - email
+<br />
+Liam Drevet - [@twitter_handle](https://twitter.com/twitter_handle) - email
 
 Project Link: [https://github.com/LucasSecret/ProjetStickMan](https://github.com/LucasSecret/ProjetStickMan)
 
