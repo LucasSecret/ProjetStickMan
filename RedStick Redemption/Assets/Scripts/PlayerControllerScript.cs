@@ -346,10 +346,12 @@ public class PlayerControllerScript : MonoBehaviour
         else
             crouchMultiplier = 1.0f;
 
+        
 
         if (goUp && isClimbing)
         {
             animationManager.startClimbing();
+            positionBeforeClimb = transform.position;
 
             if ((GunInPocket && hasGun) || !hasGun)
             {
@@ -358,11 +360,11 @@ public class PlayerControllerScript : MonoBehaviour
                 rigidbody2D.gravityScale = 0.0f;
             }
         }
-
         else if (isClimbing && !goUp)
         {
             animationManager.pauseClimbing();
-            positionBeforeClimb = transform.position;
+            
+
         }
 
         else
