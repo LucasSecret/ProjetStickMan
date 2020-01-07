@@ -98,7 +98,7 @@ Michel Drevet - [@twitter_handle](https://twitter.com/twitter_handle) - michel.d
 <br />
 Lucas Secret - [@twitter_handle](https://twitter.com/twitter_handle) - lucas.secret@etu.univ-lyon1.fr :fr:
 <br />
-Liam Burk - [@twitter_handle](https://twitter.com/twitter_handle) - liam.burk@etu.univ-lyon1.fr :guatemala:
+Liam Burke - [@twitter_handle](https://twitter.com/twitter_handle) - liam.burke@etu.univ-lyon1.fr :guatemala:
 
 Project Link: [https://github.com/LucasSecret/ProjetStickMan](https://github.com/LucasSecret/ProjetStickMan)
 
