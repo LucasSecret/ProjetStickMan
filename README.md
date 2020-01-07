@@ -79,7 +79,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Michel Drevet - [@twitter_handle](https://twitter.com/twitter_handle) - email
+Michel Drevet - [@twitter_handle](https://twitter.com/twitter_handle) - michel.drevet@etu.univ-lyon1.fr
 <br />
 Lucas Drevet - [@twitter_handle](https://twitter.com/twitter_handle) - email
 <br />
