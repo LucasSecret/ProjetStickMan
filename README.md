@@ -59,8 +59,9 @@ La contrainte fixée était de réalisé une cinématique et une animation compl
 <br />
 <br />
 2. Cloner le repo git 
-<br />
+```console
 git clone https://github.com/LucasSecret/ProjetStickMan.git
+```
 <br />
 <br />
 3. Ouvrir Unity Hub et vous pourrez importer le projet comme suit :
