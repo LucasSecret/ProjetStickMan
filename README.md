@@ -44,7 +44,7 @@ La contrainte fixée était de réalisé une cinématique et une animation compl
 <br />
 
 
-![Image du stickman](Capture.JPG)
+![Image du stickman](Capture2.png)
 
 ### Construit avec
 
@@ -68,7 +68,7 @@ git clone https://github.com/LucasSecret/ProjetStickMan.git
 <br />
 
 3. Ouvrir Unity Hub et vous pourrez importer le projet comme suit :
-![Image de l'importation](Capture2.png)
+![Image de l'importation](Capture.JPG)
 <br />
 
 <!-- LICENSE -->
