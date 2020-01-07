@@ -71,6 +71,16 @@ git clone https://github.com/LucasSecret/ProjetStickMan.git
 ![Image de l'importation](Capture.JPG)
 <br />
 
+# Indication concernant les scènes
+
+Dans un ordre logique, il faut d'abord executer la scene MainMenu qui à son tour execute la scene PremierNiveau
+<br />
+D'autres scènes sont présentes, dont une pour chaque membre du projet.
+Les principales fonctionnalitées sont présentes dans la scène premier Niveau.
+
+-> Pour accèder a une scène, dans unity, il faut faire : fichier -> ouvrir une scene et parcourirs le dossier Assets/Scenes
+
+
 <!-- LICENSE -->
 ## License
 
