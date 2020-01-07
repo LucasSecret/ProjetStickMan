@@ -53,15 +53,12 @@ La contrainte fixée était de réalisé une cinématique et une animation compl
 
 
 
-<!-- GETTING STARTED -->
-## Comment compiler et tester le code
+### Comment compiler et tester le code
 
-1. Afin de pouvoir tester et compiler ce projet, vous devez avant tout possèdez la version d'unity minimal : 2019.2.12.
-<br />
-* Vous trouverez unity ici : <a href="https://unity3d.com/fr/get-unity/download"><strong>Unity</strong></a>
+1. Afin de pouvoir tester et compiler ce projet, vous devez avant tout possèdez la version d'unity minimal  2019212
 <br />
 <br />
-2. Cloner le repo git :
+2. Cloner le repo git 
 ```sh
 git clone https://github.com/LucasSecret/ProjetStickMan.git
 ```
@@ -69,9 +66,6 @@ git clone https://github.com/LucasSecret/ProjetStickMan.git
 <br />
 3. Ouvrir Unity Hub et vous pourrez importer le projet comme suit :
 <br />
-<img src="RedStick%20Redemption/images/Capture.jpg" alt="Logo" width="80" height="80">
-
-
 
 <!-- LICENSE -->
 ## License
